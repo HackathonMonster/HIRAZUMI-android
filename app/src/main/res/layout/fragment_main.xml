@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.zeroone_creative.basicapplication.view.activity.MainActivity$PlaceholderFragment"
+    android:background="#ccc">
+
+    <com.andexert.library.RippleView
+        android:id="@+id/main_rippleview_etsy"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        ripple:rv_type="rectangle"
+        ripple:rv_zoom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height_normal"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="@string/title_activity_etsy_grid"
+            android:background="@android:color/holo_green_light"
+            android:layout_below="@+id/main_rippleview_rect"
+            android:layout_alignRight="@+id/main_rippleview_rect"/>
+
+    </com.andexert.library.RippleView>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/main_rippleview_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        ripple:rv_type="rectangle"
+        ripple:rv_zoom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height_normal"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="@string/title_activity_pager"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignTop="@+id/main_rippleview_rect"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+    </com.andexert.library.RippleView>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/main_rippleview_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        ripple:rv_type="rectangle"
+        ripple:rv_zoom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/view_height_normal"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:text="@string/title_activity_recycle_view"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignTop="@+id/main_rippleview_rect"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+    </com.andexert.library.RippleView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_drawer_open" />
+
+
+</LinearLayout>
