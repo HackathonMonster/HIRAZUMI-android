@@ -2,7 +2,6 @@ package com.zeroone_creative.basicapplication.view.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
-import android.support.v4.view.ViewCompat;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -18,8 +17,7 @@ import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 import com.zeroone_creative.basicapplication.R;
-import com.zeroone_creative.basicapplication.model.pojo.Book;
-import com.zeroone_creative.basicapplication.view.widget.CheckableFrameLayout;
+import com.zeroone_creative.basicapplication.model.pojo.Article;
 import com.zeroone_creative.basicapplication.view.widget.ObservableScrollView;
 
 import org.androidannotations.annotations.AfterInject;
@@ -28,12 +26,12 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.Extra;
 import org.androidannotations.annotations.ViewById;
 
-@EActivity(R.layout.activity_book_details)
-public class BookDetailsActivity extends ActionBarActivity implements ObservableScrollView.Callbacks {
+@EActivity(R.layout.activity_artcle_detail)
+public class ArtcleDetailActivity extends ActionBarActivity implements ObservableScrollView.Callbacks {
 
-    @Extra("book_json")
-    String mBookJson;
-    Book mBook;
+    @Extra("article_json")
+    String mArticleJson;
+    Article mArticle;
 
     //private static final float PHOTO_ASPECT_RATIO = 1.7777777f;
     private static final float PHOTO_ASPECT_RATIO = 1.2f;
@@ -54,10 +52,8 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
     TextView mAuthorTextView;
     @ViewById(R.id.detail_textview_detail)
     TextView mDetailTextView;
-    @ViewById(R.id.add_schedule_button)
-    CheckableFrameLayout mAddScheduleButton;
     @ViewById(R.id.session_tags)
-    LinearLayout mTagsLayout;
+    LinearLayout mBooksLayout;
     @ViewById(R.id.header_session)
     View mHeaderBox;
     @ViewById(R.id.details_container)
@@ -97,7 +93,7 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
 
     @AfterInject
     void onAfterInject() {
-        mBook = new Gson().fromJson(mBookJson, Book.class);
+        mArticle = new Gson().fromJson(mArticleJson, Article.class);
     }
 
     @AfterViews
@@ -120,14 +116,14 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
         if (vto.isAlive()) {
             vto.addOnGlobalLayoutListener(mGlobalLayoutListener);
         }
-        setBookUi(mBook);
+        setBookUi(mArticle);
     }
 
-    private void setBookUi(Book book) {
-        if (book == null) return;
-        mTitleTextView.setText(book.name);
+    private void setBookUi(Article article) {
+        if (article == null) return;
+        mTitleTextView.setText(article.title);
         mAuthorTextView.setText("Pat Shaughnessy");
-        Picasso.with(this).load(book.imageUrl).into(mGetPhotoTarget);
+        Picasso.with(this).load(article.icon).into(mGetPhotoTarget);
         mDetailTextView.setText("もっと知りたい、Rubyのしくみ! \n" +
                 "本書では、VMベースのインタプリタ型言語処理系であるRubyがコードをどのように解釈し、どうやって実行するか、そのしくみを解説。Rubyについての基礎知識がなくても、図版と短いコードの実験を多用した構成により、そのしくみについて理解することができます。\n" +
                 "実務でRubyは使えるけれど、基礎知識について自信がない人や、学びたくてもまとまった時間がとれずに悩んでいる人などもっとRubyを活用するためにRubyを知りたい人に最適。Rubyインタプリタを題材にプログラミング言語処理系の仕組みを解説するNo Starch Press社の“Ruby Under a Microscope\" の翻訳発行です。\n" +
@@ -177,28 +173,26 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
             = new ViewTreeObserver.OnGlobalLayoutListener() {
         @Override
         public void onGlobalLayout() {
-            mAddScheduleButtonHeightPixels = mAddScheduleButton.getHeight();
             recomputePhotoAndScrollingMetrics();
         }
     };
+
+
 
     @Override
     public void onScrollChanged(int deltaX, int deltaY) {
         // Reposition the header bar -- it's normally anchored to the top of the content,
         // but locks to the top of the screen on scroll
         int scrollY = mScrollView.getScrollY();
-
         float newTop = Math.max(mPhotoHeightPixels, scrollY);
         mHeaderBox.setTranslationY(newTop);
-        mAddScheduleButton.setTranslationY(newTop + mHeaderHeightPixels - mAddScheduleButtonHeightPixels / 2);
+
         float gapFillProgress = 1;
         if (mPhotoHeightPixels != 0) {
             gapFillProgress = Math.min(Math.max(getProgress(scrollY,
                     0,
                     mPhotoHeightPixels), 0), 1);
         }
-        ViewCompat.setElevation(mHeaderBox, gapFillProgress * mMaxHeaderElevation);
-        ViewCompat.setElevation(mAddScheduleButton, gapFillProgress * mMaxHeaderElevation + mFABElevation);
         // Move background photo (parallax effect)
         mPhotoViewContainer.setTranslationY(scrollY * 0.5f);
     }
@@ -229,9 +223,6 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_share:
-
-                return true;
-            case R.id.menu_bookmark:
 
                 return true;
         }

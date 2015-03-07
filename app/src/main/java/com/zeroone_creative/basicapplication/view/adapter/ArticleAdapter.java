@@ -22,7 +22,7 @@ import java.util.List;
  * 本用のRecyclerViewAdapter
  * Created by shunhosaka on 2015/02/27.
  */
-public class ArticleAdapter extends RecyclerView.Adapter {
+public class ArticleAdapter extends BaseRecyclerAdapter {
 
     private LayoutInflater mInflator;
     private Context mContext;
@@ -40,40 +40,18 @@ public class ArticleAdapter extends RecyclerView.Adapter {
     // Viewを生成
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        return new ViewHolder(mInflator.inflate(R.layout.item_article_adapter, viewGroup, false));
+        View itemView = mInflator.inflate(R.layout.item_article_adapter, viewGroup, false);
+        setItemClick(itemView);
+        return new ViewHolder(itemView);
     }
 
     // Viewにデータを設定する
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int position) {
-        Article article = getItem(position);
+        Article article = (Article) getItem(position);
         ((ViewHolder) viewHolder).leftLayout.setBackgroundColor(Color.parseColor(article.color));
         Picasso.with(mContext).load(article.icon).transform(new OvalTransformation()).into(((ViewHolder) viewHolder).iconImageView);
         ((ViewHolder) viewHolder).dateTextView.setText(article.date);
-    }
-
-    @Override
-    public int getItemCount() {
-        //return mContents.size();
-        return 10;
-    }
-
-    /**
-     * Get Object Item
-     * @param position
-     */
-    public Article getItem(int position) {
-        //return mContents.get(position);
-        //TODO 後で正式なデータに変更する
-        return new Article("1", "2105-03-08", " iOSアプリのプロビジョニング周りを図にしてみる", "https://avatars.githubusercontent.com/u/5677723?", "#58BB09", "Qiita");
-    }
-
-    /**
-     * データのセット
-     * @param contents
-     */
-    public void setItems(List<Article> contents) {
-        this.mContents = contents;
     }
 
     // ViewHolder内部でIDと関連づけ
@@ -81,7 +59,6 @@ public class ArticleAdapter extends RecyclerView.Adapter {
         public LinearLayout leftLayout;
         public ImageView iconImageView;
         public TextView dateTextView;
-
 
         public ViewHolder(View itemView) {
             super(itemView);

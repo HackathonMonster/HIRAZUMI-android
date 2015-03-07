@@ -5,19 +5,17 @@
     android:layout_height="wrap_content"
     android:background="@drawable/bg_book">
 
-
     <ImageView
         android:id="@+id/item_book_imageview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:layout_gravity="center_horizontal"
         android:scaleType="fitCenter"
         android:adjustViewBounds="true" />
 
     <TextView
         android:id="@+id/item_book_textview_name"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="name"
         android:layout_gravity="center_horizontal" />

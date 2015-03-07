@@ -12,9 +12,6 @@ import com.squareup.picasso.Picasso;
 import com.zeroone_creative.basicapplication.R;
 import com.zeroone_creative.basicapplication.model.pojo.Book;
 
-import java.util.ArrayList;
-import java.util.List;
-
 
 /**
  * 本用のRecyclerViewAdapter
@@ -32,7 +29,6 @@ public class BookAdapter extends BaseRecyclerAdapter {
     public BookAdapter(Context context) {
         mContext = context;
         mInflator = LayoutInflater.from(context);
-
     }
 
     // Viewを生成

@@ -1,12 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <item android:id="@+id/menu_bookmark"
-        android:icon="@drawable/ic_bookmark"
-        android:title="Bookmark"
-        android:orderInCategory="1"
-        app:showAsAction="ifRoom" />
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.zeroone_creative.basicapplication.view.activity.ArtcleDetailActivity">
 
     <item android:id="@+id/menu_share"
         android:icon="@drawable/ic_action_share"

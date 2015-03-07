@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 
+import com.google.gson.Gson;
 import com.zeroone_creative.basicapplication.R;
 import com.zeroone_creative.basicapplication.model.enumerate.PageType;
 import com.zeroone_creative.basicapplication.model.pojo.Book;
@@ -14,6 +15,7 @@ import com.zeroone_creative.basicapplication.view.adapter.ArticleAdapter;
 import com.zeroone_creative.basicapplication.view.adapter.BookAdapter;
 import com.zeroone_creative.basicapplication.view.adapter.CategoryAdapter;
 import com.zeroone_creative.basicapplication.view.adapter.RecyclerOnItemClickListener;
+import com.zeroone_creative.basicapplication.view.widget.SpacesItemDecoration;
 
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.AfterViews;
@@ -65,7 +67,9 @@ public class PageFragment extends Fragment {
                 ((BookAdapter) mAdapter).setItemClickListener(new RecyclerOnItemClickListener() {
                     @Override
                     public void onItemClick(RecyclerView.Adapter adapter, int position, Object object) {
-                        BookDetailsActivity_.intent(getActivity()).start();
+                        if (object != null && object instanceof Book) {
+                            BookDetailsActivity_.intent(getActivity()).mBookJson(new Gson().toJson((Book) object)).start();
+                        }
                     }
                 });
                 break;
@@ -83,6 +87,7 @@ public class PageFragment extends Fragment {
         if (layoutManager != null && mAdapter != null) {
             mRecyclerView.setHasFixedSize(true);
             mRecyclerView.setLayoutManager(layoutManager);
+            mRecyclerView.addItemDecoration(new SpacesItemDecoration(getResources().getDimensionPixelSize(R.dimen.element_spacing_small)));
             mRecyclerView.setAdapter(mAdapter);
         }
     }

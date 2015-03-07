@@ -14,18 +14,14 @@ import com.squareup.picasso.Picasso;
 import com.zeroone_creative.basicapplication.R;
 import com.zeroone_creative.basicapplication.model.pojo.Category;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * 本用のRecyclerViewAdapter
  * Created by shunhosaka on 2015/02/27.
  */
-public class CategoryAdapter extends RecyclerView.Adapter {
+public class CategoryAdapter extends BaseRecyclerAdapter {
 
     private LayoutInflater mInflator;
     private Context mContext;
-    private List<Category> mContents = new ArrayList<>();
 
     /**
      * コンストラクタ
@@ -39,40 +35,18 @@ public class CategoryAdapter extends RecyclerView.Adapter {
     // Viewを生成
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        return new ViewHolder(mInflator.inflate(R.layout.item_category_adapter, viewGroup, false));
+        View itemView = mInflator.inflate(R.layout.item_category_adapter, viewGroup, false);
+        setItemClick(itemView);
+        return new ViewHolder(itemView);
     }
 
     // Viewにデータを設定する
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int position) {
-        Category category = getItem(position);
+        Category category = (Category) getItem(position);
         ((ViewHolder) viewHolder).backImageView.setColorFilter(Color.parseColor(category.color), PorterDuff.Mode.SRC_IN);
         Picasso.with(mContext).load(category.image_url).into(((ViewHolder) viewHolder).iconImageView);
         ((ViewHolder) viewHolder).nameTextView.setText(category.name);
-    }
-
-    @Override
-    public int getItemCount() {
-        // return mContents.size();
-        return 10;
-    }
-
-    /**
-     * Get Object Item
-     * @param position
-     */
-    public Category getItem(int position) {
-        //return mContents.get(position);
-        //TODO
-        return new Category("1", "Dribble", "#DB5E74", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_category_dribble.png", "1.0.0");
-    }
-
-    /**
-     * データのセット
-     * @param contents
-     */
-    public void setItems(List<Category> contents) {
-        this.mContents = contents;
     }
 
     // ViewHolder内部でIDと関連づけ

@@ -1,6 +1,8 @@
 package com.zeroone_creative.basicapplication.view.activity;
 
 import android.app.Activity;
+import android.graphics.Color;
+import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 
 import com.zeroone_creative.basicapplication.R;
@@ -19,9 +21,14 @@ public class PagerActivity extends Activity {
     @ViewById(R.id.pager_viewpager)
     ViewPager mViewPager;
 
+    @ViewById(R.id.pager_tabstrip)
+    PagerTabStrip mTabStrip;
+
     @AfterViews
     void onAfterViews() {
         setPager();
+        mTabStrip.setTextColor(Color.WHITE);
+
     }
 
     void setPager() {
