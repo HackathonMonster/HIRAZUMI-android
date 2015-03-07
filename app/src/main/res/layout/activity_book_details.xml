@@ -1,0 +1,154 @@
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    class="com.zeroone_creative.basicapplication.view.widget.ObservableScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <FrameLayout
+        android:id="@+id/scroll_view_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false">
+
+        <!-- Background photo -->
+        <FrameLayout
+            android:id="@+id/session_photo_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/session_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/details_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/element_spacing_small"
+            android:paddingRight="@dimen/element_spacing_small"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/time_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="@dimen/element_spacing_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/session_abstract"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="@dimen/element_spacing_small" />
+
+            <HorizontalScrollView
+                android:id="@+id/session_tags_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="@dimen/element_spacing_small"
+                android:fadingEdgeLength="16dp"
+                android:requiresFadingEdge="horizontal"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/session_tags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:orientation="horizontal" />
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/session_requirements_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_spacing_small"
+                android:layout_marginTop="@dimen/element_spacing_normal"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/session_requirements_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="require header" />
+
+                <TextView
+                    android:id="@+id/session_requirements"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/element_spacing_normal"
+                    android:layout_marginTop="@dimen/element_spacing_normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/links_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_spacing_small"
+                android:orientation="vertical" />
+
+
+        </LinearLayout>
+
+        <!-- Title/subtitle bar (floating; position determined at run time as the content view scrolls) -->
+        <LinearLayout
+            android:id="@+id/header_session"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <include layout="@layout/toolbar_actionbar" />
+
+            <!-- Session title -->
+            <TextView
+                android:id="@+id/session_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="@dimen/element_spacing_small"
+                android:layout_marginRight="@dimen/element_spacing_small"
+                android:ellipsize="end"
+                android:lineSpacingMultiplier="1.1"
+                android:maxLines="4"
+                android:text="placeholder_session_title"
+                android:textAlignment="viewStart"
+                android:textColor="@dimen/element_spacing_small"
+                android:textSize="@dimen/text_size_large" />
+
+            <!-- Session subtitle -->
+            <TextView
+                android:id="@+id/session_subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/element_spacing_small"
+                android:layout_marginRight="@dimen/element_spacing_small"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="placeholder_session_subtitle"
+                android:textAlignment="viewStart"
+                android:textColor="@color/primary"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <!-- FAB -->
+        <include layout="@layout/include_add_schedule_fab" />
+
+    </FrameLayout>
+
+</view>

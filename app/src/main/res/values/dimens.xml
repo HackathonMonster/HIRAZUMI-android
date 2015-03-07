@@ -5,10 +5,10 @@
     <dimen name="element_spacing_large">12dp</dimen>
     <dimen name="element_spacing_normal">8dp</dimen>
     <dimen name="element_spacing_small">4dp</dimen>
-    <dimen name="view_height_large">64dp</dimen>
-    <dimen name="view_height_normal">48dp</dimen>
-    <dimen name="view_height_small">36dp</dimen>
-    <dimen name="view_height_tiny">24dp</dimen>
+    <dimen name="view_size_large">64dp</dimen>
+    <dimen name="view_size_normal">48dp</dimen>
+    <dimen name="view_size_small">36dp</dimen>
+    <dimen name="view_size_tiny">24dp</dimen>
 
     <!-- Dialog Content -->
     <dimen name="dialog_content_horizontal_margin">8dp</dimen>
@@ -23,5 +23,11 @@
     <dimen name="text_size_large">18sp</dimen>
     <dimen name="text_size_xlarge">20sp</dimen>
     <dimen name="text_size_diff_large_small">6sp</dimen>
+
+    <!-- Shape-->
+    <dimen name="radius_book">8dp</dimen>
+
+    <!-- ArticleList -->
+    <dimen name="item_article_height">120dp</dimen>
 
 </resources>

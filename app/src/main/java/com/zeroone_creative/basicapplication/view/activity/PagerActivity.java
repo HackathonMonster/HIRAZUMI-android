@@ -2,8 +2,6 @@ package com.zeroone_creative.basicapplication.view.activity;
 
 import android.app.Activity;
 import android.support.v4.view.ViewPager;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.zeroone_creative.basicapplication.R;
 import com.zeroone_creative.basicapplication.view.adapter.BasicPagerAdapter;
@@ -28,17 +26,10 @@ public class PagerActivity extends Activity {
 
     void setPager() {
         mBasicPagerAdapter = new BasicPagerAdapter(getFragmentManager());
-        mBasicPagerAdapter.addPages(PageFragment_.builder().mSectionNumber(1).build());
+        mBasicPagerAdapter.addPages(PageFragment_.builder().pageId(0).build());
+        mBasicPagerAdapter.addPages(PageFragment_.builder().pageId(1).build());
+        mBasicPagerAdapter.addPages(PageFragment_.builder().pageId(2).build());
+        mBasicPagerAdapter.addPages(PageFragment_.builder().pageId(3).build());
         mViewPager.setAdapter(mBasicPagerAdapter);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        return super.onOptionsItemSelected(item);
     }
 }

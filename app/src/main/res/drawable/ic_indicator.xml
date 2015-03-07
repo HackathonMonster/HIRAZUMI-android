@@ -6,7 +6,7 @@
 	        android:shape="ring"
 	        android:thickness="5dp">
 	        <solid android:color="@color/primary"/>
-	        <size android:width="@dimen/view_height_tiny" android:height="@dimen/view_height_tiny"/>
+	        <size android:width="@dimen/view_size_tiny" android:height="@dimen/view_size_tiny"/>
         </shape>
     </item>
 	<item>
@@ -15,7 +15,7 @@
 	        android:shape="ring"
 	        android:thickness="5dp">
 	        <solid android:color="@android:color/white"/>
-            <size android:width="@dimen/view_height_tiny" android:height="@dimen/view_height_tiny"/>
+            <size android:width="@dimen/view_size_tiny" android:height="@dimen/view_size_tiny"/>
         </shape>
 	</item>
 </selector>

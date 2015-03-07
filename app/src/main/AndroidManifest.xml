@@ -11,8 +11,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".view.activity.MainActivity_"
-            android:label="@string/title_activity_main" >
+            android:name=".view.activity.PagerActivity_"
+            android:label="@string/title_activity_pager" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,16 +20,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.activity.PagerActivity_"
-            android:label="@string/title_activity_pager" >
-        </activity>
-        <activity
-            android:name=".view.activity.EtsyGridActivity_"
-            android:label="@string/title_activity_etsy_grid" >
-        </activity>
-        <activity
-            android:name=".view.activity.RecyclerActivity_"
-            android:label="@string/title_activity_recycle_view" >
+            android:name=".view.activity.BookDetailsActivity"
+            android:label="@string/title_activity_book_details" >
         </activity>
     </application>
 

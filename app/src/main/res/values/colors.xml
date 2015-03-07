@@ -13,12 +13,18 @@
     <!-- /Theme -->
 
     <!-- Text -->
-        <color name="primary_text">#de000000</color>
-        <color name="accent_text">#8a000000</color>
-        <color name="body_text_3">#60000000</color>
-        <color name="body_text_disabled">#44000000</color>
+    <color name="primary_text">#de000000</color>
+    <color name="accent_text">#8a000000</color>
+    <color name="body_text_3">#60000000</color>
+    <color name="body_text_disabled">#44000000</color>
 
     <!-- Common System Color -->
     <color name="transparent">#00000000</color>
+
+    <!-- TabColor -->
+    <color name="tab_new">#D7666E</color>
+    <color name="tab_topic">#F7CB10</color>
+    <color name="tab_category">#92C3C9</color>
+    <color name="tab_search">#A2CC3A</color>
 
 </resources>

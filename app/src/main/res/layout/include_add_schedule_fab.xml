@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view
+    class="com.zeroone_creative.basicapplication.view.widget.CheckableFrameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/add_schedule_button"
+    android:layout_width="@dimen/view_size_normal"
+    android:layout_height="@dimen/view_size_normal"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:visibility="invisible"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/bg_fab_primary"
+    android:contentDescription="add_to_schedule">
+
+    <ImageView android:id="@+id/add_schedule_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/ic_pen"
+        android:contentDescription="@null"
+        android:layout_gravity="center" />
+
+</view>
