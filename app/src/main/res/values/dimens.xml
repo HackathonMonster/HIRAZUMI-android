@@ -2,6 +2,7 @@
     <!-- Common -->
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="actionbar_height">56dp</dimen>
     <dimen name="element_spacing_large">12dp</dimen>
     <dimen name="element_spacing_normal">8dp</dimen>
     <dimen name="element_spacing_small">4dp</dimen>

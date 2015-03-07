@@ -1,6 +1,6 @@
 <view xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/scroll_view"
     class="com.zeroone_creative.basicapplication.view.widget.ObservableScrollView"
+    android:id="@+id/scroll_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
@@ -110,7 +110,8 @@
             android:clipChildren="false"
             android:clipToPadding="false"
             android:orientation="vertical"
-            android:paddingBottom="16dp">
+            android:paddingBottom="16dp"
+            android:background="@color/tab_search">
 
             <include layout="@layout/toolbar_actionbar" />
 
@@ -127,7 +128,7 @@
                 android:maxLines="4"
                 android:text="placeholder_session_title"
                 android:textAlignment="viewStart"
-                android:textColor="@dimen/element_spacing_small"
+                android:textColor="@color/primary"
                 android:textSize="@dimen/text_size_large" />
 
             <!-- Session subtitle -->

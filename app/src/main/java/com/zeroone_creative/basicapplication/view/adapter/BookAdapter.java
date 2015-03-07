@@ -15,15 +15,15 @@ import com.zeroone_creative.basicapplication.model.pojo.Book;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * 本用のRecyclerViewAdapter
  * Created by shunhosaka on 2015/02/27.
  */
-public class BookAdapter extends RecyclerView.Adapter {
+public class BookAdapter extends BaseRecyclerAdapter {
 
     private LayoutInflater mInflator;
     private Context mContext;
-    private List<Book> mContents = new ArrayList<>();
 
     /**
      * コンストラクタ
@@ -32,44 +32,23 @@ public class BookAdapter extends RecyclerView.Adapter {
     public BookAdapter(Context context) {
         mContext = context;
         mInflator = LayoutInflater.from(context);
+
     }
 
     // Viewを生成
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        return new ViewHolder(mInflator.inflate(R.layout.item_book_adapter, viewGroup, false));
+        View itemView = mInflator.inflate(R.layout.item_book_adapter, viewGroup, false);
+        setItemClick(itemView);
+        return new ViewHolder(itemView);
     }
 
     // Viewにデータを設定する
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int position) {
-        Book book = getItem(position);
+        Book book = (Book) super.getItem(position);
         Picasso.with(mContext).load(book.imageUrl).into(((ViewHolder) viewHolder).imageView);
         ((ViewHolder) viewHolder).nameTextView.setText(book.name);
-    }
-
-    @Override
-    public int getItemCount() {
-        //return mContents.size();
-        return 10;
-    }
-
-    /**
-     * Get Object Item
-     * @param position
-     */
-    public Book getItem(int position) {
-        //return mContents.get(position);
-        //TODO 後で正式なデータに変更する
-        return new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg");
-    }
-
-    /**
-     * データのセット
-     * @param contents
-     */
-    public void setItems(List<Book> contents) {
-        this.mContents = contents;
     }
 
     // ViewHolder内部でIDと関連づけ
@@ -83,5 +62,4 @@ public class BookAdapter extends RecyclerView.Adapter {
             nameTextView = (TextView) itemView.findViewById(R.id.item_book_textview_name);
         }
     }
-
 }

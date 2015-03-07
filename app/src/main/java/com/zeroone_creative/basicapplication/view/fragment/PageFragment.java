@@ -8,15 +8,21 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 
 import com.zeroone_creative.basicapplication.R;
 import com.zeroone_creative.basicapplication.model.enumerate.PageType;
+import com.zeroone_creative.basicapplication.model.pojo.Book;
+import com.zeroone_creative.basicapplication.view.activity.BookDetailsActivity_;
 import com.zeroone_creative.basicapplication.view.adapter.ArticleAdapter;
 import com.zeroone_creative.basicapplication.view.adapter.BookAdapter;
 import com.zeroone_creative.basicapplication.view.adapter.CategoryAdapter;
+import com.zeroone_creative.basicapplication.view.adapter.RecyclerOnItemClickListener;
 
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;
 import org.androidannotations.annotations.FragmentArg;
 import org.androidannotations.annotations.ViewById;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @EFragment(R.layout.fragment_page)
 public class PageFragment extends Fragment {
@@ -43,6 +49,25 @@ public class PageFragment extends Fragment {
             case Search:
                 layoutManager = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
                 mAdapter = new BookAdapter(getActivity());
+                List<Object> contents = new ArrayList<>();
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                contents.add(new Book("Rubyのしくみ -Ruby Under a Microscope-", "https://dl.dropboxusercontent.com/u/31455721/hirazumi/img_book_ruby.jpeg"));
+                ((BookAdapter) mAdapter).setItems(contents);
+                ((BookAdapter) mAdapter).setItemClickListener(new RecyclerOnItemClickListener() {
+                    @Override
+                    public void onItemClick(RecyclerView.Adapter adapter, int position, Object object) {
+                        BookDetailsActivity_.intent(getActivity()).start();
+                    }
+                });
                 break;
             case Topic:
                 layoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, true);
