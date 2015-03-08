@@ -1,7 +1,10 @@
 package com.zeroone_creative.basicapplication.model.enumerate;
 
-public enum NetworkTasks {
+import com.android.volley.Request;
 
+public enum NetworkTasks {
+    GetCategory(1, Request.Method.GET),
+    GetBooks(2, Request.Method.GET)
     ;
     public int id;
     //Request

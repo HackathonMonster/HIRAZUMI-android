@@ -11,6 +11,9 @@
     <dimen name="view_size_small">36dp</dimen>
     <dimen name="view_size_tiny">24dp</dimen>
 
+    <!-- Category Icon -->
+    <dimen name="category_icon_size">80dp</dimen>
+
     <!-- Dialog Content -->
     <dimen name="dialog_content_horizontal_margin">8dp</dimen>
     <dimen name="dialog_content_vertical_margin">8dp</dimen>

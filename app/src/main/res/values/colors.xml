@@ -13,7 +13,7 @@
     <!-- /Theme -->
 
     <!-- Text -->
-    <color name="primary_text">#de000000</color>
+    <color name="primary_text">#ffffff</color>
     <color name="accent_text">#8a000000</color>
     <color name="body_text_3">#60000000</color>
     <color name="body_text_disabled">#44000000</color>
@@ -21,10 +21,13 @@
     <!-- Common System Color -->
     <color name="transparent">#00000000</color>
 
+    <color name="bt_pressed">#cccccc</color>
+
     <!-- TabColor -->
-    <color name="tab_new">#D7666E</color>
-    <color name="tab_topic">#F7CB10</color>
-    <color name="tab_category">#92C3C9</color>
-    <color name="tab_search">#A2CC3A</color>
+    <color name="tab_text">#fff</color>
+    <color name="tab_new">#CD636A</color>
+    <color name="tab_topic">#8FBDC3</color>
+    <color name="tab_category">#9CC33F</color>
+    <color name="tab_search">#EDC421</color>
 
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/radius_book"/>
+    <padding android:top="@dimen/radius_book"
+        android:left="@dimen/radius_book"
+        android:bottom="@dimen/radius_book"
+        android:right="@dimen/radius_book"/>
+    <solid android:color="@android:color/white"/>
+</shape>

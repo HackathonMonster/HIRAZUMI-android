@@ -33,5 +33,15 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_artcle_detail">ArtcleDetailActivity</string>
+    <string name="title_activity_category_result">CategoryResultActivity</string>
+
+    <!-- BookDetails -->
+    <string name="book_details_price">定価：%1$d円</string>
+    <string name="book_details_page">ページ数：%1$d</string>
+    <string name="book_details_author">著者：%1$s</string>
+    <string name="book_details_nav_description">説明：</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

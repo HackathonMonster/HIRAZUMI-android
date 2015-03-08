@@ -1,7 +1,9 @@
 package com.zeroone_creative.basicapplication.view.activity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.support.v4.view.ViewCompat;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
@@ -18,12 +20,15 @@ import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 import com.zeroone_creative.basicapplication.R;
+import com.zeroone_creative.basicapplication.model.pojo.Author;
 import com.zeroone_creative.basicapplication.model.pojo.Book;
+import com.zeroone_creative.basicapplication.view.fragment.BookImageFragment;
 import com.zeroone_creative.basicapplication.view.widget.CheckableFrameLayout;
 import com.zeroone_creative.basicapplication.view.widget.ObservableScrollView;
 
 import org.androidannotations.annotations.AfterInject;
 import org.androidannotations.annotations.AfterViews;
+import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.Extra;
 import org.androidannotations.annotations.ViewById;
@@ -62,6 +67,10 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
     View mHeaderBox;
     @ViewById(R.id.details_container)
     View mDetailsContainer;
+    @ViewById(R.id.details_textview_price)
+    TextView mPriceTextView;
+    @ViewById(R.id.details_textview_page)
+    TextView mPageTextView;
 
     private boolean mSessionCursor = false;
     private boolean mSpeakersCursor = false;
@@ -84,12 +93,14 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
             //画像の高さを入力しての再計算
             recomputePhotoAndScrollingMetrics();
         }
+
         @Override
         public void onBitmapFailed(Drawable errorDrawable) {
             mHasPhoto = false;
             //画像の高さを入力しての再計算
             recomputePhotoAndScrollingMetrics();
         }
+
         @Override
         public void onPrepareLoad(Drawable placeHolderDrawable) {
         }
@@ -125,14 +136,19 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
 
     private void setBookUi(Book book) {
         if (book == null) return;
-        mTitleTextView.setText(book.name);
-        mAuthorTextView.setText("Pat Shaughnessy");
         Picasso.with(this).load(book.imageUrl).into(mGetPhotoTarget);
-        mDetailTextView.setText("もっと知りたい、Rubyのしくみ! \n" +
-                "本書では、VMベースのインタプリタ型言語処理系であるRubyがコードをどのように解釈し、どうやって実行するか、そのしくみを解説。Rubyについての基礎知識がなくても、図版と短いコードの実験を多用した構成により、そのしくみについて理解することができます。\n" +
-                "実務でRubyは使えるけれど、基礎知識について自信がない人や、学びたくてもまとまった時間がとれずに悩んでいる人などもっとRubyを活用するためにRubyを知りたい人に最適。Rubyインタプリタを題材にプログラミング言語処理系の仕組みを解説するNo Starch Press社の“Ruby Under a Microscope\" の翻訳発行です。\n" +
-                "日本語版には、Rubyの開発者であるまつもとゆきひろ氏の序文とYARVの開発者である笹田耕一氏の付録が加筆されています。");
-
+        mTitleTextView.setText(book.name);
+        StringBuilder authorBuilder = new StringBuilder();
+        for (Author author : book.authors) {
+            authorBuilder.append(author.name);
+        }
+        mPriceTextView.setText(getString(R.string.book_details_price, book.yen));
+        mPageTextView.setText(getString(R.string.book_details_page, book.page));
+        mAuthorTextView.setText(getString(R.string.book_details_author, authorBuilder.toString()));
+        mDetailTextView.setText(book.description);
+        if (book.description.equals("")) {
+            mDetailTextView.setText("現在説明がありません。");
+        }
     }
 
     private void recomputePhotoAndScrollingMetrics() {
@@ -227,15 +243,42 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
         switch (item.getItemId()) {
             case R.id.menu_share:
-
+                if (mBook != null) {
+                    StringBuilder shareText = new StringBuilder();
+                    shareText.append(mBook.name);
+                    if (mBook.authors.size() > 0) {
+                        shareText.append("(");
+                        shareText.append(mBook.authors.get(0).name);
+                        shareText.append(")");
+                    }
+                    if (mBook.shopUrls.size() > 0) {
+                        shareText.append("\n");
+                        shareText.append(mBook.shopUrls.get(0));
+                    }
+                    String url = "http://twitter.com/share?text=" + shareText.toString();
+                    intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                    startActivity(intent);
+                }
                 return true;
-            case R.id.menu_bookmark:
-
+            case R.id.menu_buy:
+                if (mBook.shopUrls.size() > 0) {
+                    Uri uri = Uri.parse(mBook.shopUrls.get(0).url);
+                    intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
+                }
                 return true;
         }
         return false;
+    }
+
+    @Click(R.id.session_photo)
+    void scaleUpImage() {
+        if (mBook != null && getSupportFragmentManager().findFragmentByTag("ScaleUpImageFragment") == null) {
+            BookImageFragment.newInstance(mBook.imageUrl).show(getSupportFragmentManager(), "ScaleUpImageFragment");
+        }
     }
 
 }

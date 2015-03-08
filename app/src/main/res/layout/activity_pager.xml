@@ -1,18 +1,92 @@
-<android.support.v4.view.ViewPager
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/pager_viewpager"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.zeroone_creative.basicapplication.view.activity.PagerActivity">
+    android:orientation="vertical"
+    android:background="@drawable/bg_page">
 
 
-    <android.support.v4.view.PagerTabStrip
-        android:id="@+id/pager_tabstrip"
+    <LinearLayout
+        android:id="@+id/pager_layout_search"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#333333"
-        android:paddingBottom="6dp"
-        android:paddingTop="6dp" />
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:visibility="gone">
 
-</android.support.v4.view.ViewPager>
+        <EditText
+            android:id="@+id/pager_edittext_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/element_spacing_normal" />
+
+        <ImageButton
+            android:id="@+id/pager_imagebutton_search"
+            android:layout_width="@dimen/view_size_normal"
+            android:layout_height="@dimen/view_size_normal"
+            android:background="@drawable/bg_search"
+            android:src="@drawable/ic_etc_search"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/element_spacing_normal" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/pager_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/pager_radiobutton0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/element_spacing_small"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/tab_text" />
+
+        <RadioButton
+            android:id="@+id/pager_radiobutton1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/element_spacing_small"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/tab_text" />
+
+        <RadioButton
+            android:id="@+id/pager_radiobutton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/element_spacing_small"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/tab_text" />
+
+        <RadioButton
+            android:id="@+id/pager_radiobutton3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/element_spacing_small"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/tab_text" />
+
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

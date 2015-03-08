@@ -68,6 +68,10 @@ android {
     }
 }
 
+repositories {
+    jcenter()
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     //SupportLibrary
@@ -99,6 +103,8 @@ dependencies {
     //Glide(Git and Animation loader)[https://github.com/bumptech/glide]
     //compile 'com.github.bumptech.glide:glide:3.4.+'
     //compile 'com.github.bumptech.glide:volley-integration:1.1.+'
+
+    compile 'jp.wasabeef:recyclerview-animators:1.1.0@aar'
 }
 
 apt {

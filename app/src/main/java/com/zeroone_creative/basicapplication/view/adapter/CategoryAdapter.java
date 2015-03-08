@@ -45,7 +45,7 @@ public class CategoryAdapter extends BaseRecyclerAdapter {
     public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int position) {
         Category category = (Category) getItem(position);
         ((ViewHolder) viewHolder).backImageView.setColorFilter(Color.parseColor(category.color), PorterDuff.Mode.SRC_IN);
-        Picasso.with(mContext).load(category.image_url).into(((ViewHolder) viewHolder).iconImageView);
+        Picasso.with(mContext).load(category.imageUrl).into(((ViewHolder) viewHolder).iconImageView);
         ((ViewHolder) viewHolder).nameTextView.setText(category.name);
     }
 

@@ -10,16 +10,32 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
-        android:src="@drawable/img_category"/>
+        android:src="@drawable/img_book_bg"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_book_alpha"
+        android:alpha="0.3" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_book_overlayer"
+        android:background="@drawable/img_book_overlayer" />
 
     <ImageView
         android:id="@+id/item_category_imageview_icon"
-        android:layout_width="@dimen/view_size_large"
-        android:layout_height="@dimen/view_size_large"
-        android:layout_gravity="center_horizontal|top"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="@dimen/category_icon_size"
+        android:layout_height="@dimen/category_icon_size"
+        android:layout_gravity="center"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="@dimen/view_size_normal" />
 
     <TextView
         android:id="@+id/item_category_textview_name"
@@ -28,9 +44,11 @@
         android:layout_gravity="center_horizontal|bottom"
         android:layout_marginLeft="@dimen/element_spacing_small"
         android:layout_marginRight="@dimen/element_spacing_small"
-        android:layout_marginBottom="@dimen/element_spacing_normal"
+        android:layout_marginBottom="@dimen/view_size_normal"
         android:text="name"
-        android:textColor="@android:color/white"/>
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_large" />
 
 
 </FrameLayout>

@@ -58,6 +58,16 @@ public class BaseRecyclerAdapter extends RecyclerView.Adapter implements View.On
      */
     public void setItems(List<Object> contents) {
         this.mContents = contents;
+        notifyDataSetChanged();
+    }
+
+    /**
+     * データの追加
+     * @param contents
+     */
+    public void addItems(List<Object> contents) {
+        this.mContents.addAll(contents);
+        notifyDataSetChanged();
     }
 
     void setItemClick(View view) {

@@ -24,8 +24,12 @@
             android:label="@string/title_activity_book_details" >
         </activity>
         <activity
-            android:name=".view.activity.ArtcleDetailActivity"
+            android:name=".view.activity.ArtcleDetailActivity_"
             android:label="@string/title_activity_artcle_detail" >
+        </activity>
+        <activity
+            android:name=".view.activity.CategoryResultActivity_"
+            android:label="@string/title_activity_category_result" >
         </activity>
     </application>
 
