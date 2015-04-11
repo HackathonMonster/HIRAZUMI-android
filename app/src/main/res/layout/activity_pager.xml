@@ -1,92 +1,113 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page_layout_root"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/bg_page">
+    android:layout_height="match_parent">
 
+    <!-- Background photo -->
+    <FrameLayout
+        android:id="@+id/pager_layout_header_photo_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pager_imageview_header_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+    </FrameLayout>
 
     <LinearLayout
-        android:id="@+id/pager_layout_search"
-        android:orientation="horizontal"
+        android:id="@+id/pager_layout_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:visibility="gone">
+        android:orientation="vertical"
+        android:background="@drawable/bg_page">
 
-        <EditText
-            android:id="@+id/pager_edittext_search"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:id="@+id/pager_layout_search"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center_vertical"
-            android:layout_marginRight="@dimen/element_spacing_normal" />
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:visibility="gone">
 
-        <ImageButton
-            android:id="@+id/pager_imagebutton_search"
-            android:layout_width="@dimen/view_size_normal"
-            android:layout_height="@dimen/view_size_normal"
-            android:background="@drawable/bg_search"
-            android:src="@drawable/ic_etc_search"
-            android:scaleType="fitCenter"
-            android:padding="@dimen/element_spacing_normal" />
+            <EditText
+                android:id="@+id/pager_edittext_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/element_spacing_normal"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/pager_imagebutton_search"
+                android:layout_width="@dimen/view_size_normal"
+                android:layout_height="@dimen/view_size_normal"
+                android:background="@drawable/bg_search"
+                android:padding="@dimen/element_spacing_normal"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_etc_search" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/pager_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/pager_radiobutton0"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/element_spacing_small"
+                android:textColor="@color/primary_text" />
+
+            <RadioButton
+                android:id="@+id/pager_radiobutton1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/element_spacing_small"
+                android:textColor="@color/primary_text" />
+
+            <RadioButton
+                android:id="@+id/pager_radiobutton2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/element_spacing_small"
+                android:textColor="@color/primary_text" />
+
+            <RadioButton
+                android:id="@+id/pager_radiobutton3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingBottom="@dimen/element_spacing_small"
+                android:textColor="@color/primary_text" />
+
+        </RadioGroup>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
     </LinearLayout>
 
-    <RadioGroup
-        android:id="@+id/pager_radiogroup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <RadioButton
-            android:id="@+id/pager_radiobutton0"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingBottom="@dimen/element_spacing_small"
-            android:button="@null"
-            android:gravity="center"
-            android:textColor="@color/tab_text" />
-
-        <RadioButton
-            android:id="@+id/pager_radiobutton1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingBottom="@dimen/element_spacing_small"
-            android:button="@null"
-            android:gravity="center"
-            android:textColor="@color/tab_text" />
-
-        <RadioButton
-            android:id="@+id/pager_radiobutton2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingBottom="@dimen/element_spacing_small"
-            android:button="@null"
-            android:gravity="center"
-            android:textColor="@color/tab_text" />
-
-        <RadioButton
-            android:id="@+id/pager_radiobutton3"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingBottom="@dimen/element_spacing_small"
-            android:button="@null"
-            android:gravity="center"
-            android:textColor="@color/tab_text" />
-
-    </RadioGroup>
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/pager_viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-
-</LinearLayout>
+</FrameLayout>

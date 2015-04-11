@@ -3,51 +3,125 @@ package com.zeroone_creative.basicapplication.view.activity;
 import android.app.Activity;
 import android.content.Context;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
+import android.widget.FrameLayout;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import com.google.gson.Gson;
 import com.zeroone_creative.basicapplication.R;
+import com.zeroone_creative.basicapplication.controller.util.AssetUtil;
 import com.zeroone_creative.basicapplication.model.enumerate.PageType;
+import com.zeroone_creative.basicapplication.model.pojo.PageHeader;
 import com.zeroone_creative.basicapplication.view.adapter.BasicPagerAdapter;
+import com.zeroone_creative.basicapplication.view.fragment.PageFragment;
 import com.zeroone_creative.basicapplication.view.fragment.PageFragment_;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
+import org.json.JSONArray;
+import org.json.JSONException;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @EActivity(R.layout.activity_pager)
-public class PagerActivity extends Activity {
+public class PagerActivity extends Activity implements PageFragment.PageScrollListener {
 
-    BasicPagerAdapter mBasicPagerAdapter;
+    //private static final float PHOTO_ASPECT_RATIO = 1.7777777f;
+    private static final float PHOTO_ASPECT_RATIO = 2.4f;
 
+    @ViewById(R.id.pager_layout_header_photo_container)
+    FrameLayout mHeaderPhotoContainerLayout;
+    @ViewById(R.id.pager_imageview_header_photo)
+    ImageView mHeaderPhotoImageView;
+    @ViewById(R.id.pager_layout_content)
+    LinearLayout mContentLayout;
     @ViewById(R.id.pager_viewpager)
     ViewPager mViewPager;
     @ViewById(R.id.pager_radiogroup)
     RadioGroup mTabRadioGroup;
-    RadioButton[] mRadioButtons;
     @ViewById(R.id.pager_layout_search)
     LinearLayout mSearchLayout;
     @ViewById(R.id.pager_edittext_search)
     EditText mSearchEditText;
 
+    private int mPhotoHeightPixels;
+    private List<PageHeader> mPageHeaders = new ArrayList<>();
+    BasicPagerAdapter mBasicPagerAdapter;
+
+    /*
+    private Target mGetPhotoTarget = new Target() {
+        @Override
+        public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+            mHeaderPhotoImageView.setImageBitmap(bitmap);
+            mHasPhoto = true;
+            //画像の高さを入力しての再計算
+            recomputePhotoAndScrollingMetrics();
+        }
+        @Override
+        public void onBitmapFailed(Drawable errorDrawable) {
+            mHasPhoto = false;
+            //画像の高さを入力しての再計算
+            recomputePhotoAndScrollingMetrics();
+        }
+
+        @Override
+        public void onPrepareLoad(Drawable placeHolderDrawable) {
+        }
+    };*/
+
     @AfterViews
     void onAfterViews() {
-        mRadioButtons = new RadioButton[4];
-        mRadioButtons[0] = (RadioButton) findViewById(R.id.pager_radiobutton0);
-        mRadioButtons[1] = (RadioButton) findViewById(R.id.pager_radiobutton1);
-        mRadioButtons[2] = (RadioButton) findViewById(R.id.pager_radiobutton2);
-        mRadioButtons[3] = (RadioButton) findViewById(R.id.pager_radiobutton3);
-        for (int i = 0; i < Math.min(mRadioButtons.length, PageType.values().length); i++) {
-            mRadioButtons[i].setText(PageType.values()[i].name);
-            mRadioButtons[i].setBackgroundResource(PageType.values()[i].tab);
+        RadioButton[] radioButtons = new RadioButton[4];
+        radioButtons[0] = (RadioButton) findViewById(R.id.pager_radiobutton0);
+        radioButtons[1] = (RadioButton) findViewById(R.id.pager_radiobutton1);
+        radioButtons[2] = (RadioButton) findViewById(R.id.pager_radiobutton2);
+        radioButtons[3] = (RadioButton) findViewById(R.id.pager_radiobutton3);
+        for (int i = 0; i < Math.min(radioButtons.length, PageType.values().length); i++) {
+            radioButtons[i].setText(PageType.values()[i].name);
+            radioButtons[i].setBackgroundResource(PageType.values()[i].tab);
+            radioButtons[i].setTag(new Integer(i));
+            radioButtons[i].setOnClickListener(mTabClicked);
         }
-        changeTabState(0, true);
+        loadHeader();
         setPager();
+        changeTabState(0, true);
+    }
+
+    private View.OnClickListener mTabClicked = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            if (v.getTag() instanceof Integer) {
+                Integer position = (Integer) v.getTag();
+                changeTabState(position.intValue(), true);
+            }
+        }
+    };
+
+    private void loadHeader() {
+        //HeaderのJSON読み込
+        String headerJson = AssetUtil.jsonAssetReader("json/header.json", getApplicationContext());
+        Log.d("header.json", headerJson);
+        try {
+            if (headerJson != null) {
+                JSONArray headerArray = new JSONArray(headerJson);
+                Gson gson = new Gson();
+                for (int i = 0; i < headerArray.length(); i++) {
+                    mPageHeaders.add(gson.fromJson(headerArray.getJSONObject(i).toString(), PageHeader.class));
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     private void setPager() {
@@ -61,7 +135,6 @@ public class PagerActivity extends Activity {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
             }
-
             @Override
             public void onPageSelected(int position) {
                 changeTabState(position, true);
@@ -74,17 +147,23 @@ public class PagerActivity extends Activity {
     }
 
     private void changeTabState(int position, boolean state) {
-        if (position >= 0 && position < mRadioButtons.length) {
-            mRadioButtons[position].setChecked(state);
-        }
+        position = Math.min(position, mTabRadioGroup.getChildCount());
+        position = Math.max(position, 0);
+        RadioButton radioButton = (RadioButton) mTabRadioGroup.getChildAt(position);
+        radioButton.setChecked(state);
+
         mSearchLayout.setVisibility((position == PageType.values().length - 1) ? View.VISIBLE : View.GONE);
-        InputMethodManager inputMethodManager = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         if (position == PageType.values().length - 1) {
             // ソフトキーボードを表示する
             inputMethodManager.hideSoftInputFromWindow(mSearchEditText.getWindowToken(), InputMethodManager.SHOW_IMPLICIT);
         } else {
             inputMethodManager.hideSoftInputFromWindow(mSearchEditText.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
         }
+
+        mHeaderPhotoImageView.setImageResource(PageType.values()[position].image);
+        mHeaderPhotoContainerLayout.setBackgroundResource(PageType.values()[position].color);
+        recomputePhotoAndScrollingMetrics();
     }
 
     @Click(R.id.pager_imagebutton_search)
@@ -93,8 +172,31 @@ public class PagerActivity extends Activity {
             ((PageFragment_) mBasicPagerAdapter.getItem(PageType.values().length - 1)).setSearchParam(mSearchEditText.getText().toString());
         }
         // ソフトキーボードを非表示にする
-        InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.hideSoftInputFromWindow(mSearchEditText.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
     }
 
+    private void recomputePhotoAndScrollingMetrics() {
+        mPhotoHeightPixels = 0;
+        if (true) {
+            mPhotoHeightPixels = (int) (mHeaderPhotoImageView.getWidth() / PHOTO_ASPECT_RATIO);
+        }
+        ViewGroup.LayoutParams lp;
+        lp = mHeaderPhotoContainerLayout.getLayoutParams();
+        if (lp.height != mPhotoHeightPixels) {
+            lp.height = mPhotoHeightPixels;
+            mHeaderPhotoContainerLayout.setLayoutParams(lp);
+        }
+        //TODO 現在の場所のフラグメントを取得しonScrollChangedに渡す
+        onScrollChanged(null, 0); // trigger scroll handling
+    }
+
+    @Override
+    public void onScrollChanged(PageType pageType, int scrollY) {
+        float newTop = Math.max(mPhotoHeightPixels - scrollY, 0);
+        mContentLayout.setTranslationY(newTop);
+        // Move background photo (parallax effect)
+        mHeaderPhotoContainerLayout.setTranslationY(scrollY * 0.5f * -1);
+        Log.d(getClass().getSimpleName(), "ScrollY: " + String.valueOf(scrollY));
+    }
 }

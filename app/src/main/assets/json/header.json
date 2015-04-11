@@ -1,0 +1,26 @@
+[
+    {
+        "name": "New Books",
+        "background": "",
+        "icon": "",
+        "image": "images/img_header_img_main_new.png"
+    },
+    {
+        "name": "Topics",
+        "background": "",
+        "icon": "",
+        "image": "images/img_header_img_main_topics.png"
+    },
+    {
+        "name": "Category",
+        "background": "",
+        "icon": "",
+        "image": "images/img_header_img_main_category.png"
+    },
+    {
+        "name": "Search",
+        "background": "",
+        "icon": "",
+        "image": "images/img_header_img_main_search.png"
+    }
+]

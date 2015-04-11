@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="ANDROID.PERMISSION.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -13,23 +14,33 @@
         <activity
             android:name=".view.activity.PagerActivity_"
             android:label="@string/title_activity_pager" >
+            <!-- TODO 一旦Loginをメインにする
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
         </activity>
         <activity
             android:name=".view.activity.BookDetailsActivity_"
             android:label="@string/title_activity_book_details" >
         </activity>
         <activity
-            android:name=".view.activity.ArtcleDetailActivity_"
-            android:label="@string/title_activity_artcle_detail" >
+            android:name=".view.activity.ArticleDetailActivity_"
+            android:label="@string/title_activity_article_detail" >
         </activity>
         <activity
             android:name=".view.activity.CategoryResultActivity_"
             android:label="@string/title_activity_category_result" >
+        </activity>
+        <activity
+            android:name=".view.activity.LoginActivity_"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

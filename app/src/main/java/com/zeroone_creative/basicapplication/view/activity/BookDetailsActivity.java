@@ -200,10 +200,7 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
 
     @Override
     public void onScrollChanged(int deltaX, int deltaY) {
-        // Reposition the header bar -- it's normally anchored to the top of the content,
-        // but locks to the top of the screen on scroll
         int scrollY = mScrollView.getScrollY();
-
         float newTop = Math.max(mPhotoHeightPixels, scrollY);
         mHeaderBox.setTranslationY(newTop);
         mAddScheduleButton.setTranslationY(newTop + mHeaderHeightPixels - mAddScheduleButtonHeightPixels / 2);
