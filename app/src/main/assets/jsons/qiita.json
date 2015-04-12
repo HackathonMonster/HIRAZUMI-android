@@ -2,17 +2,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c39ab00d6ca0f3cc5cd"
+      "oid": "55268c39ab00d6ca0f3cc5cd"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1229514809/JXFARNCQQOOBG5LY_normal.jpeg",
       "name": "punchdrunker"
     },
     "datePublished": {
-      "$date": "2014-12-29T07:55:20.000Z"
+      "date": "2014-12-29T07:55:20.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:05.005Z"
+      "date": "2015-04-09T14:27:05.005Z"
     },
     "description": "\nTL;DR\n\n\nアプリ開発の入門するには、オブジェクト指向(クラス?メソッド?プロパティ?)を理解してからの方が早い(けどわからないまま進める人もいるので人による)\nいろんな入門書があるけど、何だかんだ、回りに質問できる人がいるかどうかが重要\nプログラミングなら何でもいいからとにかく1ヶ月くらい継続できるものを見つけてみよう\n\n\n\nはじめに\n\n来年 2015年1月からミクシィではアプリ開発未経験エンジニア向けにAndroid/iOSアプリの勉強会を開くのですが、プログ...",
     "isbn": [
@@ -27,17 +27,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c39ab00d6ca0f3cc5ce"
+      "oid": "55268c39ab00d6ca0f3cc5ce"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/10364603?v=3",
       "name": "k--kato"
     },
     "datePublished": {
-      "$date": "2015-03-02T15:01:10.000Z"
+      "date": "2015-03-02T15:01:10.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:05.145Z"
+      "date": "2015-04-09T14:27:05.145Z"
     },
     "description": "\n偉大なコーダーが推奨する技術書まとめ\n\n　\n　\n　言語や有名なツールを生み出した著名なコーダーが「読むべき」(MUST)として挙げた書籍を一覧にまとめました。（『Coders at Work』より）\n　\n\n\n\n\n名前\n業績\n書籍\n\n\n\n\nジェイミー・ザウィンスキー\nXEmacsNetscape\n『計算機プログラムの構造と解釈』\n\n\nブラッド・フィッツパトリック\nmemcachedOpenIDPerlbalLiveJournal\n『The Art of Computer...",
     "isbn": [
@@ -49,17 +49,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c39ab00d6ca0f3cc5cf"
+      "oid": "55268c39ab00d6ca0f3cc5cf"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/cc08756798ff94dad86ebc51c1701195?d=https%3A%2F%2Fidenticons.github.com%2F35dce29cf91a19ead1de07e2c3616bd1.png&amp;r=x",
       "name": "hirokidaichi"
     },
     "datePublished": {
-      "$date": "2014-12-18T12:49:50.000Z"
+      "date": "2014-12-18T12:49:50.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:05.226Z"
+      "date": "2015-04-09T14:27:05.226Z"
     },
     "description": "\n\n\nはじめに\n\n今年、書いた幾つかの記事のタネ本であったり、新卒教育の際に参考書籍としてあげたものを中心にリストアップします。一応amazonへのリンクも貼っておきますが、先輩が持ってたりすると思うので、冬休みに借りて一気に読んでおくのもいいかと思います。\n\nその時々、必要な技術の習得に日々追われているんじゃないかと思いますが、いつまでも使える知識・基礎的な体力としての考え方などを手に入れることで、着実なレベルアップができるようなものを選んでみました。\n\n\nコードクリ...",
     "isbn": [
@@ -84,17 +84,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c39ab00d6ca0f3cc5d0"
+      "oid": "55268c39ab00d6ca0f3cc5d0"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/4592677?",
       "name": "shikato"
     },
     "datePublished": {
-      "$date": "2014-07-06T11:59:02.000Z"
+      "date": "2014-07-06T11:59:02.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:05.279Z"
+      "date": "2015-04-09T14:27:05.279Z"
     },
     "description": "Androidってあまり良い本が無い印象なんですが、実際に仕事で少しでも役に立った本をシェアしたいと思います。\n\n        \n        WEB+DB PRESS Vol.81\n       \n「Androidアプリ開発最前線」という特集が本当に役に立つ。\nAndroid Studio、Gradle、テストやCIなど、まとまった情報がまだ少ない、最近のモダンなAndroidアプリ開発事情に関するノウハウがまとまっている。この特集書いてるのもクックパッドの人達な...",
     "isbn": [
@@ -115,17 +115,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c39ab00d6ca0f3cc5d1"
+      "oid": "55268c39ab00d6ca0f3cc5d1"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/7564673?",
       "name": "Hoshi_7"
     },
     "datePublished": {
-      "$date": "2015-01-15T02:37:56.000Z"
+      "date": "2015-01-15T02:37:56.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:05.380Z"
+      "date": "2015-04-09T14:27:05.380Z"
     },
     "description": "\nプログラマーも読んだ方がいいと思う非技術書\n\nとくに受託じゃないエンジニアは技術力よりもサービスの運営者の一員であるという意識で仕事をしたほうがいいと思っています。\n\n\nヨカッタ本をリストアップしてみるよ\n\n\nザ・チーム 齋藤ウィリアム浩幸\n\nチームとグループの違いに関して事例を踏まえて解説してあります。前半の自伝は流し読みでおk。\n\n\n失敗の本質 戸部 良一、 寺本 義也\n\n日本軍の失敗事例をもとに今の日本企業にも共通していると思う問題提起がされています。\n\n\n新規...",
     "isbn": [
@@ -150,17 +150,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c39ab00d6ca0f3cc5d2"
+      "oid": "55268c39ab00d6ca0f3cc5d2"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/550882315312701440/qpScDoti_normal.jpeg",
       "name": "yyoshikaw"
     },
     "datePublished": {
-      "$date": "2014-06-05T16:25:32.000Z"
+      "date": "2014-06-05T16:25:32.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:05.957Z"
+      "date": "2015-04-09T14:27:05.957Z"
     },
     "description": "「APIデザインの極意」 の 第2章 APIを作成する動機 で気になった部分の抜粋\n\n\n分散開発\n\n\nアプリ全体を組み立てる際には個々のビルディングブロックを糊付けする必要があり、それらのブロックはお互いに会話をする必要がある。\nたいていは、明確に定義されたAPIを通して話しをする。 \n各コンポーネントのAPIは、みんなの無知（ ※選択的無知）を増加させるための最初の一歩である。\nAPIは機能を提供しているコンポーネントの詳細を理解する必要性を最小限にしてくれる。\n\nA...",
     "isbn": [
@@ -172,17 +172,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c39ab00d6ca0f3cc5d3"
+      "oid": "55268c39ab00d6ca0f3cc5d3"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/550882315312701440/qpScDoti_normal.jpeg",
       "name": "yyoshikaw"
     },
     "datePublished": {
-      "$date": "2015-01-04T10:11:40.000Z"
+      "date": "2015-01-04T10:11:40.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:05.961Z"
+      "date": "2015-04-09T14:27:05.961Z"
     },
     "description": "「UNIXという考え方―その設計思想と哲学」の気になったところの抜粋。\n\n\n0. イントロダクション\n\n\nUNIXの設計者たちは「何をしているか分からないのなら、ここにいるべきでない」という不親切きわまりないアプローチを選んだ\n\n\n\n1. UNIXの考え方：たくさんの登場人物たち\n\n\nスモールイズビューティフル（小さいものは美しい）\n一つのプログラムには一つのことをうまくやらせる\nできるだけ早く試作する\n効率より移植性を優先する\n数値データはASCIIフラットファイルに...",
     "isbn": [
@@ -194,17 +194,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c39ab00d6ca0f3cc5d4"
+      "oid": "55268c39ab00d6ca0f3cc5d4"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1229514809/JXFARNCQQOOBG5LY_normal.jpeg",
       "name": "punchdrunker"
     },
     "datePublished": {
-      "$date": "2014-12-27T12:51:05.000Z"
+      "date": "2014-12-27T12:51:05.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:05.965Z"
+      "date": "2015-04-09T14:27:05.965Z"
     },
     "description": "\nはじめに\n\n来年 2015年1月からミクシィでAndroid/iOSアプリの勉強会を開こうと思い、先日説明会を開いたのですが、会の中で行なったアンケートの中で、入門書を教えてほしいという声が結構あったので、最近の状況に合ったものをスキルレベル別にセレクトしてみようと思いました。\n\n実際、私の持論としては、本を読むよりも最新の公式リファレンス(もちろん英語です)に当たるのが一番の成長の近道ですが、お守りがわりに本を読みたい気持もわからなくはないので、あまり多くはないです...",
     "isbn": [
@@ -224,17 +224,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c3aab00d6ca0f3cc5d5"
+      "oid": "55268c3aab00d6ca0f3cc5d5"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/550882315312701440/qpScDoti_normal.jpeg",
       "name": "yyoshikaw"
     },
     "datePublished": {
-      "$date": "2014-06-07T14:19:51.000Z"
+      "date": "2014-06-07T14:19:51.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:06.102Z"
+      "date": "2015-04-09T14:27:06.102Z"
     },
     "description": "「APIデザインの極意」 の 第3章 優れたAPIを決定づけるもの で気になった部分の抜粋\n\n\nメソッドとフィールドのシグニチャ\n\n\nシステムのコンポーネント間でのコミュニケーションにリフレクションが必要なのであれば、何かが間違っているか、既存のAPIでは不十分であることを示している\n\n\n\nAPIとしてのテキストメッセージ\n\n\nテキストメッセージを解析するしかない状況に気を付ける\n\n\n他の方法で情報が利用できなければ、人々はコードが生成したテキスト出力を解析してしまう\n...",
     "isbn": [
@@ -246,17 +246,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c3aab00d6ca0f3cc5d6"
+      "oid": "55268c3aab00d6ca0f3cc5d6"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/550882315312701440/qpScDoti_normal.jpeg",
       "name": "yyoshikaw"
     },
     "datePublished": {
-      "$date": "2014-12-21T10:24:17.000Z"
+      "date": "2014-12-21T10:24:17.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:06.105Z"
+      "date": "2015-04-09T14:27:06.105Z"
     },
     "description": "「リーダブルコード」についてのまとめ\n\n\n1. 理解しやすいコード\n\n\nコードは他の人が最短時間で理解できるように書かなければいけない\n\n\n\n2. 名前に情報を詰め込む\n\n\n値の単位\n\n\n時間やバイト数のように計測可能な値であれば、変数名に単位を入れるといい\n\n\nスコープが小さければ短い名前でもいい\n\n\n\n3. 誤解されない名前\n\n\n最善な名前とは誤解されない名前である\n\n\nコードを他人が読んだときに意図を理解できるということ\n\n\n単語に対するユーザの期待にも注意する必...",
     "isbn": [
@@ -268,17 +268,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c3aab00d6ca0f3cc5d7"
+      "oid": "55268c3aab00d6ca0f3cc5d7"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2015-03-22T23:36:27.000Z"
+      "date": "2015-03-22T23:36:27.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:06.217Z"
+      "date": "2015-04-09T14:27:06.217Z"
     },
     "description": "konashi 開発者の松村礼央さんと iOS エンジニアの堤（私）の共著で、「iOS × BLE　Core Bluetooth プログラミング」という書籍を執筆させていただき、本日（2015.3.23）無事発売の運びとなりました。\n\n\niOS×BLE Core Bluetoothプログラミング\n\niOS × BLE （Bluetooth Low Energy）という分野はまだまだニッチ（関わっているエンジニアの数がそれほど多くない）だという感覚があるので、少しでも多く...",
     "isbn": [
@@ -290,17 +290,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c3aab00d6ca0f3cc5d8"
+      "oid": "55268c3aab00d6ca0f3cc5d8"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/90c558accf9b3312737522c9aedaeb7d",
       "name": "chihiro"
     },
     "datePublished": {
-      "$date": "2014-11-17T14:42:36.000Z"
+      "date": "2014-11-17T14:42:36.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:06.639Z"
+      "date": "2015-04-09T14:27:06.639Z"
     },
     "description": "Webを支える技術を会社の先輩からお借りして読了しました。\n自分で買ってまた読みたいです。\n自分なりのまとめです。\n第1回は第1部から第3部までをまとめました。\n\n\nREST\n\n\nRESTとは\n\nWebのアーキテクチャスタイル。\n\n\nRESTアーキテクチャスタイル\n\n\nクライアント/サーバ：ユーザーインターフェースと処理を分離する\nステートレスサーバ：サーバ側でアプリケーション状態を持たない\nキャッシュ：クライアントとサーバの通信回数と量を減らす\n統一インターフェース：...",
     "isbn": [
@@ -312,17 +312,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c3dab00d6ca0f3cc5d9"
+      "oid": "55268c3dab00d6ca0f3cc5d9"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/ba5b1f0d0d05d9531911a01fd32a42ca?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "sassy_watson"
     },
     "datePublished": {
-      "$date": "2014-12-26T14:46:49.000Z"
+      "date": "2014-12-26T14:46:49.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:09.336Z"
+      "date": "2015-04-09T14:27:09.336Z"
     },
     "description": "今年いろいろなことをやったので、自分がやったことをまとめておきます。\nこんなことできるんだぞーということをアピールして周りが困っているときに助けになれればいいなーと思うのと、来年は何を勉強しようかという参考にする自分へのメモの意味もあります。\n\n\nAndroid\n\nAndroidは得意分野ではあるので、安定して仕事をこなしていました。\n\n\nAndroid NDK\n\nC/C++のライブラリをAndroidで動かす的なことをやりました。\nただのJNIだけじゃなく、Nativ...",
     "isbn": [
@@ -335,17 +335,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c3dab00d6ca0f3cc5da"
+      "oid": "55268c3dab00d6ca0f3cc5da"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/464914808714711040/DnOredr4_normal.jpeg",
       "name": "youukkari"
     },
     "datePublished": {
-      "$date": "2014-03-23T15:06:25.000Z"
+      "date": "2014-03-23T15:06:25.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:09.710Z"
+      "date": "2015-04-09T14:27:09.710Z"
     },
     "description": "技術者として生きてきて、あのときはうまくいったのになんで今回うまく\nいかないんだろ？とか思うこと多々あったり。\n忙しい忙しいというけど、何で忙しいのかわかんなくなってたり。\n仕事の取り組み方が明確でなくて、なんだかふわふわしてしっくりこない。\nそんなこと感じていた今日この頃でしたが、 技術KI計画 とその理論を解説する\n  【技術者の知的生産性向上】を紹介してもらいました。\n 技術KI計画は技術者としてなぜ生産性が上がらないのか。\n生産性上げるためにはどうしたらいいのか...",
     "isbn": [
@@ -357,17 +357,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c3eab00d6ca0f3cc5db"
+      "oid": "55268c3eab00d6ca0f3cc5db"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/3958781?v=3",
       "name": "makoto1899"
     },
     "datePublished": {
-      "$date": "2014-01-05T00:27:42.000Z"
+      "date": "2014-01-05T00:27:42.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:10.075Z"
+      "date": "2015-04-09T14:27:10.075Z"
     },
     "description": " マスタリングTCP/IP SSL/TLS編Eric Rescorla 齋藤 孝道 古森 貞 鬼頭 利之  その名は、イスラエルのStartComという企業がやっている StartSSL というもの。IE、Firefox、Google Chrome、Safari、Operaの最新版で証明書エラーなく使用できます。IE6でもアップデートが当たっていれば使用できます。  ちょっと、いろいろと面倒なので、簡略的に一気にやり方を書きます。 StartSSL にブラウザからアクセ...",
     "isbn": [
@@ -379,17 +379,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c3fab00d6ca0f3cc5dc"
+      "oid": "55268c3fab00d6ca0f3cc5dc"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3191257875/c38c720c12f8ec4c76dc75f532ddc2c8_normal.jpeg",
       "name": "nappa"
     },
     "datePublished": {
-      "$date": "2013-05-06T09:52:37.000Z"
+      "date": "2013-05-06T09:52:37.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:11.840Z"
+      "date": "2015-04-09T14:27:11.840Z"
     },
     "description": "Silver 必勝合格法 に続いて、Ruby技術者認定試験Gold 必勝合格法をお届けしますよ。\n\n        \n        ★☆注意☆★\n      Ruby 技術者認定試験は 2014/10/1 に改訂されます。本記事は旧バージョン受験時のものなので、参考にしないほうがいいでしょう。……参考に……し……してもいいけど、どうなっても知りませんよ!\n\n        \n        注意(2013/9/23追記, 2013/12/4, 2014/7/10更新,...",
     "isbn": [
@@ -402,17 +402,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c41ab00d6ca0f3cc5dd"
+      "oid": "55268c41ab00d6ca0f3cc5dd"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3191257875/c38c720c12f8ec4c76dc75f532ddc2c8_normal.jpeg",
       "name": "nappa"
     },
     "datePublished": {
-      "$date": "2013-03-14T06:00:00.000Z"
+      "date": "2013-03-14T06:00:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:13.163Z"
+      "date": "2015-04-09T14:27:13.163Z"
     },
     "description": "2011年秋、Ruby技術者認定試験Silverを受験し、無事合格しました。今年に入ってから同僚にも取得者が出てきました。というわけで、自分が受験したときの話や、他人の話をまとめてきましたよ。\n\n        \n        ★☆注意☆★\n      Ruby 技術者認定試験は 2014/10/1 に改訂されます。本記事は旧バージョン受験時のものなので、参考にしないほうがいいでしょう。……参考に……し……してもいいけど、どうなっても知りませんよ!\n\n        ...",
     "isbn": [
@@ -424,17 +424,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c41ab00d6ca0f3cc5de"
+      "oid": "55268c41ab00d6ca0f3cc5de"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/7877000?",
       "name": "mima_ita"
     },
     "datePublished": {
-      "$date": "2014-07-28T16:05:45.000Z"
+      "date": "2014-07-28T16:05:45.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:13.388Z"
+      "date": "2015-04-09T14:27:13.388Z"
     },
     "description": "バーンアウト(burnout,燃え尽き症候群）とは、今まで普通に仕事をしていた人が、急に、あたかも「燃え尽きたように」意欲を失い、働かなくケースのことです。\n\n以下で自分にバーンアウトの兆候があるか、どうか診断できます。\nhttp://needtec.sakura.ne.jp/mentaltest/burnout.html\n逆に、ボーアウト(Boreout)とは仕事に退屈しきっている状態を指します。能力以下の仕事しか与えられず、仕事に関心を失い、職に就いていながら、いわ...",
     "isbn": [
@@ -447,17 +447,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c42ab00d6ca0f3cc5df"
+      "oid": "55268c42ab00d6ca0f3cc5df"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/d346dd2cc0de004472d264aa9960ca0b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "kimh"
     },
     "datePublished": {
-      "$date": "2014-02-11T13:50:44.000Z"
+      "date": "2014-02-11T13:50:44.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:14.212Z"
+      "date": "2015-04-09T14:27:14.212Z"
     },
     "description": "自分がRSSでフォローしているブログやサイトが結構溜まって来たので今回吐き出したいと思います。英語圏には良質のサイトやブログが沢山ありますが、あまり知られていないとサイトも多いと思うので、それらを紹介する意味で今回は英語圏に絞りました。\n\n        \n        Ruby (Rails)系\n      GIANT ROBOTS SMASHING INTO OTHER GIANT ROBOTS\nthoughtbotの会社ブログです。thoughtbotはアメリカ...",
     "isbn": [
@@ -469,17 +469,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c42ab00d6ca0f3cc5e0"
+      "oid": "55268c42ab00d6ca0f3cc5e0"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/493388090665226240/idhSMoNc_normal.png",
       "name": "teao26"
     },
     "datePublished": {
-      "$date": "2014-09-09T15:47:44.000Z"
+      "date": "2014-09-09T15:47:44.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:14.925Z"
+      "date": "2015-04-09T14:27:14.925Z"
     },
     "description": "「Androidアプリケーション技術者認定試験 ベーシック」\nAndroidアプリ開発の資格は今これだけですね。\n会社から資格取得を求められたり、自分の保有スキル証明だったり。\n今回は、これだけやっとけば受かるぞ！というものを自分が受験したときを振り返りながら書いてみました。\n資格はほしいけど、何週間何ヶ月も勉強するのはつらい...そんな人に少しでも役立てば幸いです。\n\n        \n        はじめに\n      必要な試験勉強は完全に暗記です。\n3日で受か...",
     "isbn": [
@@ -491,17 +491,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c43ab00d6ca0f3cc5e1"
+      "oid": "55268c43ab00d6ca0f3cc5e1"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/345e0dae638fa9ad23103fd7ac55a125",
       "name": "vvakame"
     },
     "datePublished": {
-      "$date": "2013-10-12T13:31:45.000Z"
+      "date": "2013-10-12T13:31:45.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:15.106Z"
+      "date": "2015-04-09T14:27:15.106Z"
     },
     "description": "ちょっと書きたくなったので書くんじゃーい！\nこの文章を読み終わった時、読者がそれなりわかめ品質な文章を出力できるようになり、どこかに寄稿した時に全面リテイクを食らったりしないようになることを目指します。\nmhidaka が 0歩目を書いてくれました！\n\n        \n        背景\n      筆者は普通のエンジニアです。その辺の開発とかしてる会社に勤めています。技術系の原稿も書きます。\n原稿書きでご飯食べてるわけではありません(晩ご飯が豪華になることは稀にあ...",
     "isbn": [
@@ -513,17 +513,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c46ab00d6ca0f3cc5e2"
+      "oid": "55268c46ab00d6ca0f3cc5e2"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/16149?v=3",
       "name": "iwamot"
     },
     "datePublished": {
-      "$date": "2014-12-27T11:34:20.000Z"
+      "date": "2014-12-27T11:34:20.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:18.624Z"
+      "date": "2015-04-09T14:27:18.624Z"
     },
     "description": "『徹底攻略Rails4技術者認定シルバー試験問題集』第2章「Active Record」の勉強メモです。随時更新します。\n\n\n第2章 Active Record\n\n\n問1\n\n\nモデルのテストデータは、フィクスチャファイルに YAML 形式で記述する\n\n\n\n問2\n\n\nrails generate model コマンドのフィールド定義部分で decimal 型が指定できる\n\n\n「decimal{5,2}」は、全体桁数5桁、うち小数点以下桁数2桁である数値を表す\n\n\n同じくフ...",
     "isbn": [
@@ -535,17 +535,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c46ab00d6ca0f3cc5e3"
+      "oid": "55268c46ab00d6ca0f3cc5e3"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/e3d8c68398580685ee7ef4ec2cc1cfc2",
       "name": "5t111111"
     },
     "datePublished": {
-      "$date": "2014-11-24T14:03:24.000Z"
+      "date": "2014-11-24T14:03:24.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:18.701Z"
+      "date": "2015-04-09T14:27:18.701Z"
     },
     "description": "先日、Ruby技術者認定試験Silver version 2.1を受験して合格してきました。\n今、再受験無料キャンペーンというのをやっていますが、「そんなキャンペーンあるなら受けてみよっかなー、でもまだガイド本でてないしなー」と迷っている方もいると思います。\nぶっちゃけ、この資格取りたい人であればこのチャンスに受けた方がいいです。\nただ落ちてももちろん責任はとれません！\n\n※勝手にRuby技術者認定試験Silver 必勝合格法の続編みたくしてます。ごめんなさい。\n\n\n試...",
     "isbn": [
@@ -558,17 +558,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c47ab00d6ca0f3cc5e4"
+      "oid": "55268c47ab00d6ca0f3cc5e4"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/83e72506348f2644672e2c7c3c9e8b34?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "isohi@github"
     },
     "datePublished": {
-      "$date": "2014-12-29T03:40:06.000Z"
+      "date": "2014-12-29T03:40:06.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:19.013Z"
+      "date": "2015-04-09T14:27:19.013Z"
     },
     "description": "先日、Ruby技術者認定試験Silver version 2.1を受験して合格してきました。\n\nRuby技術者認定試験Silver version 2.1 必勝合格法を参考に勉強したところ、1週間で90点とれたよ！というお話です。\n\n\nおそらく、ここで書いた内容に沿ってしばらく勉強するだけで、普段 Ruby を使っていなくてもプログラミング経験者であれば90点くらいは余裕で狙えるでしょう。\n\n\n元記事の方に感謝しつつ、今後受ける方のために補足をつらつらと書いていきます。...",
     "isbn": [
@@ -582,17 +582,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c47ab00d6ca0f3cc5e5"
+      "oid": "55268c47ab00d6ca0f3cc5e5"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/5754743?",
       "name": "msano"
     },
     "datePublished": {
-      "$date": "2014-05-02T01:44:41.000Z"
+      "date": "2014-05-02T01:44:41.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:19.122Z"
+      "date": "2015-04-09T14:27:19.122Z"
     },
     "description": "\n        \n        まえがき\n      本シリーズでは分析技術・手法を紹介していきます。専門的内容から入ると技術面やアカデミックな内容に偏りがちですので、本章ではビジネス的側面(例としてネット広告運用)から分析技術活用の全体像を簡単に俯瞰しておきたいと思います。続く第2章では技術的側面から分析技術を概観します。\n\n        \n        ネット広告運用における分析技術の活用\n      ネット広告運用を例に、次のキーワドを軸に分析技術の活用を...",
     "isbn": [
@@ -607,17 +607,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c47ab00d6ca0f3cc5e6"
+      "oid": "55268c47ab00d6ca0f3cc5e6"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/16149?v=3",
       "name": "iwamot"
     },
     "datePublished": {
-      "$date": "2014-12-17T14:53:56.000Z"
+      "date": "2014-12-17T14:53:56.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:19.223Z"
+      "date": "2015-04-09T14:27:19.223Z"
     },
     "description": "『徹底攻略Rails4技術者認定シルバー試験問題集』第1章「Rails概要」の勉強メモです。\n\n\n第1章 Rails概要\n\n\n問1\n\n\nAction Pack は Action Dispatcher と Action Controller で構成されている\nAction Mailer ではメールの送信だけでなく受信も可能\nRailtie は Rails のプラグイン機構。Active Record、Action View なども、この機構を利用している\n\n\n\n問3\n\n\n...",
     "isbn": [
@@ -629,17 +629,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c48ab00d6ca0f3cc5e7"
+      "oid": "55268c48ab00d6ca0f3cc5e7"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/4186381?",
       "name": "KENJU"
     },
     "datePublished": {
-      "$date": "2014-08-02T05:28:24.000Z"
+      "date": "2014-08-02T05:28:24.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:20.863Z"
+      "date": "2015-04-09T14:27:20.863Z"
     },
     "description": "\n        \n        三行まとめ\n      WEBをゼロから学んだ自分が\n個人的に「イイ！」と思った教科書・参考書を\n簡単にまとめます\n\n        \n        1位 『HTML5+CSS3の新しい教科書 基礎から覚える、深く理解できる。』\n      \n\n\n        \n        おすすめ\n      \n\nHTML/CSS以前の基礎から教えてくれる\n最初の導入を丁寧に教えてくれる\n技術的な背景も教えてくれる\n\n\n        \n ...",
     "isbn": [
@@ -654,17 +654,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c49ab00d6ca0f3cc5e8"
+      "oid": "55268c49ab00d6ca0f3cc5e8"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/709434310/TONY0922_normal.jpg",
       "name": "TONY0922"
     },
     "datePublished": {
-      "$date": "2014-07-28T14:52:11.000Z"
+      "date": "2014-07-28T14:52:11.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:21.399Z"
+      "date": "2015-04-09T14:27:21.399Z"
     },
     "description": "【注意事項】\nRuby技術者認定試験は2014年10月1日よりRuby2.1.xに対応した問題に改定され、\n旧バージョンは2014年9月25日で終了する予定です。\nRuby技術者認定試験改訂のお知らせ\nhttp://www.ruby.or.jp/ja/news/20140715.html\n上記を踏まえた上で、下記の記事はRuby1.8.7の内容なので、\nあくまで参考までに御覧ください。\n\n\n以前、Rubyを仕事で使うにあたって、\nついでに、Ruby認定技術者試験Silv...",
     "isbn": [
@@ -677,17 +677,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c49ab00d6ca0f3cc5e9"
+      "oid": "55268c49ab00d6ca0f3cc5e9"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/682bc9c1067a85bbcaa6cc35b1f23982",
       "name": "yuyakato"
     },
     "datePublished": {
-      "$date": "2015-01-02T06:15:02.000Z"
+      "date": "2015-01-02T06:15:02.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:21.793Z"
+      "date": "2015-04-09T14:27:21.793Z"
     },
     "description": "2014年に読み終えた本のリストです。\n\n\n技術書（2冊）\n\n\n\n\n著者\nタイトル\n\n\n\n\n相澤 歩 他\nプロフェッショナルのための 実践Heroku入門\n\n\n角 征典 他\nRuby徹底攻略 (WEB+DB PRESS plus)\n\n\n\n\n\n実用書（3冊）\n\n\n\n\n著者\nタイトル\n\n\n\n\n藤原 和博\n藤原和博の必ず食える1%の人になる方法\n\n\n中村 信仁\n営業の魔法—この魔法を手にした者は必ず成功する\n\n\nフランクリン・コヴィー・ジャパン (監修)\nまんがでわかる7つの...",
     "isbn": [
@@ -727,17 +727,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c49ab00d6ca0f3cc5ea"
+      "oid": "55268c49ab00d6ca0f3cc5ea"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/1148320?v=2",
       "name": "jnchito"
     },
     "datePublished": {
-      "$date": "2013-12-10T19:25:03.000Z"
+      "date": "2013-12-10T19:25:03.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:21.872Z"
+      "date": "2015-04-09T14:27:21.872Z"
     },
     "description": "\n        \n        2014.2.7 追記: 日本語版を発売しました！\n      「この本は英語版しかありません」と書いていましたが、僕自身が日本語版の翻訳し、Leanpubから発売しました。\n詳しくはこちらのエントリをご覧下さい。\n\n\nRSpec初心者必読！「Everyday Rails - RSpecによるRailsテスト入門」を発売しました - give IT a try\n正式版公開のお知らせと幻のあとがき・Everyday Rails - RS...",
     "isbn": [
@@ -750,17 +750,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4aab00d6ca0f3cc5eb"
+      "oid": "55268c4aab00d6ca0f3cc5eb"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/378800000112360750/fca0f65ff763dc6baf428a286f238da1_normal.png",
       "name": "shiumachi"
     },
     "datePublished": {
-      "$date": "2013-04-15T09:28:42.000Z"
+      "date": "2013-04-15T09:28:42.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:22.060Z"
+      "date": "2015-04-09T14:27:22.060Z"
     },
     "description": "質問\n英語初心者が JIRA やメーリングリストでやりとりできるようになるまで何をすればいいですか?\nおすすめの書籍、サイト、勉強法等あれば教えてください。\n関連:\njava 初心者が hadoop 開発できるようになるまで何を勉強したらいいですか？\n\n回答\nはっきり言いますが、普通に英語を学ぶよりはるかに短い時間でコミュニティにおける英語の読み書き能力は身につきます。\n理由は2つで、\n話題のジャンルが特定の技術系に限定されている→覚える語彙の量が少ない\nログやコードは...",
     "isbn": [
@@ -772,17 +772,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4aab00d6ca0f3cc5ec"
+      "oid": "55268c4aab00d6ca0f3cc5ec"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/2cf373725ded741824c50fd571eda6e1?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "udzura"
     },
     "datePublished": {
-      "$date": "2014-12-04T10:13:53.000Z"
+      "date": "2014-12-04T10:13:53.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:22.106Z"
+      "date": "2015-04-09T14:27:22.106Z"
     },
     "description": "新人教育 Advent Calendar 2014 というカレンダーに登録していたので、実質一日目の記事を...。\n\n毎年新卒入社の方が２〜３ヶ月ペパボの福岡支社で研修するんですが、そのときエンジニア職種などの方は毎年技術書を読書会しております。そのチョイスで今年は下記の本を選んでみました。\n\n\n\nはじめてUNIXで仕事をする人が読む本 \n\n\nこれを\n\n\n新卒入社4名（エンジニア2、デザイナ2）\n前年度の新卒入社エンジニア1名\nおじさん（@udzura）1名\n\n\nで、一...",
     "isbn": [
@@ -794,17 +794,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4aab00d6ca0f3cc5ed"
+      "oid": "55268c4aab00d6ca0f3cc5ed"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/7877000?",
       "name": "mima_ita"
     },
     "datePublished": {
-      "$date": "2014-07-24T15:44:48.000Z"
+      "date": "2014-07-24T15:44:48.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:22.939Z"
+      "date": "2015-04-09T14:27:22.939Z"
     },
     "description": "\n        \n        ソフトウェアのレビュー\n      ソフトウェアの開発において、レビューが品質の確保をするために有効であることは私達は直感的、経験的に理解しています。\n人は間違いを犯しますし、間違った本人よりも他人のほうが誤りを見つけ易いものです。\nここまでは、認識を共通できるものでしょう。\nしかし、レビューと一言で言った場合に、その実態にかなりのギャップが生じます。\nある人にとっては、気の合う同僚とコーヒーでも飲みながら成果物をチェックしてもらう事...",
     "isbn": [
@@ -819,17 +819,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4bab00d6ca0f3cc5ee"
+      "oid": "55268c4bab00d6ca0f3cc5ee"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/487196938035400704/ZmKMOpf9_normal.png",
       "name": "tomooda"
     },
     "datePublished": {
-      "$date": "2014-12-02T03:16:46.000Z"
+      "date": "2014-12-02T03:16:46.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:23.194Z"
+      "date": "2015-04-09T14:27:23.194Z"
     },
     "description": "超絶分かりやすいオブジェクト指向入門に触発されて。\n\n同じくBertrand Meyer先生による入門書\n\n\nTouch of Class\n\n\n\n",
     "isbn": [
@@ -841,17 +841,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4bab00d6ca0f3cc5ef"
+      "oid": "55268c4bab00d6ca0f3cc5ef"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/5677723?",
       "name": "Reyurnible"
     },
     "datePublished": {
-      "$date": "2015-01-15T12:37:30.000Z"
+      "date": "2015-01-15T12:37:30.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:23.287Z"
+      "date": "2015-04-09T14:27:23.287Z"
     },
     "description": "　この記事では、Android開発を始める方や、初めたての方向けにどのようなサイトを見たり、本を読んだらいいかをレベル別や用途別で解説します。\n　本の紹介などはすでに多く存在しますが、使いどころというのは本によって大きく違います。この記事ではその使いどころに意識してソースを紹介できればと思います。\n　また、Androidプログラミング初心者とプログラミング初心者は区別しません（合わせて&amp;quot;プログラミング初心者&amp;quot;と記述）。Androidのアプリ開発はベー...",
     "isbn": [
@@ -871,17 +871,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4bab00d6ca0f3cc5f0"
+      "oid": "55268c4bab00d6ca0f3cc5f0"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/5491912?",
       "name": "nextfactory"
     },
     "datePublished": {
-      "$date": "2014-12-19T15:42:16.000Z"
+      "date": "2014-12-19T15:42:16.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:23.916Z"
+      "date": "2015-04-09T14:27:23.916Z"
     },
     "description": "ほぼプログラミング素人からのスタートなのでJavaScriptを知ってる人にはつまらないかも。\nAmazonのリンクは完全にNoアフィリエイトで私には一銭も入らないので安心してお買い上げください。\n\n\nプログラミング素人編\n\n\nHead First JavaScript ―頭とからだで覚えるJavaScriptの基本\n\n\n途中まで読んで放置していたので再読。とりあえず自分が書いたものがブラウザ上で動く感動を知るところから始めるには、この本とドットインストールのJS関連の...",
     "isbn": [
@@ -902,17 +902,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4bab00d6ca0f3cc5f1"
+      "oid": "55268c4bab00d6ca0f3cc5f1"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/766eea608ab122ae708942eeeaef77d1",
       "name": "bugcloud"
     },
     "datePublished": {
-      "$date": "2014-07-07T02:09:27.000Z"
+      "date": "2014-07-07T02:09:27.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:23.994Z"
+      "date": "2015-04-09T14:27:23.994Z"
     },
     "description": "研修担当（わけあって6月入社）になってしまったので自分が読んでおいて欲しいものと、社内のメンバーにアンケートを取って、集まった回答をまとめておく。コメントがあるものは自分、ないものは社内アンケートから。思い出したら追記してく。\n自分は文系エンジニアだが、新人時代なにやってたか全然思い出せなくてつらい。よく見ているWEBサイトもたくさんあるけど、新人向けってなるとなかなか難しい。。\n\n        \n        前提\n      \n\n新人くんはエンジニア職/デザイナ...",
     "isbn": [
@@ -939,17 +939,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4cab00d6ca0f3cc5f2"
+      "oid": "55268c4cab00d6ca0f3cc5f2"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2014-12-02T20:27:16.000Z"
+      "date": "2014-12-02T20:27:16.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:24.157Z"
+      "date": "2015-04-09T14:27:24.157Z"
     },
     "description": "\nBluetooth Explorerとは？\n\nAppleが提供する開発用ツールに、「Bluetooth Explorer」というものがあります。\n\n\n\nBluetoothにまつわる諸々の解析や設定を行うためのツールで、非常に多くの機能を持っています。\n\n\n\n上記のスクリーンショット、全部Bluetooth Explorerのウィンドウです。MBP 15 Retina の最高解像度設定で画面が埋まる程度にツールを立ち上げてみましたが、他にもまだまだ多くの機能があります。...",
     "isbn": [
@@ -961,17 +961,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4cab00d6ca0f3cc5f3"
+      "oid": "55268c4cab00d6ca0f3cc5f3"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/518237810801651712/NuMGbYbK_normal.png",
       "name": "yimajo"
     },
     "datePublished": {
-      "$date": "2013-09-29T04:07:22.000Z"
+      "date": "2013-09-29T04:07:22.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:24.459Z"
+      "date": "2015-04-09T14:27:24.459Z"
     },
     "description": "iOSについては環境の進化が速く、書籍の内容が古くなっていることがほとんどなのですが\nAndroid開発を始めたばかりの僕が読みたかった本が面白かったので自分も似たようなことを書いておきます。\n\n        \n        詳解 Objective-C 2.0\n      \n\n\nObjective-Cのメモリ管理の仕組みであるリファレンスカウンタについて理解するために購入。現在発売中の第3版ではARCについても記載されているので最新のものを買うのが良いです。\nOb...",
     "isbn": [
@@ -990,17 +990,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4dab00d6ca0f3cc5f4"
+      "oid": "55268c4dab00d6ca0f3cc5f4"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/521376175021510656/eMrT0ksU_normal.jpeg",
       "name": "axross"
     },
     "datePublished": {
-      "$date": "2013-10-03T08:10:37.000Z"
+      "date": "2013-10-03T08:10:37.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:25.831Z"
+      "date": "2015-04-09T14:27:25.831Z"
     },
     "description": "フロントエンドエンジニアにとって、JavaScriptは今や開発の中心にあると言ってもいいと思います。\n\nJavaScriptに対していまいち自信のない人向けに、おすすめしたい本をまとめてみました。\n\nこれで、日本のJS界隈がもっと賑わって、仲間が増えると嬉しいです(今でもかなり賑やかですが)。\n\n\n基礎\n\n\nJavaScript本格入門\n\n\n\nJavaScriptの本の中では一番易しいんじゃないかな、と思います。\n\nこれ以上に読者ターゲットのレベルを落とした本は、解説...",
     "isbn": [
@@ -1018,17 +1018,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c4eab00d6ca0f3cc5f5"
+      "oid": "55268c4eab00d6ca0f3cc5f5"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/422519757/favicon_large_normal.PNG",
       "name": "ise_daisuke"
     },
     "datePublished": {
-      "$date": "2014-09-28T00:33:26.000Z"
+      "date": "2014-09-28T00:33:26.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:26.097Z"
+      "date": "2015-04-09T14:27:26.097Z"
     },
     "description": "\n        \n        概要\n      \n\n2014/9/27(土) 11:50～2014/9/27(土) 18:30\nレガシーコード改善勉強会\n\n\n        \n        セッション1 「レガシーコード改善のススメ」\n      \n\n平澤 章さん\nレガシーコード改善ガイドの内容について翻訳者自ら紹介\n翻訳当時のこぼれ話など\nレガシーコード改善ガイド読まずに潜り込んでいたので、ありがたかった\n\n\n        \n        セッション2「テ...",
     "isbn": [
@@ -1040,17 +1040,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c50ab00d6ca0f3cc5f6"
+      "oid": "55268c50ab00d6ca0f3cc5f6"
     },
     "author": {
       "imageUrl": "https://2.gravatar.com/avatar/b016de1381be90fd38ffbcdb10a41586?d=https%3A%2F%2Fidenticons.github.com%2Faa0194dba1d95f6091b8f0c990859568.png&amp;r=x",
       "name": "volanja"
     },
     "datePublished": {
-      "$date": "2014-11-30T17:55:59.000Z"
+      "date": "2014-11-30T17:55:59.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:28.701Z"
+      "date": "2015-04-09T14:27:28.701Z"
     },
     "description": "タイトルの通り、去年のAdventCalendar1日目(2013/12/1)から今日までの開発状況や採用実績・イベント・参考書について調べてみました。\n技術的なTipsは一切ありません。。\n\n\nAnsibleについて\n\n\nそもそもAnsibleって何？\n\nAnsibleはPython製の構成管理ソフトウェアです。\nサーバのミドルウェアやアプリケーションのインストール/設定を自動かつ高速に実現できます。\nv1.8でWindowsにも対応しました。\n\nThoughtWor...",
     "isbn": [
@@ -1062,17 +1062,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c52ab00d6ca0f3cc5f7"
+      "oid": "55268c52ab00d6ca0f3cc5f7"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/7877000?",
       "name": "mima_ita"
     },
     "datePublished": {
-      "$date": "2014-07-25T16:21:55.000Z"
+      "date": "2014-07-25T16:21:55.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:30.347Z"
+      "date": "2015-04-09T14:27:30.347Z"
     },
     "description": "\n        \n        はじめに\n      本文はペアプログラミングについての資料を調査した結果を報告するとともに、その有効性について考察するものです．多くの内容はLaurie William の執筆した「ペアプログラミング エンジニアとしての指南書」と彼女の論文が元になっています．\n\n        \n        ペアプログラミング\n      \n        \n        概要\n      ペアプログラミングとはプログラミングスタイルの一つで...",
     "isbn": [
@@ -1085,17 +1085,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c52ab00d6ca0f3cc5f8"
+      "oid": "55268c52ab00d6ca0f3cc5f8"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1166257348/bigicon-patchouli_normal.png",
       "name": "mono_shoo"
     },
     "datePublished": {
-      "$date": "2013-12-22T13:20:12.000Z"
+      "date": "2013-12-22T13:20:12.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:30.628Z"
+      "date": "2015-04-09T14:27:30.628Z"
     },
     "description": "あ、今回技術的な内容じゃないので、悪しからず。\n\n        \n        D言語パーフェクトガイドとは\n      本日、D言語パーフェクトガイドが発売されて、\nなんと\n10周年！！！\nまで\nあと365日になりました。\nD言語パーフェクトガイドというのは、2004年12月22日に発売されたD言語に関する初の日本語書籍です。\nソースはAmazon。\n\n\n純粋なプログラミング言語として一部で注目を集めている\n\nなどと、なんかよくわからないけど、今となってはある意味...",
     "isbn": [
@@ -1107,17 +1107,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c52ab00d6ca0f3cc5f9"
+      "oid": "55268c52ab00d6ca0f3cc5f9"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/449541105894174721/Tmgr9zRN_normal.jpeg",
       "name": "yancya"
     },
     "datePublished": {
-      "$date": "2013-12-20T03:11:26.000Z"
+      "date": "2013-12-20T03:11:26.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:30.909Z"
+      "date": "2015-04-09T14:27:30.909Z"
     },
     "description": "このエントリは パーフェクトRuby Advent Calendar の 20 日目のエントリです\n\n        \n        はじめに\n      みなさん パーフェクトRuby はもう読みましたよね。わしも読んだ。\n今までは プログラミング言語 Ruby を傍らに置いてコードを書いていたんですが、最近は パーフェクトRuby も一緒に置いてあります。\nさて、６００ページを超えるボリュームで、Ruby での開発に必要な事はだいたい載ってるパーフェクトRuby ...",
     "isbn": [
@@ -1132,17 +1132,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c53ab00d6ca0f3cc5fa"
+      "oid": "55268c53ab00d6ca0f3cc5fa"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/378800000395512447/98f7e29bd201ee892e65ce2b2fe2c455_normal.png",
       "name": "yasei_no_otoko"
     },
     "datePublished": {
-      "$date": "2013-06-18T13:53:30.000Z"
+      "date": "2013-06-18T13:53:30.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:31.393Z"
+      "date": "2015-04-09T14:27:31.393Z"
     },
     "description": "この記事はFacebook社員Ben Gertzfield氏のSpeaking a whole new language: DConf 2013 at Facebookを翻訳したものです。\n\n        \n        はじめに\n      　今月の始め、Facebookで60人以上の技術者、探究者、ドリーマー、アーキテクトが集まるD言語のカンファレンス、DConf 2013 が3日間開催されました。\n　私は数多くのプログラミングカンファレンスに参加してきましたが...",
     "isbn": [
@@ -1155,17 +1155,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c56ab00d6ca0f3cc5fb"
+      "oid": "55268c56ab00d6ca0f3cc5fb"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/cc08756798ff94dad86ebc51c1701195?d=https%3A%2F%2Fidenticons.github.com%2F35dce29cf91a19ead1de07e2c3616bd1.png&amp;r=x",
       "name": "hirokidaichi"
     },
     "datePublished": {
-      "$date": "2014-07-21T14:44:04.000Z"
+      "date": "2014-07-21T14:44:04.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:34.908Z"
+      "date": "2015-04-09T14:27:34.908Z"
     },
     "description": "\nデメテルの法則\n\n別名最小知識の法則。デメテルは、豊穣の女神。アスペクト指向などの研究であった「デメテルプロジェクト」に由来。\n\n\n基本的な考え方は、任意のオブジェクトが自分以外（サブコンポーネント含む）の構造やプロパティに対して持っている仮定を最小限にすべきであるという点にある。\n\n\nhttp://ja.wikipedia.org/wiki/%E3%83%87%E3%83%A1%E3%83%86%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87...",
     "isbn": [
@@ -1177,17 +1177,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c57ab00d6ca0f3cc5fc"
+      "oid": "55268c57ab00d6ca0f3cc5fc"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/41250dd1c5bb32d74cb8c4b00c68b996?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "foo9"
     },
     "datePublished": {
-      "$date": "2014-05-20T08:55:29.000Z"
+      "date": "2014-05-20T08:55:29.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:35.358Z"
+      "date": "2015-04-09T14:27:35.358Z"
     },
     "description": "Ruby on Rails 4 アプリケーションプログラミング\n大型本: 544ページ\n出版社: 技術評論社 (2014/4/11)\n言語: 日本語\nISBN-10: 4774164100\nISBN-13: 978-4774164106\n発売日： 2014/4/11\n実践Ruby on Rails 4 現場のプロから学ぶ本格Webプログラミング\n単行本（ソフトカバー）: 536ページ\n出版社: インプレスジャパン (2014/5/23)\n言語: 日本語\nISBN-10:...",
     "isbn": [
@@ -1201,17 +1201,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c58ab00d6ca0f3cc5fd"
+      "oid": "55268c58ab00d6ca0f3cc5fd"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/2811063146/ceb2df5fa5d20b846a73036ee50bcbde_normal.jpeg",
       "name": "masahixixi"
     },
     "datePublished": {
-      "$date": "2014-12-01T09:43:42.000Z"
+      "date": "2014-12-01T09:43:42.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:36.367Z"
+      "date": "2015-04-09T14:27:36.367Z"
     },
     "description": "\n概要\n\n\nはじめに\n\nLivesense Advent Calendar 1日目担当の masahixixi です。\n12/1 Calendar を作成するというライフハックです。\n社内の驚かれた方すいません。そしてご協力頂いている皆様に心から感謝します。\n急すぎるにも程があるなぁというのは私が一番感じています。お許しを。\n\n\nなにやるの??\n\n早速ネタ作り(現在17時過ぎ)なわけですが、今から何かを検証、構築する時間はどこにもないわけで言い出しっぺの無計画さだけが際...",
     "isbn": [
@@ -1224,17 +1224,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c58ab00d6ca0f3cc5fe"
+      "oid": "55268c58ab00d6ca0f3cc5fe"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/7877000?",
       "name": "mima_ita"
     },
     "datePublished": {
-      "$date": "2015-03-30T11:49:12.000Z"
+      "date": "2015-03-30T11:49:12.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:36.528Z"
+      "date": "2015-04-09T14:27:36.528Z"
     },
     "description": "新年度も始まり、新入社員も入ってきてOJTをやるはめになるかと思いますが、そのOJTについて考えてみます。\n\n業務に関係ないオセロ作らせたり、本をあたえて放置は正しいOJTなのか？\n考えてみます。\n\nもちろん、この考えが全てで上手くいくとは限りませんし、後光の差すようなカリスマには必要のない考えかもしれませんので、一例として読んでください。\n\n\n基本的な姿勢\n\nまず人様に仕事をふる上で最も重要な姿勢だけは徹底させましょう。\nこれは、新入社員だけでなく、普通の部下を扱う上...",
     "isbn": [
@@ -1246,17 +1246,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c5fab00d6ca0f3cc5ff"
+      "oid": "55268c5fab00d6ca0f3cc5ff"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/4402982?v=3",
       "name": "KOU_CHANG"
     },
     "datePublished": {
-      "$date": "2014-06-24T00:53:54.000Z"
+      "date": "2014-06-24T00:53:54.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:43.111Z"
+      "date": "2015-04-09T14:27:43.111Z"
     },
     "description": "\n概要\n\nチームの新人等、初めてErlangを学習する人のために、参考になる書籍とWebサイトURLをまとめた。\n\n\nWebサイト\n\n\n公式ドキュメント\n\n\nhttp://www.erlang.org/doc/index.html\n\n関数の仕様を確かめる ために使う\n英語で書かれている\n英語力がない筆者でも読めるレベル\nとりあえずここを見ておけば問題がない\n\n\n\nlearn you some Erlang for great good!\n\n\nhttp://www.ymo...",
     "isbn": [
@@ -1271,17 +1271,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c5fab00d6ca0f3cc600"
+      "oid": "55268c5fab00d6ca0f3cc600"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/410803?v=3",
       "name": "yanap"
     },
     "datePublished": {
-      "$date": "2014-07-31T05:51:00.000Z"
+      "date": "2014-07-31T05:51:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:43.853Z"
+      "date": "2015-04-09T14:27:43.853Z"
     },
     "description": "これから、仕事でフルネイティブのiPhoneアプリを開発するために参考になりそうな、書籍やURLを書きます。\n読み終わったり、学び終わったら感想を追加します。\n\n        \n        書籍\n      \n        \n        ズバわかり! プログラミング Objective-C iPhoneアプリ開発 スタートブック Xcode5.1+iOS7.1対応\n      \nXcode5.1の使い方含めた解説があり、開発の全体像を掴むのに良い１冊です。\n...",
     "isbn": [
@@ -1301,17 +1301,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c60ab00d6ca0f3cc601"
+      "oid": "55268c60ab00d6ca0f3cc601"
     },
     "author": {
       "imageUrl": "https://si0.twimg.com/profile_images/1832082111/0_normal_normal.jpeg",
       "name": "monja415"
     },
     "datePublished": {
-      "$date": "2012-09-13T07:50:09.000Z"
+      "date": "2012-09-13T07:50:09.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:44.569Z"
+      "date": "2015-04-09T14:27:44.569Z"
     },
     "description": "デザイナ、エンジニア、ディレクターなど、\nサービス開発に携わっている人に参考になりそうな本をまとめてみました。\n\n1.  デザイニング・インターフェース 第2版\n\n現在よく使用されているUIをパターンとして整理し、俯瞰できる。\nよくわからないものと思われがちなUIが、限りなく具体的にまとまってる感じがする。\nこれ1冊ざっと読むと、UIデザインの第一歩を恐れず踏み出せるようになると思う。\n導入もシンプルで好き、常に立ち返りたい。\n\n第2版では、スマホ関連の章が追記された。...",
     "isbn": [
@@ -1327,17 +1327,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c60ab00d6ca0f3cc602"
+      "oid": "55268c60ab00d6ca0f3cc602"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/410803?v=3",
       "name": "yanap"
     },
     "datePublished": {
-      "$date": "2014-07-30T05:59:23.000Z"
+      "date": "2014-07-30T05:59:23.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:44.726Z"
+      "date": "2015-04-09T14:27:44.726Z"
     },
     "description": "これから、Androidでフルネイティブアプリを開発するにあたって参考になりそうな本やURLなどを書きます。\nまた、この本が良かった。このURLの情報がすごい参考になったなどあれば、教えてください。\n\n        \n        書籍\n      \n        \n        Android Pattern Cookbook マーケットで埋もれないための差別化戦略\n      \nAndroidはレイアウト周りの操作が、かなりめんどくさいのですが、これは良いで...",
     "isbn": [
@@ -1354,17 +1354,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c60ab00d6ca0f3cc603"
+      "oid": "55268c60ab00d6ca0f3cc603"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/1571072?v=3",
       "name": "ozw_sei"
     },
     "datePublished": {
-      "$date": "2013-10-18T15:49:02.000Z"
+      "date": "2013-10-18T15:49:02.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:44.794Z"
+      "date": "2015-04-09T14:27:44.794Z"
     },
     "description": "\n        \n        入門\n      \n\nLearn Python Hard Way http://learnpythonthehardway.org/book/\u2028\nPythonの訓練\nGet Start With Django http://gettingstartedwithdjango.com/\nDjanog入門\nPro Django http://www.amazon.com/Pro-Django/dp/1430258098/\n最近でた入門書\nT...",
     "isbn": [
@@ -1376,17 +1376,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c60ab00d6ca0f3cc604"
+      "oid": "55268c60ab00d6ca0f3cc604"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/e322db6520d631ff663e027e52076189?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "t-kashima"
     },
     "datePublished": {
-      "$date": "2013-12-25T11:31:12.000Z"
+      "date": "2013-12-25T11:31:12.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:44.854Z"
+      "date": "2015-04-09T14:27:44.854Z"
     },
     "description": "Cocos2d-xを使っていくうえで参考にしている情報を書いていきます。\n個人的にはまだまだ参考にできる情報が少ないと思っているので、共有することでもっとスムーズに開発ができればと思っています。また、編集リクエストでどんどん追加していってもらえると幸いです。\n\n        \n        cocos2d-x入門\n      \n本書は、開発言語であるC++の基礎から環境構築、開発の手順まで、わかり\nやすい図解と実践的なソースコードを豊富に用いて丁寧に解説しました。\n...",
     "isbn": [
@@ -1399,17 +1399,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c66ab00d6ca0f3cc605"
+      "oid": "55268c66ab00d6ca0f3cc605"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/10252775?v=3",
       "name": "na0AaooQ"
     },
     "datePublished": {
-      "$date": "2015-02-11T10:41:16.000Z"
+      "date": "2015-02-11T10:41:16.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:50.542Z"
+      "date": "2015-04-09T14:27:50.542Z"
     },
     "description": "\nはじめに\n\nドメインのDNSサーバ(ドメインの権威を持つ権威DNSサーバ、コンテンツサーバ)が老朽化した場合や、権威DNSサーバの性能増強やインフラ構成見直し等の様々な目的で、新権威DNSサーバへ移行したいといった事があるかと思います。\n\nいわゆるネームサーバの移転、DNSサーバの引っ越し、ドメインの権威DNSサーバを新サーバへ移行するにあたり、個人的に参考になったサイトや書籍をまとめてみました。\n\nなお、本ページ内では、例示用ドメイン名として「example.com...",
     "isbn": [
@@ -1422,17 +1422,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c66ab00d6ca0f3cc606"
+      "oid": "55268c66ab00d6ca0f3cc606"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/558053676858609664/VSvMvARd_normal.png",
       "name": "phptaro"
     },
     "datePublished": {
-      "$date": "2014-12-23T12:25:47.000Z"
+      "date": "2014-12-23T12:25:47.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:27:50.922Z"
+      "date": "2015-04-09T14:27:50.922Z"
     },
     "description": "\n参考図書\n\n\nたのしいSwift programming―[iOS 8&amp;amp;Xcode 6対応]\n\n\n木下誠\nBNN新社\n2800円＋税\n\n\n購入理由\n\n\nXcode画面の各機能の使い方を画像をふんだんに丁寧に解説\n　（ソースコードのコピペでアプリができるというSwift勉強会に出席したが、\n　　Xcodeの機能の多さに驚き、体系的に勉強したいと感じた。）\n基礎的なSwiftの文法を解説\n　（私自身はJavaScriptやPHPを少し触れる程度の知識。）\nTwit...",
     "isbn": [
@@ -1444,17 +1444,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c73ab00d6ca0f3cc607"
+      "oid": "55268c73ab00d6ca0f3cc607"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/8577b3d7ca41a3d2c2ebd98b9559b69e",
       "name": "scleen_x_x"
     },
     "datePublished": {
-      "$date": "2014-11-20T01:45:15.000Z"
+      "date": "2014-11-20T01:45:15.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:03.000Z"
+      "date": "2015-04-09T14:28:03.000Z"
     },
     "description": "みなさんこんにちは、ゲーム実況動画  楽しいです  寒くなってきたので体調管理には気をつけましょう  パズドラ、モンスト、がちゃ  ひきましたか？パズドラのゴッドフェスはどうでした？緑オーディンが出たよ  \n\n\n\nところで、オライリーから実践機械学習システム(Amazon) が出版されました。借りることができたので、この９章にある「音楽ジャンル分類」  を参考にして、機械学習を始めるときの参考になるものを書いてみます  初心者向け  より難しい理論とか応用は偉い人にまか...",
     "isbn": [
@@ -1466,17 +1466,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c73ab00d6ca0f3cc608"
+      "oid": "55268c73ab00d6ca0f3cc608"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/160a2bfe859622ee0c854405441019cc",
       "name": "HirofumiYashima"
     },
     "datePublished": {
-      "$date": "2015-03-11T01:37:33.000Z"
+      "date": "2015-03-11T01:37:33.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:03.286Z"
+      "date": "2015-04-09T14:28:03.286Z"
     },
     "description": "Python に限らず、R言語 を含めて「ウェーブレット解析」を行うための実装コード事例がウェブを探しても容易に見つからないため、日本語で読める Python コード事例 掲載サイトの簡易リポジトリをつくってみました。\n\n\n\n\nWavelet解析とは ～フーリエ変換で表現できない、時間変化を出力できる周波数分解方法\n\n\n\n（SlideShare） 橘 亮輔 「ウェーブレット変換の基礎と応用事例：連続ウェーブレット変換を中心に」\n理系大学生がPythonで色々頑張るブログ...",
     "isbn": [
@@ -1488,17 +1488,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c75ab00d6ca0f3cc609"
+      "oid": "55268c75ab00d6ca0f3cc609"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/484425480662044673/nOKVNpTm_normal.png",
       "name": "BlueRoyInc"
     },
     "datePublished": {
-      "$date": "2015-01-11T06:24:49.000Z"
+      "date": "2015-01-11T06:24:49.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:05.777Z"
+      "date": "2015-04-09T14:28:05.777Z"
     },
     "description": "Objective-Cでデビューソフトを書いた私は現在Swiftの練習中なのだが\n前作は医療用語入力支援ツールなので、ボタンやピッカーの配置をデバイスによってかなり工夫した。\nそれ故Update版ではデバイスの種類や向きによってボタンの配置を全て事細かに指定している。\niOS　→　http://bit.ly/ICFinputteriOS\n（iOS無償版　→　http://bit.ly/iOSICFfree も後日対応予定）\n\nしかし今回作ろうとしているものは、特にレイア...",
     "isbn": [
@@ -1510,17 +1510,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c77ab00d6ca0f3cc60a"
+      "oid": "55268c77ab00d6ca0f3cc60a"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/4186381?",
       "name": "KENJU"
     },
     "datePublished": {
-      "$date": "2015-01-06T09:07:40.000Z"
+      "date": "2015-01-06T09:07:40.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:07.136Z"
+      "date": "2015-04-09T14:28:07.136Z"
     },
     "description": "【保存版】Java推薦図書一覧（随時更新）\n\n\nおすすめ図書\n\nここでは、Javaを勉強する際に非常におすすめな参考図書を\n紹介します。\n\n\n初級者向け = プログラミング自体初めて\n中級者向け = Javaまたは他プログラミング言語を簡単にでも学んだことがある\n上級者向け = Javaまたは他プログラミング言語について高度な知識と豊富な経験がある\n\n\n\n1.やさしいJava 第5版 (「やさしい」シリーズ)\n\n\n\n\n\n・初級者向け、特にプログラミング言語自体を学んだこ...",
     "isbn": [
@@ -1538,17 +1538,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c78ab00d6ca0f3cc60b"
+      "oid": "55268c78ab00d6ca0f3cc60b"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/0e3e4d3a8e69ccae1e9b9dcc219f3f1f",
       "name": "fakestarbaby"
     },
     "datePublished": {
-      "$date": "2012-11-30T15:00:50.000Z"
+      "date": "2012-11-30T15:00:50.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:08.714Z"
+      "date": "2015-04-09T14:28:08.714Z"
     },
     "description": "CoronaSDKを始めたは良いが、どうにもこうにも日本語の有益なリソースが非常に少ないんですよね。\n\nこんな時、どうしたら良いんだろう？\nあんな時、どうしたら良いんだろう？\n\nきっと、リソースを探し彷徨うでしょう。\nそこで、私が有益だと思うリソースについて、この記事にまとめてみました。\n是非、ウロウロしてCoronaSDKをお楽しみ下さい。\n\n公式リソース\n\nプロダクトサイト\n\nこちらは、CoronaSDKのプロダクトサイトですね。\nあまり訪れる機会は無いかもしれませ...",
     "isbn": [
@@ -1560,17 +1560,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c79ab00d6ca0f3cc60c"
+      "oid": "55268c79ab00d6ca0f3cc60c"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/35f3f6bb399732e7331c24b5bae1e4af?d=https%3A%2F%2Fidenticons.github.com%2F9206981af9457bc452c8d29d7b935a5e.png",
       "name": "disc99"
     },
     "datePublished": {
-      "$date": "2015-01-05T00:20:58.000Z"
+      "date": "2015-01-05T00:20:58.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:09.246Z"
+      "date": "2015-04-09T14:28:09.246Z"
     },
     "description": "Domain-Driven Design(DDD)と言えばエリック・エヴァンズの「ドメイン駆動設計」ですが、いろいろ調べてみると本当にDDDを行う上では更に多くの知識が必要だと感じたので、その動画と紹介されている書籍をメモ。\n基本的に設計やデザインパターンに関する書籍が中心です。\n\n\n参考\n\n\n20110409_DevLOVE「オープニングセッション」papandaさん和智右桂さん\n20110409_DevLOVE「DDDについて」_和田卓人さん\n20110409_De...",
     "isbn": [
@@ -1593,17 +1593,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c79ab00d6ca0f3cc60d"
+      "oid": "55268c79ab00d6ca0f3cc60d"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/ef5aca36819914cf6ca40a4c18d7f380",
       "name": "mukaken"
     },
     "datePublished": {
-      "$date": "2014-01-22T16:36:55.000Z"
+      "date": "2014-01-22T16:36:55.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:09.315Z"
+      "date": "2015-04-09T14:28:09.315Z"
     },
     "description": "\nLaravel の書籍 まとめ\n\n現在の安定バージョンは Laravel 5.x です。\n\n\n日本語\n\n\nザクッとLaravel5、Hubサイトでチュートリアル\n\n\n\n\n\nザクッとLaravelシリーズ第一弾！（続ける予定ですが、後続は未定） Hubサイトを作って学ぶ、Artisanコマンド、イベント、キュー！ SlackとTrelloも使います。\n\n\nフォーマット : 電子書籍\n著者 : Hirohisa Kawase\n出版社 : Leanpub\n\n\nLaravel...",
     "isbn": [
@@ -1615,17 +1615,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c79ab00d6ca0f3cc60e"
+      "oid": "55268c79ab00d6ca0f3cc60e"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/62c0b16e6947c6e96f295a7037324685?d=https%3A%2F%2Fidenticons.github.com%2Fa6acff17383d4c41f4ec36a02b0c48c9.png&amp;r=x",
       "name": "kikuchi-hiroshi"
     },
     "datePublished": {
-      "$date": "2014-02-20T03:10:12.000Z"
+      "date": "2014-02-20T03:10:12.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:09.344Z"
+      "date": "2015-04-09T14:28:09.344Z"
     },
     "description": "アジャイル開発における品質向上に向けて。\nグーグルのソフトウェア開発\nHacking: 美しき策謀 第2版 ―脆弱性攻撃の理論と実際\n実践アジャイルテスト\n実践テスト駆動開発\n",
     "isbn": [
@@ -1640,17 +1640,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c79ab00d6ca0f3cc60f"
+      "oid": "55268c79ab00d6ca0f3cc60f"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/10190139?v=3",
       "name": "Hoshito"
     },
     "datePublished": {
-      "$date": "2014-12-23T14:39:00.000Z"
+      "date": "2014-12-23T14:39:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:09.374Z"
+      "date": "2015-04-09T14:28:09.374Z"
     },
     "description": "書籍URL\nhttp://gihyo.jp/magazine/wdpress/archive/2015/vol84\n\nおまけで紹介。ちょっと値段が高め。\nITロードマップ2015年版\nhttp://www.amazon.co.jp/gp/product/4492581065\nITナビゲーター2015年版\nhttp://www.amazon.co.jp/gp/product/4492502637\n\n\nキーワード\n\n・GitHub Enterprise2.0\n　GitHub...",
     "isbn": [
@@ -1663,17 +1663,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c79ab00d6ca0f3cc610"
+      "oid": "55268c79ab00d6ca0f3cc610"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/79a92313bba008d66f30b226ee618fa7",
       "name": "yukinagae"
     },
     "datePublished": {
-      "$date": "2015-03-11T00:37:21.000Z"
+      "date": "2015-03-11T00:37:21.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:09.398Z"
+      "date": "2015-04-09T14:28:09.398Z"
     },
     "description": "\n関数型の勉強に役立つ書籍まとめ\n\n※随時追記します。\n\n\n初心者向け\n\n\nおおまかに知りたい人はこれ。\n\n\n関数プログラミング実践入門 ──簡潔で、正しいコードを書くために\n\n\n関数型のエッセンスはHaskellを学ぶと分かりやすい。簡単な関数から、モ○ドという怖い言葉まで幅広く学べます。\n\n\nすごいHaskellたのしく学ぼう! \n\n\n関数型に興味無くても、一度読んだ方が良い。どのようにプログラムを書き、テストを書くか等が網羅的に学べます。自然と関数型的な書き方が身...",
     "isbn": [
@@ -1687,17 +1687,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c79ab00d6ca0f3cc611"
+      "oid": "55268c79ab00d6ca0f3cc611"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/79a92313bba008d66f30b226ee618fa7",
       "name": "yukinagae"
     },
     "datePublished": {
-      "$date": "2015-03-06T00:43:46.000Z"
+      "date": "2015-03-06T00:43:46.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:09.476Z"
+      "date": "2015-04-09T14:28:09.476Z"
     },
     "description": "\nScala勉強に役立つ書籍まとめ\n\n\n初心者向け\n\n\nJavaプログラマならこの辺りを読むと良い。\n\n\n速攻理解!JavaプログラマのためのScalaプログラミング\n\nオブジェクト指向プログラマが次に読む本　－Scalaで学ぶ関数脳入門\n\n\n中級者向け\n\n\nScalaの特徴を活かしたコードを書きたくなってきたらこれを読むと良い。\n\n\nSCALAプログラミング入門\n\n\n上級者向け\n\n\nScalaを深く知りたくなったらこれを読むと良い。\n\n\nScalaスケーラブルプログラ...",
     "isbn": [
@@ -1713,17 +1713,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c79ab00d6ca0f3cc612"
+      "oid": "55268c79ab00d6ca0f3cc612"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/a090530bb5c4f999885cc1d34c26421d",
       "name": "rooooomania"
     },
     "datePublished": {
-      "$date": "2015-01-09T07:59:59.000Z"
+      "date": "2015-01-09T07:59:59.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:09.642Z"
+      "date": "2015-04-09T14:28:09.642Z"
     },
     "description": "\nずばり、この問いに対する自分の考えを得るために、この本を読む。現段階での思いとしては、「オブジェクト指向のこころ」に影響されているため、次の点をその答えとしている。\n\n\n個々のプログラムに責任を委譲( delegete )するため\n様々な観点で、情報を隠蔽するため\n流動的要素の抽象的側面と実装を分離するため\n\n\nすべては、変更されそうなところとそうでないところを整理して、プログラムやシステムのライフサイクルで発生する 本質的に必要な 変更に対してポジティブに向き合って...",
     "isbn": [
@@ -1735,17 +1735,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c79ab00d6ca0f3cc613"
+      "oid": "55268c79ab00d6ca0f3cc613"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/564678211947094017/mbwtHlgW_normal.jpeg",
       "name": "leznupar999"
     },
     "datePublished": {
-      "$date": "2014-03-12T08:01:58.000Z"
+      "date": "2014-03-12T08:01:58.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:09.954Z"
+      "date": "2015-04-09T14:28:09.954Z"
     },
     "description": "プログラムが全くの未経験だった自分がiOSアプリをリリースできるようになるまでに\n試行錯誤した方法をまとめます。\n注）発行日が古い本は開発方法が変わっている場合があります。\nこれからプログラムを勉強して、個人でiOSアプリをリリースしたいと考えている方の参考になれば幸いです。\nすでにプログラムがわかる方に取っては、ツッコミ所いっぱいかも知れませんがご了承ください。\n勉強法は書籍とネット上の情報のみで何とかします。\nこの記事では基本的に勉強の流れと参考になった具体的な書籍...",
     "isbn": [
@@ -1768,17 +1768,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7aab00d6ca0f3cc614"
+      "oid": "55268c7aab00d6ca0f3cc614"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/94e63e736a80c35e0779c25e5e1bc37c?d=https%3A%2F%2Fidenticons.github.com%2F4ac9cacbe14a9a9ce7d1fe745b02b2d4.png&amp;r=x",
       "name": "ynakayama"
     },
     "datePublished": {
-      "$date": "2014-08-27T14:59:36.000Z"
+      "date": "2014-08-27T14:59:36.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:10.191Z"
+      "date": "2015-04-09T14:28:10.191Z"
     },
     "description": "以前、機械学習や統計に関する情報収集についてまとめました。今日はその続きというか補足で、データ分析に役立つ無料で読める Python E-book をまとめました。\nここにある PDF を取り敢えず手持ちのタブレットか PC に突っ込んでいつでも必要なときに参照すると良いでしょう。毎回 Google 検索しても良いですが、確実に理解しておきたい基礎となる知見はやはり書籍で持っていたほうが安心です。\n\n        \n        プログラミング言語\n      まず...",
     "isbn": [
@@ -1791,17 +1791,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7aab00d6ca0f3cc615"
+      "oid": "55268c7aab00d6ca0f3cc615"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/709434310/TONY0922_normal.jpg",
       "name": "TONY0922"
     },
     "datePublished": {
-      "$date": "2014-07-28T04:32:23.000Z"
+      "date": "2014-07-28T04:32:23.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:10.402Z"
+      "date": "2015-04-09T14:28:10.402Z"
     },
     "description": "\n        \n        文法\n      \n        \n        詳解 Objective-C 2.0 第3版\n      言わずと知れた、Objective-Cの文法を学ぶなら、外せない参考書。\n電子書籍にして、iPadに入れて暇さえあれば読んでました。\nSwiftの登場した現在でも、暫くは使われるだろうから、まだまだ現役で活躍してくれること間違いなし。\n(http://www.amazon.co.jp/exec/obidos/ASIN/B00...",
     "isbn": [
@@ -1821,17 +1821,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7aab00d6ca0f3cc616"
+      "oid": "55268c7aab00d6ca0f3cc616"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/fccc8a07bfa84dc50726d485f6346fbc?d=https%3A%2F%2Fidenticons.github.com%2F3356eab39c869736cab377e5a036fc61.png&amp;r=x",
       "name": "corin8823"
     },
     "datePublished": {
-      "$date": "2014-07-30T07:35:57.000Z"
+      "date": "2014-07-30T07:35:57.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:10.582Z"
+      "date": "2015-04-09T14:28:10.582Z"
     },
     "description": "\n        \n        概要\n      1年間Ruby on Railsのプロジェクトをやってきて、ためになった書籍やサイトをまとめてみた。\n他に何かオススメがあったら教えてください。\n\n        \n        書籍\n      \n        \n        初めてのruby\n      配属されて初の業務前に先輩に進められた本がこれ。\n初めてと名が付いているが、難しかった記憶がある。\n\n        \n        パーフェクト Ru...",
     "isbn": [
@@ -1848,17 +1848,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7aab00d6ca0f3cc617"
+      "oid": "55268c7aab00d6ca0f3cc617"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/2351777?v=3",
       "name": "hatchup"
     },
     "datePublished": {
-      "$date": "2014-12-01T23:23:30.000Z"
+      "date": "2014-12-01T23:23:30.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:10.640Z"
+      "date": "2015-04-09T14:28:10.640Z"
     },
     "description": "まずは、自己紹介を。\n\n日本Cocos2d-xユーザ会発起人・代表の八反田です。ユーザ会事務局およびcocos2d-x.jp管理運営などを担当しています。\n\nハンズオンや勉強会などの企画運営を国内で最初に展開し、最近では、Cocos2d-x書籍の多くにおいて、企画プロデュース・著作を担当しています。\n\n先日、本家Chukong Technologies社の選ぶ、世界のCocos2d-xコミュニティ貢献者表彰において、日本国内から唯一選出頂きました。（Cocos2d-x限...",
     "isbn": [
@@ -1875,17 +1875,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7bab00d6ca0f3cc618"
+      "oid": "55268c7bab00d6ca0f3cc618"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/6157540?",
       "name": "hkusu"
     },
     "datePublished": {
-      "$date": "2014-03-24T03:23:09.000Z"
+      "date": "2014-03-24T03:23:09.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:11.287Z"
+      "date": "2015-04-09T14:28:11.287Z"
     },
     "description": "モバイル対応にあたり、こういうことを考慮した方が良いというメモ。\n\n        \n        モバイル対応\n      \n\nMETAタグ\n\n&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&amp;quot;&amp;gt;\n\n\nPC等も対応するならBootstrapいれる(レスポンシブ)\n...",
     "isbn": [
@@ -1897,17 +1897,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7bab00d6ca0f3cc619"
+      "oid": "55268c7bab00d6ca0f3cc619"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/9cc71173d147010d270bcf7dd399625d?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "yosh18"
     },
     "datePublished": {
-      "$date": "2013-12-14T16:15:00.000Z"
+      "date": "2013-12-14T16:15:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:11.782Z"
+      "date": "2015-04-09T14:28:11.782Z"
     },
     "description": "この記事は Sencha Advent Calendar 2013 15日目の記事です。\nお初です。\n初めて Sencha について書きます。\nみなさんみたいに濃い内容をまだ書けないので、これから Sencha 始めたい人にお勧めの書籍、ブログの紹介をしたいと思います。\n\n        \n        書籍\n      Sencha 本といえば、これでしょう。\nSencha オフィシャルトレーニングパートナーの株式会社ゼノフィが\nSencha Ext JS 2冊、S...",
     "isbn": [
@@ -1922,17 +1922,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc61a"
+      "oid": "55268c7cab00d6ca0f3cc61a"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/6157540?",
       "name": "hkusu"
     },
     "datePublished": {
-      "$date": "2014-12-01T08:23:41.000Z"
+      "date": "2014-12-01T08:23:41.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.027Z"
+      "date": "2015-04-09T14:28:12.027Z"
     },
     "description": "これは AngularJS Advent Calendar 2014 の初日(12/1)の投稿です。\n\nAngulrJS については ADVENTAR にもカレンダーがあるので、このようなイベントに参加する人が Qiita と ADVENTAR でバラけている気がしなくもないですが、当日に初日の枠が空いていたので、夕方になってカッとなって書きますw ですので文量が少なくてすみません。\n\n開発環境については、他の方が書いてくれそうなので、今回は省きます。\n（ただ Angu...",
     "isbn": [
@@ -1949,17 +1949,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc61b"
+      "oid": "55268c7cab00d6ca0f3cc61b"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3373605267/4c3820dd6a66c6b67b280e35ecc61a2a_normal.jpeg",
       "name": "kouchi67"
     },
     "datePublished": {
-      "$date": "2013-05-26T04:31:42.000Z"
+      "date": "2013-05-26T04:31:42.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.144Z"
+      "date": "2015-04-09T14:28:12.144Z"
     },
     "description": "\n        \n        これからiOSアプリ開発をやりたい！という人へ\n      自分が実際にiOSアプリ開発をやって、便利だったと思う情報を残しておきます。\nこれからアプリ開発やりたいという人の参考になれば。\n\n        \n        iOSアプリ開発の第一歩\n      まずは間違いなくMacを買うこと。\nMacを書いましょう。Windowsじゃ開発できません。\nMacじゃないとiOSアプリの開発はできないので、\nこれがないとお話になりません...",
     "isbn": [
@@ -1979,17 +1979,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc61c"
+      "oid": "55268c7cab00d6ca0f3cc61c"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/ea23240be207ad3e254edd9f2fb3bcfc",
       "name": "takaton1114"
     },
     "datePublished": {
-      "$date": "2014-07-10T15:23:36.000Z"
+      "date": "2014-07-10T15:23:36.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.278Z"
+      "date": "2015-04-09T14:28:12.278Z"
     },
     "description": "RUNNING LEAN\n新規事業を立ち上げるに当たって、リーンキャンバスを書くために購入。\n読んだ後に、何度か実践してみたが、おそらくこれは、もう少し新規事業計画が具体性を帯び始めてから、その事業が当たりそうなのか外れそうなのかを考察するために用いるツールの一つのように感じた。\n非常に重要な要素の一つであることは確かなので、読んで良かったと非常に感じた。\nここでいう重要な要素とは、新規事業を進めていく上で、最低限考えなくてはいけないことを指し、無駄なく事業を進める点で...",
     "isbn": [
@@ -2001,17 +2001,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc61d"
+      "oid": "55268c7cab00d6ca0f3cc61d"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/a090530bb5c4f999885cc1d34c26421d",
       "name": "rooooomania"
     },
     "datePublished": {
-      "$date": "2015-01-31T04:41:18.000Z"
+      "date": "2015-01-31T04:41:18.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.376Z"
+      "date": "2015-04-09T14:28:12.376Z"
     },
     "description": "関数プログラミングを学ぼうと思って数週間。関数合成の考え方、捉え方でいつもハマる。もっと周辺知識を蓄えるまで後回しにしようとも思ったが、現時点の自分の理解として整理することにした。\n\n\nとにかくややこしい\n\nまず、おさらいとして、これは、わかる。\n\nf :: b -&amp;gt; c\ng :: a -&amp;gt; b\nf . g :: a -&amp;gt; c\n\n\nなぜなら、このように\n\n(.) :: (b -&amp;gt; c) -&amp;gt; (a -&amp;gt; b) -&amp;gt; a -&amp;gt...",
     "isbn": [
@@ -2023,17 +2023,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc61e"
+      "oid": "55268c7cab00d6ca0f3cc61e"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/641486059/_1263903340_495_normal.png",
       "name": "kurukurupapa@github"
     },
     "datePublished": {
-      "$date": "2014-04-10T14:40:12.000Z"
+      "date": "2014-04-10T14:40:12.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.378Z"
+      "date": "2015-04-09T14:28:12.378Z"
     },
     "description": "「レガシーコード改善ガイド」という書籍を読みました。考え方から具体的な手法まで説明されていて良い本でした。特に気になった部分について、自分の解釈した内容をメモしておきたいと思います。\n\n        \n        書籍概要\n      \nレガシーコード改善ガイド (Object Oriented SELECTION)\n作者: マイケル・C・フェザーズ\n発売日： 2009/7/14\n\n        \n        考え方\n      \n        \n    ...",
     "isbn": [
@@ -2045,17 +2045,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc61f"
+      "oid": "55268c7cab00d6ca0f3cc61f"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/9162237?v=3",
       "name": "AkiyoshiOkano"
     },
     "datePublished": {
-      "$date": "2015-03-14T04:11:17.000Z"
+      "date": "2015-03-14T04:11:17.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.459Z"
+      "date": "2015-04-09T14:28:12.459Z"
     },
     "description": "\n①まずは最初にRubyを勉強しよう\n\nまだ全くRubyという言語を使用したことがない人は以下の手順での勉強をオススメします！\n\n\n【STEP1】 progateのRubyコース\n\n最近(2015年2月時点)東大生起業家がリリースしたプログラミング学習サービスprogateのRubyコースをひと通りやりましょう。こちらは短時間でRubyの基礎をコードを書きながら学習できます。解説も丁寧で非常にわかりやすいです！最近リリースされたサービスなのでこれからにも期待ですね！\n\n...",
     "isbn": [
@@ -2068,17 +2068,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc620"
+      "oid": "55268c7cab00d6ca0f3cc620"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3233700643/aad5db70bb3cd6731ad7bff663ba0805_normal.jpeg",
       "name": "shima_x"
     },
     "datePublished": {
-      "$date": "2014-09-15T09:42:51.000Z"
+      "date": "2014-09-15T09:42:51.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.461Z"
+      "date": "2015-04-09T14:28:12.461Z"
     },
     "description": "参考資料に記載した書籍を読んでPythonで作ってみました。\n当初はXBRLファイルから有価証券報告書の項目と数値を取得するところまで書くつもりでしたが、提出者別タクソノミ作成ガイドラインなどを読んで理解しないと難しそうでしたので一旦断念しました。他の優先事項が片付き次第続きを進めたいと思います。\n\n        \n        参考資料\n      \n\n金融データ解析の基礎 (シリーズ Useful R 8)\n\nXBRLについて上の書籍に詳細な記述がありますので、...",
     "isbn": [
@@ -2090,17 +2090,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc621"
+      "oid": "55268c7cab00d6ca0f3cc621"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/53d537ce8737476a009b88b6b1e04a93",
       "name": "isseium"
     },
     "datePublished": {
-      "$date": "2014-09-12T06:08:00.000Z"
+      "date": "2014-09-12T06:08:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.521Z"
+      "date": "2015-04-09T14:28:12.521Z"
     },
     "description": "こんにちは，最近は Titanium 案件をちょこちょこ受託している @isseium です．\nTitanium は，クロスプラットフォームのモバイルアプリ開発ができる開発環境です．\nJavaScript を用いてiOS/Androidなどのモバイルアプリ開発が可能です．\n2010年くらいに日本で一度注目されましたが，現在は 国内だけみれば 下火となっているのが実情です．\nしかし，世界的にみれば進化しています．国内ブームから4年以上経ち，MVCフレームワークができたり，...",
     "isbn": [
@@ -2112,17 +2112,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc622"
+      "oid": "55268c7cab00d6ca0f3cc622"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/afc8687d0f839a61d3fafa9b38adb885?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "sky_y"
     },
     "datePublished": {
-      "$date": "2014-03-07T08:45:01.000Z"
+      "date": "2014-03-07T08:45:01.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.619Z"
+      "date": "2015-04-09T14:28:12.619Z"
     },
     "description": "あるデータ解析ワークショップのために、初めてデータ解析でプログラミングをする人のための本を紹介します。\n\n        \n        Python編\n      Python自体が初めての人は、これを片手にサンプルを動かしてみるとよいかもしれません。\n\n\nみんなのPython 第3版\n\nデータ解析に必要なライブラリ(NumPy, matplotlib, pandasなど)は、以下の本1冊にまとまっています。\n\n\nPythonによるデータ分析入門 ―NumPy、pa...",
     "isbn": [
@@ -2136,17 +2136,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7cab00d6ca0f3cc623"
+      "oid": "55268c7cab00d6ca0f3cc623"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/1837109?v=3",
       "name": "ggggnonaka"
     },
     "datePublished": {
-      "$date": "2015-01-04T23:34:35.000Z"
+      "date": "2015-01-04T23:34:35.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:12.895Z"
+      "date": "2015-04-09T14:28:12.895Z"
     },
     "description": "\n環境構築にあたり考慮すべきこと\n\n色んなデバイス上で、色んなプログラムが必要なのです。\nメモリをシビアに使うプログラムもあれば、大型のプログラムもあります。\nいずれにしろ、ｃが書けないと辛いです。\nLinux環境は必須。\nWin環境も理解しておくほうが良いでしょう。\n最強の環境はMacだと思うけど、「自分で購入すべし」。\n\n\n構築順\n\n\n１．bcc32\n\nまずは、bcc32を実現。\nプログラム出来るようにはなります。\n\n\n２．VmwarePlayer\n\n仮想環境であれ...",
     "isbn": [
@@ -2158,17 +2158,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7dab00d6ca0f3cc624"
+      "oid": "55268c7dab00d6ca0f3cc624"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1084405786/hoxo_m2_normal.png",
       "name": "hoxo_m"
     },
     "datePublished": {
-      "$date": "2014-10-24T14:01:28.000Z"
+      "date": "2014-10-24T14:01:28.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:13.203Z"
+      "date": "2015-04-09T14:28:13.203Z"
     },
     "description": "書籍『手を動かしながら学ぶ ビジネスに活かすデータマイニング』を読んで見つけた誤植をまとめます。\n\n本家サポートサイトの誤植一覧にはまだ載っていないものです。\n\n\np011\n右下あたり。「データ現場」→「データ分析の現場」とか？\np015\n補足*11 の「奇数個」は「偶数個」の間違い\np043\n最初の文章の「つなげます」→「使います」\np043\n「cbind はマトリクスでもデータフレームでも使えますが、rbind はマトリクスでしか使えない」→ 使えます\np106\nロ...",
     "isbn": [
@@ -2180,17 +2180,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7dab00d6ca0f3cc625"
+      "oid": "55268c7dab00d6ca0f3cc625"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/94e63e736a80c35e0779c25e5e1bc37c?d=https%3A%2F%2Fidenticons.github.com%2F4ac9cacbe14a9a9ce7d1fe745b02b2d4.png&amp;r=x",
       "name": "ynakayama"
     },
     "datePublished": {
-      "$date": "2014-09-03T10:46:36.000Z"
+      "date": "2014-09-03T10:46:36.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:13.532Z"
+      "date": "2015-04-09T14:28:13.532Z"
     },
     "description": "本日は R によるやさしい統計学の第 10 章「外れ値が相関係数に及ぼす影響」の内容を参考に pandas でデータの相関関係を調べながら外れ値を取り除いていく方法を説明します。元の書籍では R を利用していますが pandas を使えばその代替として Python においてもデータフレームを利用した分析を簡単におこなうことができます。\n\n        \n        動物の体重と脳の重さを調べる\n      元の書籍の通り動物の体重と重さに関するデータを利用します...",
     "isbn": [
@@ -2202,17 +2202,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7dab00d6ca0f3cc626"
+      "oid": "55268c7dab00d6ca0f3cc626"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/94e63e736a80c35e0779c25e5e1bc37c?d=https%3A%2F%2Fidenticons.github.com%2F4ac9cacbe14a9a9ce7d1fe745b02b2d4.png&amp;r=x",
       "name": "ynakayama"
     },
     "datePublished": {
-      "$date": "2014-04-08T08:38:33.000Z"
+      "date": "2014-04-08T08:38:33.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:13.648Z"
+      "date": "2015-04-09T14:28:13.648Z"
     },
     "description": "本日は少し趣向を変えて、機械学習や統計に関する情報収集源についてまとめてみたいと思います。\n\n        \n        機械学習\n      機械学習界隈の情報収集方法\nhttp://d.hatena.ne.jp/kisa12012/20131215/1387082769\nいきなりですが上記の記事に機械学習に関する有力な情報源がまとまっています。まずはここを参考にするのが良いかと思います。ただ情報が多すぎですので、筆者は Wikicfp と arXiv.org ...",
     "isbn": [
@@ -2231,17 +2231,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7eab00d6ca0f3cc627"
+      "oid": "55268c7eab00d6ca0f3cc627"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/cb2751c41907263447b21724d08f8476?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "YuichiSato"
     },
     "datePublished": {
-      "$date": "2015-04-05T16:01:51.000Z"
+      "date": "2015-04-05T16:01:51.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:14.095Z"
+      "date": "2015-04-09T14:28:14.095Z"
     },
     "description": "\n教養としての仏教\n\n　最近は、一般教養(リベラルアーツ)の重要性が見直されてきているようです。一般教養といっても、読み書きそろばんを含めて非常に範囲が広いですが、それらの土台になる人としての道徳や良く生きるための力を大事にしたいものです。それには初期仏教の教えがうってつけです。\n\n\n(初期)仏教は信仰の邪魔にならない\n\n　現在でこそ仏教は宗教にカテゴライズされていますが、元々は単なる教えなので宗教的な信仰とは関係ありません。ブッダも「あなた方の(元々の信仰の)修行が終...",
     "isbn": [
@@ -2258,17 +2258,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7eab00d6ca0f3cc628"
+      "oid": "55268c7eab00d6ca0f3cc628"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2013-02-20T21:31:10.000Z"
+      "date": "2013-02-20T21:31:10.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:14.166Z"
+      "date": "2015-04-09T14:28:14.166Z"
     },
     "description": "Audio Unit は、iOS の Core Audio においてもっとも低レベル（ハードウェアより）に位置するフレームワークです。そのため低レイテンシを要求されるオーディオ処理機能を提供するアプリに向いています。\n\n「ユニットをつなげて複雑なオーディオ処理を実現する」というしくみ（AUGraph）を持っており、まるでギターのエフェクターをつないで音をつくるようにユニット同士を結合できて、実装していて楽しいフレームワークでもあります。\n\nただ API は全部 C ベー...",
     "isbn": [
@@ -2282,17 +2282,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7eab00d6ca0f3cc629"
+      "oid": "55268c7eab00d6ca0f3cc629"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1229469817/______normal.jpeg",
       "name": "edo_m18"
     },
     "datePublished": {
-      "$date": "2014-02-25T07:38:50.000Z"
+      "date": "2014-02-25T07:38:50.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:14.257Z"
+      "date": "2015-04-09T14:28:14.257Z"
     },
     "description": "エキスパート Objective-C プログラミング書籍の中でARC有効時にコンパイラがどういうコードを想定するか、擬似コードで紹介してくれています。\nARC有効時の各種修飾子がどうなるのか、見ておくと変なところではまらずに済むと思います。\nいくつか大事な部分を抜粋、紹介させてもらいます。\n\n        \n        __strong修飾子\n      \n        \n        alloc / new / copy / mutableCopy系\n   ...",
     "isbn": [
@@ -2304,17 +2304,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7eab00d6ca0f3cc62a"
+      "oid": "55268c7eab00d6ca0f3cc62a"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/f6d8c535c563f92f0b5ffb7ed1ad7191?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "nnabeyang"
     },
     "datePublished": {
-      "$date": "2014-07-20T07:11:28.000Z"
+      "date": "2014-07-20T07:11:28.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:14.759Z"
+      "date": "2015-04-09T14:28:14.759Z"
     },
     "description": "この文章は書籍『アルゴリズムパズル』の問37の解答を作るために書いたノートの一部です。\n整数$n &amp;gt; 1$は、2以上の偶数または奇数である。nが偶数、奇数のいずれの場合にも条件を満たす貨幣の配位を作り出す方法を示せば、それが問題の解答になる。\nまずは2以上の偶数の場合の貨幣の配位の作り方を考える。$n$を1以上の整数$k$を使って$n=2k$であらわし、このときの貨幣の配位を$\\Omega_{2k}$と書くことにする。\n\n$\\Omega_{2k}$は、上の図のよう...",
     "isbn": [
@@ -2326,17 +2326,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7eab00d6ca0f3cc62b"
+      "oid": "55268c7eab00d6ca0f3cc62b"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3023290867/177ea10649ac257cf118d81ac3329f7b_normal.jpeg",
       "name": "kokoro3da"
     },
     "datePublished": {
-      "$date": "2014-11-20T13:52:32.000Z"
+      "date": "2014-11-20T13:52:32.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:14.762Z"
+      "date": "2015-04-09T14:28:14.762Z"
     },
     "description": "\n2014_11_17業務内容とMemo\n\n\n業務内容\n\n\n重複管理チェックソフト作成\n\n\n詳細　　　　　：google apps scriptで作った\n学んだ事　　　：google apps script\n次に活かせる事：不明（やっぱり、IT系って効率的な構築やルールを守ると言う考え方大事、そしてユーザーとの意思疎通。何か作ってる途中に、こうすれば良いのにって、思ってしまう。）\n\n\n\n\n\nMemo\n\n\n作るにあたって参考にしたサイト\n\n正規表現\ngoogle API\n...",
     "isbn": [
@@ -2348,17 +2348,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7eab00d6ca0f3cc62c"
+      "oid": "55268c7eab00d6ca0f3cc62c"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2014-12-04T02:25:30.000Z"
+      "date": "2014-12-04T02:25:30.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:14.812Z"
+      "date": "2015-04-09T14:28:14.812Z"
     },
     "description": "iOSでBLEを利用するアプリを開発していると、「スキャンで見つからない」「つながらない」といった場面はよく出てきますし、相手が新規開発デバイスだとそちらを疑いたくなることもあるわけですが、iOS側での「あるある」な実装ミスや勘違い というのも多くあります。\n\nそんなよくあるトラブル、その解決のためのチェックポイント等をまとめました。\n\n実際に開発をしていく中で書きためてきたものなので、かなり実践的な内容になっているかと思います。\n\n\n（本題に入る前に・・・）\n\nこのト...",
     "isbn": [
@@ -2370,17 +2370,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7eab00d6ca0f3cc62d"
+      "oid": "55268c7eab00d6ca0f3cc62d"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/b01d8a535840a9fb71bb005b3a021e97?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "ryot_a"
     },
     "datePublished": {
-      "$date": "2015-03-01T08:14:29.000Z"
+      "date": "2015-03-01T08:14:29.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:14.852Z"
+      "date": "2015-04-09T14:28:14.852Z"
     },
     "description": "SQLのことを（本当に）全く知らない初心者が、BigQueryのクエリをたたいてデータを取得するために学習したこと。\n\n\nBigQueryを使ったことがない場合\nbigquery - Big Queryの使い方を10分で試してみる - Qiita\n\n\n\n\nまずはSQLの入門書\n\n書籍かWebか、どちらでもよかったけど、よさそうな入門書があったので、今回は書籍を利用。\n\n\n読んだ本\nSQL ゼロからはじめるデータベース操作\n\n選定の参考にしたブログ\nSQLアンチパターン読...",
     "isbn": [
@@ -2392,17 +2392,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7eab00d6ca0f3cc62e"
+      "oid": "55268c7eab00d6ca0f3cc62e"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/2611710629/oxg8dh0ddblczukz55l4_normal.jpeg",
       "name": "sorami"
     },
     "datePublished": {
-      "$date": "2014-12-22T14:43:08.000Z"
+      "date": "2014-12-22T14:43:08.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:14.966Z"
+      "date": "2015-04-09T14:28:14.966Z"
     },
     "description": "こんばんは、先日行われた会社の忘年会にて、Juliaを使ったビンゴ大会を開催し失笑を買った（？）@soramiです。Julia Advent Calendarの12/19担当予定でしたが、12/22までずれ込んでしまいました、すいません。。\n\nさて、私は先日「データサイエンティスト養成読本 R活用編」という書籍に、Juliaについて少々書かせていただきました。まだまだJuliaの情報が少ない世の中ですが、これ以外にもいくつか紙のメディアにJuliaについての情報がありま...",
     "isbn": [
@@ -2415,17 +2415,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7fab00d6ca0f3cc62f"
+      "oid": "55268c7fab00d6ca0f3cc62f"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/94e63e736a80c35e0779c25e5e1bc37c?d=https%3A%2F%2Fidenticons.github.com%2F4ac9cacbe14a9a9ce7d1fe745b02b2d4.png&amp;r=x",
       "name": "ynakayama"
     },
     "datePublished": {
-      "$date": "2015-02-13T08:21:16.000Z"
+      "date": "2015-02-13T08:21:16.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:15.230Z"
+      "date": "2015-04-09T14:28:15.230Z"
     },
     "description": "統計学の代表的な手法について、人気書籍「統計学が最強の学問である実践編」に掲載されている一般化線形モデルをまとめた一枚の表を最初に掲げひとつひとつ多変量解析の手法を追ってきました。今回は実際のデータを分析していくにあたり留意すべき事項をまとめます。このあたり上記書籍からの引用抜粋を含みます。\n\n\nビジネスにおける分析の手順\n\n今まで説明したとおり\n* 量的なアウトカムに対しては重回帰分析\n* 質的なアウトカムに対してはロジスティック回帰\nをおこなうことでどんなアウトカム...",
     "isbn": [
@@ -2437,17 +2437,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7fab00d6ca0f3cc630"
+      "oid": "55268c7fab00d6ca0f3cc630"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/c28169132d8ca79d02657371748e5e46",
       "name": "mnb"
     },
     "datePublished": {
-      "$date": "2014-02-28T13:31:53.000Z"
+      "date": "2014-02-28T13:31:53.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:15.580Z"
+      "date": "2015-04-09T14:28:15.580Z"
     },
     "description": "最初はAIのKnowledge Engineerを志したLisperが、流れ流れてITの中の人になりました。\n開発サーバ類を中心に担当してきたので、ネットワーク正直弱いんですが、そうも言ってられない状況で、即効性第一で勉強しなおします！\n理論よりも、一刻も早く動かさないとつまらない性分なので、ひたすら何か動かし続けながら、目指すはSDNの世界。ちょっとはましなサーバサイドプログラミングの知識を使ってネットワークを、まぁいつかは制御できるように頑張っていきたいと思います。...",
     "isbn": [
@@ -2459,17 +2459,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7fab00d6ca0f3cc631"
+      "oid": "55268c7fab00d6ca0f3cc631"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/6377451175704e2d367ce508bffc1fa5?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "ongaeshi"
     },
     "datePublished": {
-      "$date": "2012-05-13T15:40:58.000Z"
+      "date": "2012-05-13T15:40:58.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:15.683Z"
+      "date": "2015-04-09T14:28:15.683Z"
     },
     "description": "他にあれば是非とも知りたいです。 ※ 随時更新中！！\n\n便利な Emacs Lisp を探す\n\n\nEmacs Lisp を簡単にインストールするための package.el &amp;amp; MELPA\n\n\npackage.el : Emacs24で標準搭載予定のパッケージ管理スクリプト\nMELPA : パッケージレポジトリの一つ、github管理\n\nEmacsWiki: Site Map\n\n\nauto-intall.el 経由で直接インストール可能なwikiサイト\n\nEma...",
     "isbn": [
@@ -2483,17 +2483,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7fab00d6ca0f3cc632"
+      "oid": "55268c7fab00d6ca0f3cc632"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/518237810801651712/NuMGbYbK_normal.png",
       "name": "yimajo"
     },
     "datePublished": {
-      "$date": "2014-12-23T05:13:11.000Z"
+      "date": "2014-12-23T05:13:11.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:15.685Z"
+      "date": "2015-04-09T14:28:15.685Z"
     },
     "description": "この記事はSwift-2 Advent Calendar 2014の23日目。Swift本を紹介しようと思ったら他にも色々書いてしまった。\n\n\nSwiftで関数型プログラミング\n\n原題Functional Programming in Swift。ベストプラクティスを追い求めてるobjc.ioの人たちが書いた本。ebooks版（PDF, ePub）が安く、なんとダウンロードしたサンプルコードがPlaygroundsで実行できる。\n\nhttp://www.objc.io/...",
     "isbn": [
@@ -2507,17 +2507,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7fab00d6ca0f3cc633"
+      "oid": "55268c7fab00d6ca0f3cc633"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/94e63e736a80c35e0779c25e5e1bc37c?d=https%3A%2F%2Fidenticons.github.com%2F4ac9cacbe14a9a9ce7d1fe745b02b2d4.png&amp;r=x",
       "name": "ynakayama"
     },
     "datePublished": {
-      "$date": "2014-03-03T02:22:48.000Z"
+      "date": "2014-03-03T02:22:48.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:15.772Z"
+      "date": "2015-04-09T14:28:15.772Z"
     },
     "description": "本日はさらに根本的な議論に立ち返り、統計のウソを見破るための視点について記したいと思います。\n世の中には何らかの意図に基づいて歪められたデータ、あるいは悪意はなくとも失敗しているデータ、これらを可視化したグラフが散見されます。\n素人が統計学者や経済学者などの専門家の調査結果を正確に検証することができるわけではありません。しかしこのようなときに忘れずに疑問を持つことで検証可能性を探ることはでき、また答えが分かれば歪みを看破することができます。\n\n        \n    ...",
     "isbn": [
@@ -2529,17 +2529,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7fab00d6ca0f3cc634"
+      "oid": "55268c7fab00d6ca0f3cc634"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/410803?v=3",
       "name": "yanap"
     },
     "datePublished": {
-      "$date": "2014-04-04T02:33:14.000Z"
+      "date": "2014-04-04T02:33:14.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:15.777Z"
+      "date": "2015-04-09T14:28:15.777Z"
     },
     "description": "\n        \n        コードレビュー\n      コードレビューについてのメモ\n\n        \n        コードレビューについて\n      \n        \n        メリット\n      悪い兆候のあるコードに対する抑止力になり、「動けばよい」という妥協を封じ込める\n教育的な効果\nコードを共有することで、一人が死んでも大丈夫的な効果\nコミュニケーション的な効果\n\n        \n        デメリット\n      コードレビュー...",
     "isbn": [
@@ -2551,17 +2551,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c7fab00d6ca0f3cc635"
+      "oid": "55268c7fab00d6ca0f3cc635"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/8c1ecc738eee0254a41c2d4b33cda7b6?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "tanakahisateru"
     },
     "datePublished": {
-      "$date": "2012-12-01T16:04:53.000Z"
+      "date": "2012-12-01T16:04:53.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:15.863Z"
+      "date": "2015-04-09T14:28:15.863Z"
     },
     "description": "注目度ナンバーワンのフレームワークYiiですが、日本語の書籍が全くないんですよね。というわけで洋書を買うしかないんですが、なんせ高い、とか、英語読めるのかな、とか、自分が英語で1冊読破できるかわかんないのに高いよ、とか… ありますよね。\n\nさてそこでKindle版ですよ。\n\nYii 1.1 Application Development Cookbook\n\n\n\n\n\n\nAmazon 価格\n新品\n中古品\n\n\n\nKindle 版\n￥1,527\n--\n--\n\n\nペーパーバック\n...",
     "isbn": [
@@ -2574,17 +2574,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c80ab00d6ca0f3cc636"
+      "oid": "55268c80ab00d6ca0f3cc636"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/ba111671b9d4dbdb9eff02471c361827",
       "name": "taiyop"
     },
     "datePublished": {
-      "$date": "2014-12-25T12:53:29.000Z"
+      "date": "2014-12-25T12:53:29.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:16.108Z"
+      "date": "2015-04-09T14:28:16.108Z"
     },
     "description": "Rubyを勉強する上で役立つ情報源をまとめてみました。まだ仕入れていない情報源があれば価値がある記事なんじゃないかと思います。\n\n\n書籍\n\n\nEveryday Rails - RSpecによるRailsテスト入門\n\n\n\n\nRubyでテストコードを書くときは多くの人がRspecを使っていると思いますが、そのRSpecを学ぶ上で実用的な書き方が学べます。実践で頑強なプログラミングを書けるようになり、チームの人たちも安心して仕事を任せてもらえます。\n\n\nメタプログラミングRu...",
     "isbn": [
@@ -2599,17 +2599,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c80ab00d6ca0f3cc637"
+      "oid": "55268c80ab00d6ca0f3cc637"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/585471059455008768/Gykwln7q_normal.png",
       "name": "tbpgr"
     },
     "datePublished": {
-      "$date": "2014-11-30T12:42:49.000Z"
+      "date": "2014-11-30T12:42:49.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:16.152Z"
+      "date": "2015-04-09T14:28:16.152Z"
     },
     "description": "\nGitHub Pages の User site で 個人ポータル作成のススメ。情熱プログラマ Chad Fowler 先生曰く「自分のブランドを築こう」  #github\n\n\n 概要\n\nGitHub Pages の User site で 個人ポータル作成について。\n\n\n なぜ個人ポータルを作るか？\n\n2つの理由を挙げます。\n\n\n 自分のブランドを築く\n\n情熱プログラマ Chad Fowler 先生曰く\n\n\nマーケティングはスーツ族だけのものではない\n自分の業績をア...",
     "isbn": [
@@ -2621,17 +2621,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c80ab00d6ca0f3cc638"
+      "oid": "55268c80ab00d6ca0f3cc638"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/ecf25cf33416d8d205f303a2ffdec878?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "yamazaki"
     },
     "datePublished": {
-      "$date": "2014-12-31T02:57:27.000Z"
+      "date": "2014-12-31T02:57:27.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:16.185Z"
+      "date": "2015-04-09T14:28:16.185Z"
     },
     "description": "SPA(Single Page Application)を実現する技術は、昔だとFlash, さらに昔であればJavaアプレットやActiveX?とかもありそうだけど、まぁー、今ならJavaScriptでゴリゴリという感じなのかな... HTML5とか、CSS3なんかもわかっていないといけなさそうな...\n\nということで、このエントリーでは、最近のトレンドを追いつつ、技術要素の下調べをして、採用する技術の目星をつけたいと考えています。\n\n関連する書籍も、最近の技術を踏ま...",
     "isbn": [
@@ -2645,17 +2645,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c80ab00d6ca0f3cc639"
+      "oid": "55268c80ab00d6ca0f3cc639"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/2615719483/0ycofp2vu7wpr7uelrmk_normal.jpeg",
       "name": "tadfmac"
     },
     "datePublished": {
-      "$date": "2014-08-13T16:04:50.000Z"
+      "date": "2014-08-13T16:04:50.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:16.335Z"
+      "date": "2015-04-09T14:28:16.335Z"
     },
     "description": "Raspberry Piを使って音を出したい。\nどんな手があるのか、ぐーぐる先生に聞いてメモ。(随時追加します）\n\n\nこんなんあるよー！と、どんどん教えて頂けたら嬉しい！\n\n\n        \n        やりたいこと\n      \n\nWAVとかを再生したい。ただし普通に再生するんじゃなくて、速さを自由に変えたり巻き戻し再生みたいなのもやりたい。\nルーパー\nエフェクト処理\nマイクから録音\nスピーカーから鳴らす\nシンセ\n\nなどをプログラミング、組み合わせて変態音楽に使...",
     "isbn": [
@@ -2668,17 +2668,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c80ab00d6ca0f3cc63a"
+      "oid": "55268c80ab00d6ca0f3cc63a"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/6157540?",
       "name": "hkusu"
     },
     "datePublished": {
-      "$date": "2014-10-02T04:00:36.000Z"
+      "date": "2014-10-02T04:00:36.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:16.500Z"
+      "date": "2015-04-09T14:28:16.500Z"
     },
     "description": "\n        \n        はじめに\n      AngularJS の学習を始める場合、書籍やネットを読むだけだとなかなか頭に入りません。なので、手元で動かしてみるのが良いかと思いますが、その際は AngularJS を動作させる環境を構築する必要があります。\n\n\n単純にJavaScirptライブラリをダウンロードして利用したり、CDNから読み込んでもいいのですが、それだとパッケージ管理やコンパイル、ビルド、テストなど、昨今のフロントエンド周辺環境は別に用意す...",
     "isbn": [
@@ -2692,17 +2692,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c80ab00d6ca0f3cc63b"
+      "oid": "55268c80ab00d6ca0f3cc63b"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2014-02-04T11:53:49.000Z"
+      "date": "2014-02-04T11:53:49.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:16.615Z"
+      "date": "2015-04-09T14:28:16.615Z"
     },
     "description": "iPhone5sだけのスペシャルな機能として、秒間120コマでの高速撮影 があり、標準カメラアプリではこれを利用した スローモーション動画撮影機能 が可能となっています。\n\nこれに類する機能をAVFoundationで実装できないかやってみたところ、うまくいったので、その方法を紹介します。\n\n        \n        できたもの\n      サンプルアプリをGitHubにアップしております。\n\n\nshu223/SlowMotionVideoRecorder\n\n\n...",
     "isbn": [
@@ -2714,17 +2714,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c80ab00d6ca0f3cc63c"
+      "oid": "55268c80ab00d6ca0f3cc63c"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/fd0709fd9b1aab4e87915dfbe2e0e043?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "laprasDrum"
     },
     "datePublished": {
-      "$date": "2013-09-01T14:21:21.000Z"
+      "date": "2013-09-01T14:21:21.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:16.617Z"
+      "date": "2015-04-09T14:28:16.617Z"
     },
     "description": "参考書籍を読みつつOpenCVをインストールするまでのメモ。\n今回はHomebrewからパッケージをインストールするだけの簡単なお仕事…でもなかったので書籍になかったつまづきポイントをまとめてます。\n\n        \n        環境\n      MacBook Air Mid 2012\nOS X Mountain Lion 10.8.4\nCore i5 1.8GHz\n8GB RAM\n\n        \n        Homebrewのセットアップ\n      ...",
     "isbn": [
@@ -2736,17 +2736,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c81ab00d6ca0f3cc63d"
+      "oid": "55268c81ab00d6ca0f3cc63d"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/800b7c16e9dfbec1bdc06045f9db20ee",
       "name": "mrk_21"
     },
     "datePublished": {
-      "$date": "2014-12-26T20:10:26.000Z"
+      "date": "2014-12-26T20:10:26.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:17.230Z"
+      "date": "2015-04-09T14:28:17.230Z"
     },
     "description": "\nはじめに\n\nみなさん、こんにちは。CMake Advent Caldendar 2014 もついに最終日となりました。最後は、CMake に関する情報を集める上で、どこを見たらいいのか、などについて書いていきます。また、CMake 3.1.0 での変更点についても触れます。\n\n\n情報源\n\nCMake は、英語圏を含めてもWeb・書籍ともにまとまった情報が少ないです。ここでは、CMake のまとまった情報が載っているものを記します。\n\n\nWeb\n\n基本的に、公式リファレ...",
     "isbn": [
@@ -2758,17 +2758,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c81ab00d6ca0f3cc63e"
+      "oid": "55268c81ab00d6ca0f3cc63e"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/491205151521128448/6Oh-TyIK_normal.jpeg",
       "name": "maccotsan"
     },
     "datePublished": {
-      "$date": "2014-03-06T17:15:10.000Z"
+      "date": "2014-03-06T17:15:10.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:17.620Z"
+      "date": "2015-04-09T14:28:17.620Z"
     },
     "description": "\n        \n        命名\n      \n        \n        省略のコツ\n      \n\n先頭の数文字以外削除 (Separetors -&amp;gt; Seps）\ningの削除 (Grouping -&amp;gt; Group）\n単語の削除 (formattedConsumptionTax -&amp;gt; formattedTax)\n母音を削除 (image -&amp;gt; img)\n強い音以外削除 (server -&amp;gt; svr)\n汎用略語 (datab...",
     "isbn": [
@@ -2780,17 +2780,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c81ab00d6ca0f3cc63f"
+      "oid": "55268c81ab00d6ca0f3cc63f"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/9555fbf374ee71fd7f62e4a5f17d10b5",
       "name": "hp0me"
     },
     "datePublished": {
-      "$date": "2015-01-03T14:30:46.000Z"
+      "date": "2015-01-03T14:30:46.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:17.971Z"
+      "date": "2015-04-09T14:28:17.971Z"
     },
     "description": "ゲームといえば弾撃ちかな！ってことで、\nUnityとかCCActionとかいろんな便利なAPIに頼り切りな昨今、あらためて低レイヤーで汎用的な弾幕の打ち方を学んでいきます。\n最後にvxとvyを各々エンジンのupdate関数に組み込めば動きます。\n\n\n距離系\n\n2点間の距離の差をもとにした弾撃ちです。\n2点間の距離は、平方根を利用して出します。\n具体的には「(AX - BX)の2乗  + (AY - BY)の2乗」の平方根が距離\n\nもっと知るなら「2点間の距離の公式」\n三...",
     "isbn": [
@@ -2802,17 +2802,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c82ab00d6ca0f3cc640"
+      "oid": "55268c82ab00d6ca0f3cc640"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/3990943?v=2",
       "name": "hirayaCM"
     },
     "datePublished": {
-      "$date": "2013-12-28T11:57:29.000Z"
+      "date": "2013-12-28T11:57:29.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:18.043Z"
+      "date": "2015-04-09T14:28:18.043Z"
     },
     "description": "\n        \n        フラットデザインを読み解く\n      \n        \n        スキュアモーフィズム\n      \n        \n        定義\n      機能的に必要であるないに関わらず、似たような人工物・工芸品・芸術品からコピーされたデザイン。\n\n\n革の重厚感、ガラスの透明感、金属の光沢感\n紙を千切ったあとのようなデザイン\nカメラのレンズの光沢\n\n\n        \n        メリット&amp;amp;デメリット\n     ...",
     "isbn": [
@@ -2829,17 +2829,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c82ab00d6ca0f3cc641"
+      "oid": "55268c82ab00d6ca0f3cc641"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/5eaec5bc3525d72a8d900524c8dedc51?d=https%3A%2F%2Fidenticons.github.com%2F8ba4d08971194619ba1c7867f750d105.png&amp;r=x",
       "name": "nushio"
     },
     "datePublished": {
-      "$date": "2014-12-05T05:46:22.000Z"
+      "date": "2014-12-05T05:46:22.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:18.145Z"
+      "date": "2015-04-09T14:28:18.145Z"
     },
     "description": "とりあえず読んでみたい、という方は：「ニューラルネットワークと深層学習」日本語訳のページをご覧ください。\n\n\nDeep Learningってのがマジヤバイらしい・・・でも、取っかかりがつかめない・・・\n\nここ最近、Deep Learningの盛り上がりが凄いですね。私の中でも、深層学習を覚えなきゃ、置いてかれてしまい、ついには自分の仕事までAIに奪われるのでは、という危機感と、逆に今Deep Learningを使えるようになれば未来の発明者になれるのでは、という期待感が...",
     "isbn": [
@@ -2852,17 +2852,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c82ab00d6ca0f3cc642"
+      "oid": "55268c82ab00d6ca0f3cc642"
     },
     "author": {
       "imageUrl": "https://1.gravatar.com/avatar/a8df61f7319d2c1b4359657b3204ca85?d=https%3A%2F%2Fidenticons.github.com%2F639ce56057b6a3f2ed16a94c665dc9f9.png",
       "name": "zoetro"
     },
     "datePublished": {
-      "$date": "2014-08-28T16:03:01.000Z"
+      "date": "2014-08-28T16:03:01.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:18.207Z"
+      "date": "2015-04-09T14:28:18.207Z"
     },
     "description": "最近、AngularJSリファレンスという書籍を書いていたのですが、紙面や時間の都合上書けなかったこともたくさんありました。\nというわけで、書籍に書ききれなかった内容を落ち穂拾い的に紹介していきたいと思います。\n今回はangular-hintというツールを紹介します。\n\n\nhttps://github.com/angular/angular-hint\n\nこれは、Angularチームの1人が開発しているツールで、AngularJSを使って開発したアプリケーションに組み込ん...",
     "isbn": [
@@ -2874,17 +2874,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c82ab00d6ca0f3cc643"
+      "oid": "55268c82ab00d6ca0f3cc643"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/378800000408964486/fbc730498806ec45d2ea07bfb6f79949_normal.jpeg",
       "name": "ikawaha"
     },
     "datePublished": {
-      "$date": "2014-06-05T01:46:19.000Z"
+      "date": "2014-06-05T01:46:19.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:18.416Z"
+      "date": "2015-04-09T14:28:18.416Z"
     },
     "description": "\n        \n        概要\n      キーワードマッチするのに必要になったので作ってみました．\n\n        \n        コード\n      凝ったことは特にしていません．素朴な実装です．\n構築は静的におこないます．一旦ダブル配列を作ったらキーワードの追加は出来ません．\nキーワードリストを与えると，それらをソートして 0 から順に id を振って，検索時にこの id を返します．\nhttps://github.com/ikawaha/trie\n...",
     "isbn": [
@@ -2896,17 +2896,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c82ab00d6ca0f3cc644"
+      "oid": "55268c82ab00d6ca0f3cc644"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/2c16a379496dd53fa84953c1484e0aaa?d=https%3A%2F%2Fidenticons.github.com%2F98632c7600d56a9c865430bd604e4d75.png",
       "name": "k-motoyan"
     },
     "datePublished": {
-      "$date": "2014-08-04T16:57:53.000Z"
+      "date": "2014-08-04T16:57:53.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:18.462Z"
+      "date": "2015-04-09T14:28:18.462Z"
     },
     "description": "地獄を見た私のような犠牲者を出さないためにも手順とか気をつけることをまとめておく。\n\n        \n        python本体のインストール\n      公式サイトからインストーラをダウンロードしてインストールしましょう。\n普通にインストールする C:\\Python34でインストールされるので、ここにパスを通しておくこと。\nhttps://www.python.org/downloads/\n\n        \n        vertualenvのインストール...",
     "isbn": [
@@ -2918,17 +2918,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c82ab00d6ca0f3cc645"
+      "oid": "55268c82ab00d6ca0f3cc645"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/534004361433591808/8So_orc4_normal.jpeg",
       "name": "takehiro_t59"
     },
     "datePublished": {
-      "$date": "2014-09-15T20:38:53.000Z"
+      "date": "2014-09-15T20:38:53.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:18.572Z"
+      "date": "2015-04-09T14:28:18.572Z"
     },
     "description": "RailsによるアジャイルWebアプリケーション開発第4版\nこの書籍で勉強を行っているのだが、書かれた時期が2011年で、Railsのバージョンが3である。なので、現在のRails4で開発していたのだが、Modelのバリデーションでの正規表現を書いている際、以下のエラーが出現\n\nThe provided regular expression is using multiline anchors (^ or $), which may present a security...",
     "isbn": [
@@ -2940,17 +2940,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c82ab00d6ca0f3cc646"
+      "oid": "55268c82ab00d6ca0f3cc646"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2015-03-11T11:09:59.000Z"
+      "date": "2015-03-11T11:09:59.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:18.962Z"
+      "date": "2015-04-09T14:28:18.962Z"
     },
     "description": "iOSデバイスのうち、BLE（Bluetooth Low Energy）をサポートしているデバイスは iPhone でいえば 4s 以降、というのは頭に入ってるものの、iPad や iPod touch のことはよく知らないので、整理してみました。\n\n\n    \n        \n        対応\n        非対応\n    \n    \n        iPhone\n        - iPhone 4s- iPhone 5- iPhone 5c- iPhone...",
     "isbn": [
@@ -2962,17 +2962,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c83ab00d6ca0f3cc647"
+      "oid": "55268c83ab00d6ca0f3cc647"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1195685078/suruga02_normal.jpg",
       "name": "R_Asa"
     },
     "datePublished": {
-      "$date": "2015-01-15T15:31:39.000Z"
+      "date": "2015-01-15T15:31:39.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:19.160Z"
+      "date": "2015-04-09T14:28:19.160Z"
     },
     "description": "edubase Streamで配信していた、『Coqで学ぶ定理証明入門』を見てみたのでそのメモ。\n\n\n概要\n\n講師がCoqを使って簡単な例題を解きながら操作を説明し、\nそれにあわせて実際に手を動かしながら操作を体験することでCoqの使い方を学べる。\n演習もあるので、説明を受けた操作をどう組み合わせるかなーといったことを考えながら試行錯誤できる。\n\n定理証明を進めるためのツールとしてCoqの使い方に慣れましょう、という内容なので、\n定理証明を学習するという目的には適してい...",
     "isbn": [
@@ -2984,17 +2984,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c83ab00d6ca0f3cc648"
+      "oid": "55268c83ab00d6ca0f3cc648"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/7435505?v=2",
       "name": "norotime"
     },
     "datePublished": {
-      "$date": "2014-10-04T04:49:15.000Z"
+      "date": "2014-10-04T04:49:15.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:19.309Z"
+      "date": "2015-04-09T14:28:19.309Z"
     },
     "description": "\n        \n        お名前ドットコムでドメインを取得してから設定する手順です。\n      \n        \n        ①ネームサーバを設定する。\n      1.ドメインNAVIを開く。\nhttps://www.onamae.com/domain/navi/domain\n2.DNS関連機能設定を押下して一覧を表示する。\n3.対象の内部ドメインを選択して「次へ進む」を押下する。\n4.DNSレコード設定を利用するの「設定する」を押下する。\n5.入力...",
     "isbn": [
@@ -3006,17 +3006,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c83ab00d6ca0f3cc649"
+      "oid": "55268c83ab00d6ca0f3cc649"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/40377952/9045_1164205318_1__normal.jpg",
       "name": "fslasht"
     },
     "datePublished": {
-      "$date": "2014-04-19T13:29:17.000Z"
+      "date": "2014-04-19T13:29:17.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:19.528Z"
+      "date": "2015-04-09T14:28:19.528Z"
     },
     "description": "\nlibGDXは、マルチプラットフォーム（Andoird,iOS,Windows,OS X,Linux）対応のゲームエンジンです。\n2Dゲーム制作でよく利用されています。\n使用言語はJava。Eclipseで開発できます。\n\nAndroidでJavaでゲーム開発したい。\nってときにフレームワークはなにがいいでしょうか。\nC/C++で書くならマルチプラットフォームだしCocos2D-Xがよさそう。\nCodos2D系は情報もおおいし日本語の書籍も多数出版されてますしね。\nた...",
     "isbn": [
@@ -3028,17 +3028,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c83ab00d6ca0f3cc64a"
+      "oid": "55268c83ab00d6ca0f3cc64a"
     },
     "author": {
       "imageUrl": "https://2.gravatar.com/avatar/40961ce2e3a7035867843b520000e5b3?d=https%3A%2F%2Fidenticons.github.com%2F76b9fdeba790feeaa47531117ff0ab60.png",
       "name": "ppworks"
     },
     "datePublished": {
-      "$date": "2012-07-06T04:39:17.000Z"
+      "date": "2012-07-06T04:39:17.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:19.606Z"
+      "date": "2015-04-09T14:28:19.606Z"
     },
     "description": "assets\n\n\niOSでの開発に必要なアセット\n\n\noauth\n\n\nスマートフォン ネイティブアプリからの OAuth 認証についての悩み\n\n\nUIWebView\n\n\nUIWebViewなどで使うクッキーを再起動しても維持する方法\n\n\nenvironment\n\n\nCocoaPods ではじめる Objective-C ライブラリ管理 (1)\n\n\nlibrary\n\n\nAFNetworking\nAsyncImageView\nfacebook-ios-sdk\n\n\nfaceb...",
     "isbn": [
@@ -3057,17 +3057,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c83ab00d6ca0f3cc64b"
+      "oid": "55268c83ab00d6ca0f3cc64b"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/1635576?v=3",
       "name": "yuukigoodman"
     },
     "datePublished": {
-      "$date": "2013-12-14T16:17:15.000Z"
+      "date": "2013-12-14T16:17:15.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:19.977Z"
+      "date": "2015-04-09T14:28:19.977Z"
     },
     "description": "どうしてもMySQLなどメジャーなDBに比べて情報源が少なくなりがちなRiak。\nそんなRiakを知るために有用だと思われる僕の知る限りの情報源を、まとめてみた。\n\n        \n        公式ドキュメント\n      なんといってもこれだ。\n基本中の基本だが、用語説明やコンセプト、応用事例まで幅広く載っている。\nちなみに、ドキュメントの検索機能はYokozunaを使って実現しているらしいので、試してみよう！\n\n        \n        Bashoブロ...",
     "isbn": [
@@ -3079,17 +3079,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c84ab00d6ca0f3cc64c"
+      "oid": "55268c84ab00d6ca0f3cc64c"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/1148320?v=2",
       "name": "jnchito"
     },
     "datePublished": {
-      "$date": "2014-03-21T02:23:50.000Z"
+      "date": "2014-03-21T02:23:50.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:20.074Z"
+      "date": "2015-04-09T14:28:20.074Z"
     },
     "description": "\n        \n        問題: なぜかfailするテスト\n        it &#39;adds comment&#39; do\n    post = Post.create(text: &#39;Hello!&#39;)\n    comment = Comment.new(text: &#39;Hi!&#39;)\n    expect{post.comments &amp;lt;&amp;lt; comment}.to change{post.comments}.from([]).to([comment])\n  en...",
     "isbn": [
@@ -3101,17 +3101,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c84ab00d6ca0f3cc64d"
+      "oid": "55268c84ab00d6ca0f3cc64d"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/404805662/min_x40_mini_normal.png",
       "name": "xtetsuji"
     },
     "datePublished": {
-      "$date": "2013-04-11T14:42:52.000Z"
+      "date": "2013-04-11T14:42:52.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:20.161Z"
+      "date": "2015-04-09T14:28:20.161Z"
     },
     "description": "(興味深い手法があれば随時追加していきます at 2013/04/11)\n\nネットを検索すると、色々な手法が出てきますが、自分としては「WEB+DB PRESS plus 開発ツール徹底攻略」p.71 に載っていた以下の手法がシンプルで良く理解できました。\n\n本家リポジトリの例として、実際にGitHubに存在する練習用リポジトリ git@github.com:DQNEO/Renshu.git を使います\n\nあなた (youraccount) が既にForkしているRen...",
     "isbn": [
@@ -3123,17 +3123,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c84ab00d6ca0f3cc64e"
+      "oid": "55268c84ab00d6ca0f3cc64e"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/ec3aedf8a29bf5f1dcace93eed9f0015?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "satococoa"
     },
     "datePublished": {
-      "$date": "2013-12-01T12:58:17.000Z"
+      "date": "2013-12-01T12:58:17.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:20.193Z"
+      "date": "2015-04-09T14:28:20.193Z"
     },
     "description": "\n        \n        前書き\n      この RubyMotion Advent Calendar 2013 をチェックしている方の中には、サンタさんに RubyMotion のライセンスを頼んでいる方も多いと思います。\n12/25 に、枕元に突然 RubyMotion のライセンスが届いていても慌てないように、どういう順序でどんなドキュメントにあたっていけばスムーズに iOS アプリ開発を学べるのか、を自分の経験からまとめてみます。\n(実際、RubyM...",
     "isbn": [
@@ -3145,17 +3145,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c84ab00d6ca0f3cc64f"
+      "oid": "55268c84ab00d6ca0f3cc64f"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1198353367/photo_normal.gif",
       "name": "tomk79"
     },
     "datePublished": {
-      "$date": "2014-01-01T22:04:44.000Z"
+      "date": "2014-01-01T22:04:44.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:20.345Z"
+      "date": "2015-04-09T14:28:20.345Z"
     },
     "description": "LinuxOSがまるっと動くという小型の基板 Raspberry Pi に興味をひかれ、いじくってみることにしました。これまでに Arduino をさわったことはありましたが、Arduino は Processing ベースの独自言語でプログラムを書きますので、ツッコんだことをやろうとするとややハードルが高いかも知れません。Linux が動くということは、既にあるさまざまなプログラムやリソースが使える、ということだと思うので、期待高し、です。\n初心者なので、書籍『Ras...",
     "isbn": [
@@ -3167,17 +3167,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c84ab00d6ca0f3cc650"
+      "oid": "55268c84ab00d6ca0f3cc650"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1229469817/______normal.jpeg",
       "name": "edo_m18"
     },
     "datePublished": {
-      "$date": "2014-03-17T14:51:36.000Z"
+      "date": "2014-03-17T14:51:36.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:20.415Z"
+      "date": "2015-04-09T14:28:20.415Z"
     },
     "description": "最近、Effective Objective-C 2.0を読んでいます。\n色々オススメされる書籍を読めば読むほど、C言語について理解する必要があるなーと思わされます。\n今回は、Swizzlingを使ったDebug方法です。\nアスペクト指向とか、そのあたりがキーワードですね。\nJavaScriptでも比較的簡単に実装することが出来ますが、Objective-Cでもランタイムを使うことによって実装が可能です。\nざっくり手順。\n\n\nとある実装（メソッド）を置き換えるメソッドを...",
     "isbn": [
@@ -3189,17 +3189,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c84ab00d6ca0f3cc651"
+      "oid": "55268c84ab00d6ca0f3cc651"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2013-01-08T08:08:25.000Z"
+      "date": "2013-01-08T08:08:25.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:20.818Z"
+      "date": "2015-04-09T14:28:20.818Z"
     },
     "description": "「カメラ機能をアプリにつけたいけどシャッター音を鳴らしたくない」とか、「カメラ起動時のアニメーションが嫌だ」とか、カメラ機能をもっと自由にカスタマイズしたい場合は、 UIImagePickerController を使うのではなく AVFoundation フレームワークを使う必要があります。\n\n静止画撮影はデフォルトの挙動としてシャッター音がなってしまうようになっていてそこは変えられないので、動画モードで撮影を開始し、必要なフレームを静止画として取り込むことで「シャッ...",
     "isbn": [
@@ -3211,17 +3211,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c84ab00d6ca0f3cc652"
+      "oid": "55268c84ab00d6ca0f3cc652"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/767656285/kame_normal.png",
       "name": "yohhoy"
     },
     "datePublished": {
-      "$date": "2014-03-24T03:54:33.000Z"
+      "date": "2014-03-24T03:54:33.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:20.869Z"
+      "date": "2015-04-09T14:28:20.869Z"
     },
     "description": "2014/11/11に書籍タイトル&amp;quot;Effective Modern C++, 42 Specific Ways to Improve Your Use of C++11 and C++14&amp;quot;としてeBook版が刊行されたそうです。下記の抄訳Itemと正式版のItemとでは、すこし異なっています。ご注意ください。\n\n\n\nScott Meyers氏のブログ記事Book Report: New Title, New TOC, New Sample Ite...",
     "isbn": [
@@ -3234,17 +3234,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c85ab00d6ca0f3cc653"
+      "oid": "55268c85ab00d6ca0f3cc653"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/6825891?v=2",
       "name": "pollseed"
     },
     "datePublished": {
-      "$date": "2014-09-23T15:04:21.000Z"
+      "date": "2014-09-23T15:04:21.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:21.016Z"
+      "date": "2015-04-09T14:28:21.016Z"
     },
     "description": "\n        \n        0.前提\n      \n\n\n種類\n内容\n\n\n\nOS\nMac OS X 10.9.4\n\n\nRuby\n2.1.1\n\n\nRails\n4.1.2\n\n\n今回、自分のサービスを作る際にグラフなど視覚的に見せたいものがあり、これらを全てD3.jsで描画することにしました。\nなぜD3.jsなのかという話なのですが、まずimgは嫌だったのでjsなどで書きたいのと、リファレンスや書籍などの豊富さから選択しました。\n初心者でもできる簡単なものを参考程度にメ...",
     "isbn": [
@@ -3257,17 +3257,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c85ab00d6ca0f3cc654"
+      "oid": "55268c85ab00d6ca0f3cc654"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/dcf6b3a03ba7a4110705d0847e4fca16?d=https%3A%2F%2Fidenticons.github.com%2Fdba8ff943fc344ffa608c7dad4c1ca0f.png&amp;r=x",
       "name": "ANTON072"
     },
     "datePublished": {
-      "$date": "2014-07-01T15:24:44.000Z"
+      "date": "2014-07-01T15:24:44.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:21.404Z"
+      "date": "2015-04-09T14:28:21.404Z"
     },
     "description": "Androidアプリでも作ってみようかなと思ったので、とりあえずこの書籍を買ってみた。\n\nAndroid StudioではじめるAndroidプログラミング入門\n\nEclipseが大嫌いだったんで二の足を踏んでいたんだけどAndroid Studioがテンションが上がる画面だったので、やってみようかと。その学習メモ。\n\n\nSDK\n\n\n開発に必要なツール類やAndroidの各バージョンのシステムイメージ、エミュレータなどから構成されている。\nSDKはあくまでパッケージであ...",
     "isbn": [
@@ -3279,17 +3279,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c85ab00d6ca0f3cc655"
+      "oid": "55268c85ab00d6ca0f3cc655"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/4186381?",
       "name": "KENJU"
     },
     "datePublished": {
-      "$date": "2014-08-24T00:09:51.000Z"
+      "date": "2014-08-24T00:09:51.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:21.825Z"
+      "date": "2015-04-09T14:28:21.825Z"
     },
     "description": "\n        \n        【保存版】これからWebする人はここ読んどけ(HTML/CSS/JS/Ps/Ai.etc)\n      \n        \n        Web開発の第一歩\n      まず最初に、WEBデザインをはじめる第一歩の\n指針としてとてもわかりやすい記事を３つ\n紹介します。\n\n        \n        1. はじめての著書 – 現場のワークフローで覚える Webサイト制作教室 – あとがき\n      \n        \n    ...",
     "isbn": [
@@ -3303,17 +3303,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c85ab00d6ca0f3cc656"
+      "oid": "55268c85ab00d6ca0f3cc656"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1229469817/______normal.jpeg",
       "name": "edo_m18"
     },
     "datePublished": {
-      "$date": "2015-02-10T05:58:53.000Z"
+      "date": "2015-02-10T05:58:53.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:21.864Z"
+      "date": "2015-04-09T14:28:21.864Z"
     },
     "description": "こちらの記事からの移植です。タイトルを付けたかったので。\n\n\n\nEffective Objective-C 2.0を読んでいて見つけた方法。\nただし、書籍中ではできるだけ使わないように、との注意書きもあったのでメモとして書いています。\n\n\nAssociated Objectって？\n\nAssociate Objectは既存のクラスにカスタムデータを追加する仕組みです。\nJavaScriptであればいくらでもプロパティが追加できますが、それと同様にして動的にカスタムデータを...",
     "isbn": [
@@ -3325,17 +3325,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c86ab00d6ca0f3cc657"
+      "oid": "55268c86ab00d6ca0f3cc657"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2013-12-10T17:42:13.000Z"
+      "date": "2013-12-10T17:42:13.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:22.358Z"
+      "date": "2015-04-09T14:28:22.358Z"
     },
     "description": "ofSerial を使用して シリアル通信で openFrameworks と Arduino を連携させる 方法について書きます。\n下記書籍を参考にしました。\nはじめてのopenFrameworks―「クリエイティブ・コーディング」のための「C++」用フレームワーク! (I・O BOOKS)泉本 優輝 工学社 売り上げランキング: 799,616Amazon.co.jpで詳細を見る\n\n＃上記の本は、厳しいレビューがついていますし、本は薄く、オシャレ感もありませんが、そ...",
     "isbn": [
@@ -3347,17 +3347,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c86ab00d6ca0f3cc658"
+      "oid": "55268c86ab00d6ca0f3cc658"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/6f7825ea3e33640fd71da2eee812a67c",
       "name": "antimon2"
     },
     "datePublished": {
-      "$date": "2014-12-31T07:24:08.000Z"
+      "date": "2014-12-31T07:24:08.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:22.524Z"
+      "date": "2015-04-09T14:28:22.524Z"
     },
     "description": "\n前置き\n\n元ネタは、結城浩氏著の「数学ガール 乱択アルゴリズム」。\n新しい言語を覚えるとき、慣れるために「充足可能性問題（3-SAT）を解く乱択アルゴリズム」（p.353）を実装するという癖をつけていました1。\n\nということで、久々に。個人的に研究中の Egison ( http://www.egison.org/ ) で試してみました。\n\n\n開発環境・動作確認環境\n\n\nMac OSX 10.9.52\n\nEgison 3.3.15/3.5.134\n\n\n\n\nコード\n\n\n...",
     "isbn": [
@@ -3369,17 +3369,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c86ab00d6ca0f3cc659"
+      "oid": "55268c86ab00d6ca0f3cc659"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/455236297603289088/_x3Ivld7_normal.jpeg",
       "name": "housakusleeping"
     },
     "datePublished": {
-      "$date": "2014-12-25T12:20:35.000Z"
+      "date": "2014-12-25T12:20:35.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:22.580Z"
+      "date": "2015-04-09T14:28:22.580Z"
     },
     "description": "Unreal Engine 4 (UE4) Advent Calendar 2014の25日の記事です。\n\n基本は14日に投稿した。ニコニコ立体さんの髪を揺らす動画の補足記事になります。\n\nUE4の物理アセットを作成するエディタであるPhysics Asset Tool（PhAT）では、通常の物理エンジンでジョイントといわれる部分は、物理コンストレインの項目で設定します。\n\n図１\n\n【物理コンストレインのジョイント】\nボール＆ソケット\n\nヒンジ\n\nプリズマティック（スラ...",
     "isbn": [
@@ -3391,17 +3391,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c86ab00d6ca0f3cc65a"
+      "oid": "55268c86ab00d6ca0f3cc65a"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/35f3f6bb399732e7331c24b5bae1e4af?d=https%3A%2F%2Fidenticons.github.com%2F9206981af9457bc452c8d29d7b935a5e.png",
       "name": "disc99"
     },
     "datePublished": {
-      "$date": "2014-05-27T15:34:13.000Z"
+      "date": "2014-05-27T15:34:13.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:22.875Z"
+      "date": "2015-04-09T14:28:22.875Z"
     },
     "description": "\n        \n        はじめに\n      Effective Java関連の記事をまとめ。\n他にも見つけたら追加していこうと思います。\nまた、内容に誤り、問題がありましたら訂正しますので、コメントまたはプルリクエストをお願いします！\n\n        \n        Effective Javaって？\n      \n\nJavaでプログラミングをするすべてのSE必読の書籍です。\nEffective Java 第2版\nEffective Javaは全Jav...",
     "isbn": [
@@ -3414,17 +3414,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c87ab00d6ca0f3cc65b"
+      "oid": "55268c87ab00d6ca0f3cc65b"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/378800000066997863/e62034e7a2456ee53c115acaeb5c2bbb_normal.png",
       "name": "hmukaida"
     },
     "datePublished": {
-      "$date": "2014-12-08T09:45:49.000Z"
+      "date": "2014-12-08T09:45:49.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:23.075Z"
+      "date": "2015-04-09T14:28:23.075Z"
     },
     "description": "ハイブリッドアプリケーションについて調査しました。基本的にはWebにある情報や書籍の寄せ集めとなりますが、自分のために整理して置いておきます。かなり疎い世界ですので初歩的なことになっています。\n\n※ 認識の間違い等は修正致しますので、修正リクエストいただけましたら幸いです。\n\nまた、下記書籍の情報が大変参考になりました。本当にありがとうございます。\n\n\n全体参考：HTML5 ハイブリッドアプリ開発[実践]入門\n\n\n\n\n\n\nスマートフォンアプリケーションについて\n\nスマー...",
     "isbn": [
@@ -3436,17 +3436,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c87ab00d6ca0f3cc65c"
+      "oid": "55268c87ab00d6ca0f3cc65c"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/6f7825ea3e33640fd71da2eee812a67c",
       "name": "antimon2"
     },
     "datePublished": {
-      "$date": "2015-02-02T03:53:13.000Z"
+      "date": "2015-02-02T03:53:13.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:23.274Z"
+      "date": "2015-04-09T14:28:23.274Z"
     },
     "description": "\n前置き\n\n元ネタは、結城浩氏著の「数学ガール 乱択アルゴリズム」。\n新しい言語を覚えるとき、慣れるために「充足可能性問題（3-SAT）を解く乱択アルゴリズム」（p.353）を実装するという癖をつけていま1す。\n\nということで。前回の Egison版 に引き続き。勉強開始約1ヶ月の Julia ( http://julialang.org/ ) で実装してみました2。\n\n\n開発環境・動作確認環境\n\n\nMac OSX 10.9.5\nJulia 0.3.5\n\n\n\nコード\n\n...",
     "isbn": [
@@ -3458,17 +3458,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c88ab00d6ca0f3cc65d"
+      "oid": "55268c88ab00d6ca0f3cc65d"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1744754295/Icon_2x_bigger_normal.png",
       "name": "hkato193"
     },
     "datePublished": {
-      "$date": "2015-01-15T03:23:04.000Z"
+      "date": "2015-01-15T03:23:04.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:24.055Z"
+      "date": "2015-04-09T14:28:24.055Z"
     },
     "description": "\nおさらい\n\nSwiftで作成したクラスをObjective-C側で使いたい場合、Objective-Cソースで次のように宣言します。\n\n#import &amp;quot;ProductModuleName-Swift.h&amp;quot;\n\n// 例：#import &amp;quot;MyApp-Swift.h&amp;quot;\n\n\nそうすることで、SwiftでNSObjectを継承したクラスや@objcを付けたクラスを、Objective-Cから自由に使えるようになります。\n\n// Swi...",
     "isbn": [
@@ -3480,17 +3480,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c88ab00d6ca0f3cc65e"
+      "oid": "55268c88ab00d6ca0f3cc65e"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/2792420?v=3",
       "name": "daiki1003"
     },
     "datePublished": {
-      "$date": "2015-03-13T02:44:16.000Z"
+      "date": "2015-03-13T02:44:16.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:24.155Z"
+      "date": "2015-04-09T14:28:24.155Z"
     },
     "description": "元ブログ、【c++】デストラクタにvirtualを付ける場合、付けない場合。 - 技術は熱いうちに打て！\n\nvirtual ~Hoge();\n\n\nC++を書いていると良くvirtual宣言されているデストラクタを見ます。\n\nまだまだC++初心者なので、なんでデストラクタにvirtualが付くのか分からず調べてみた結果をまとめてみたいと思います。\n突っ込みあればお待ちしております。\n\n\nまとめ\n\n・ポリモーフィズムを利用すべく作った基底クラスのデストラクタはvirtual...",
     "isbn": [
@@ -3502,17 +3502,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c88ab00d6ca0f3cc65f"
+      "oid": "55268c88ab00d6ca0f3cc65f"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/758413?v=3",
       "name": "ko-aoki"
     },
     "datePublished": {
-      "$date": "2014-08-12T16:47:56.000Z"
+      "date": "2014-08-12T16:47:56.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:24.234Z"
+      "date": "2015-04-09T14:28:24.234Z"
     },
     "description": "seasar2とかで実装しているWEBアプリをAngularJS+JavaEE(JPA、JAX-RS)でリプレイスしたい！なんて話をちらほら聞くので、実際どんな感じになるのか作成してみました。\nバックエンドだけ開発していた人間が考えると、こうなってしまうんだなという結果に終わってます。。\n\nソースはこちらです。\nhttps://github.com/ko-aoki/angularJS_practice/tree/forQiita\n\n参考にした書籍は以下でした。\n\n\nBe...",
     "isbn": [
@@ -3524,17 +3524,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c88ab00d6ca0f3cc660"
+      "oid": "55268c88ab00d6ca0f3cc660"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2013-05-28T05:56:37.000Z"
+      "date": "2013-05-28T05:56:37.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:24.280Z"
+      "date": "2015-04-09T14:28:24.280Z"
     },
     "description": "拙著『iOSアプリ開発 達人のレシピ100』という書籍の内容のまとめです。\n\n\nChapter1 アニメーション／演出\n\n001 CATransform3D を用いて3D 表現をおこなう\n\n\n002 3Dアニメーション\n\n003 UIKit で物理演算エンジンを使用する\n\n\n004 UIKit 上でパーティクルエフェクトを表示する\n\n\n005 Core Image の遷移エフェクトを使う\n\n\n006 パスに沿ってアニメーションさせる\n\n\n007 グラデーションカラーをア...",
     "isbn": [
@@ -3546,17 +3546,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c88ab00d6ca0f3cc661"
+      "oid": "55268c88ab00d6ca0f3cc661"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1744754295/Icon_2x_bigger_normal.png",
       "name": "hkato193"
     },
     "datePublished": {
-      "$date": "2014-02-07T02:48:41.000Z"
+      "date": "2014-02-07T02:48:41.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:24.611Z"
+      "date": "2015-04-09T14:28:24.611Z"
     },
     "description": "\n        \n        この記事で説明すること\n      忙しい人のために先にまとめておくと、AVFoundationを使ったビデオ撮影は、解像度が同じデバイスフォーマットでも「ビニング」のあるなしで画質が大きく違いますよ、高フレームレートのフォーマットが常に正義というわけではないですよ、という話です。（あと、書籍「上を目指すプログラマーのためのiPhoneアプリ開発テクニック（iOS 7編）」をよろしくね、という話です）\n\n        \n      ...",
     "isbn": [
@@ -3569,17 +3569,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c88ab00d6ca0f3cc662"
+      "oid": "55268c88ab00d6ca0f3cc662"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/5a0c44ac746299d5e7902bc847508b5e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "k_kinukawa"
     },
     "datePublished": {
-      "$date": "2014-12-23T14:52:20.000Z"
+      "date": "2014-12-23T14:52:20.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:24.761Z"
+      "date": "2015-04-09T14:28:24.761Z"
     },
     "description": "この記事はSwift Advent Calendar 12月23日の記事です。\nアドベントカレンダーは後半ほどネタが出尽くすので不利ですね。\n自分はこの2ヶ月半ほどプライベートの時間を使ってSwiftで新しくアプリを作っていたので、それについて考えていたこと、感じたことをつらつらと書き下してみたいと思います。\n\n[2014/12/28 追記]\n今朝、アプリがリリースされました！！\nRebuilt\n\n\nきっかけ\n\n2014/6/3にWWDCでSwiftが発表され非常に気に...",
     "isbn": [
@@ -3592,17 +3592,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c88ab00d6ca0f3cc663"
+      "oid": "55268c88ab00d6ca0f3cc663"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/96b4baf583b7d883265eda38101381bf?d=https%3A%2F%2Fidenticons.github.com%2F57fced5b42eb3375bb2252f576641393.png&amp;r=x",
       "name": "tomcky"
     },
     "datePublished": {
-      "$date": "2014-04-10T16:10:11.000Z"
+      "date": "2014-04-10T16:10:11.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:24.838Z"
+      "date": "2015-04-09T14:28:24.838Z"
     },
     "description": "JavaScriptを記述する方法はいくつか存在するが、それぞれ実行タイミングが異なる。\nここではそれについてまとめる。\n\n        \n        &amp;lt;script&amp;gt;タグ内に記述する\n      &amp;lt;script&amp;gt;タグ内にJavaScriptを記述した場合、スクリプトが実行されるのは&amp;lt;script&amp;gt;タグが解析された直後となる。そのため&amp;lt;script&amp;gt;タグ以降のDOM要素を操作することはできない。\nhtml&amp;lt;bo...",
     "isbn": [
@@ -3614,17 +3614,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c88ab00d6ca0f3cc664"
+      "oid": "55268c88ab00d6ca0f3cc664"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/160a2bfe859622ee0c854405441019cc",
       "name": "HirofumiYashima"
     },
     "datePublished": {
-      "$date": "2015-03-10T10:03:23.000Z"
+      "date": "2015-03-10T10:03:23.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:24.980Z"
+      "date": "2015-04-09T14:28:24.980Z"
     },
     "description": "\nブラック・ショールズ式\n\n\n\n以下の定義式を、Pythonコードにそのまま記述して、数式の評価結果を得ることができます。\n\n\n\n\n\nコール・オプション価格の評価式\n\n\nC(S, K, \\sigma, r_f, T)=SN(d_1)-\\frac{K}{(1+r_f)^T}N(d_2)\n\n\n\nプット・オプション価格の評価式\n\n\nP(S, K, \\sigma, r_f, T)=-SN(-d_1)-\\frac{K}{(1+r_f)^T}N(-d_2)\n\n\nただし、\n\nd_1=...",
     "isbn": [
@@ -3637,17 +3637,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc665"
+      "oid": "55268c89ab00d6ca0f3cc665"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/432116353927880705/0qglVv-T_normal.jpeg",
       "name": "ionis_h"
     },
     "datePublished": {
-      "$date": "2015-01-13T03:00:29.000Z"
+      "date": "2015-01-13T03:00:29.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.226Z"
+      "date": "2015-04-09T14:28:25.226Z"
     },
     "description": "色々な方がすでに記載されているので、n番煎じではございますが、合格出来たので記録として残しておきます。\n\n\nRuby Association Certified Ruby Programmer Gold version 2.1とは？\n\n\n\nRuby技術者認定試験制度で実施されている資格の一つです\n\n\nSilverとGoldの両方に合格する必要があります\n\n\n2014/10/1にversion 2.1へと改訂されました（Ruby技術者認定試験改訂のお知らせ）\n\n\n嬉しい事...",
     "isbn": [
@@ -3661,17 +3661,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc666"
+      "oid": "55268c89ab00d6ca0f3cc666"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/e9e3472b8801ed21298ccefeecfaf429",
       "name": "TakamiChie"
     },
     "datePublished": {
-      "$date": "2014-08-16T06:44:06.000Z"
+      "date": "2014-08-16T06:44:06.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.321Z"
+      "date": "2015-04-09T14:28:25.321Z"
     },
     "description": "久しぶりに用事があって、Android API プログラミング・リファレンス\nのGoogle Maps Androidのサンプルを使ってみたのですが、エラーが出て全く動作しなくなってました。\nいくつか設定を変更すると解決したので、とりあえずメモ。\n\n        \n        メタデータを追加\n      まず一つ目は、メタデータの追加。このままの状態でアプリを起動すると、ログに次の文言が表示されます。\n\n\n08-16 14:19:21.638: E/Androi...",
     "isbn": [
@@ -3683,17 +3683,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc667"
+      "oid": "55268c89ab00d6ca0f3cc667"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/22b47787e579c8b8bee3d45952dfb694?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "naokomada@github"
     },
     "datePublished": {
-      "$date": "2014-12-19T16:45:53.000Z"
+      "date": "2014-12-19T16:45:53.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.393Z"
+      "date": "2015-04-09T14:28:25.393Z"
     },
     "description": "まず、パッケージソフトウェアの開発について、大変役立つ書籍 があるので紹介する。その本の冒頭には次のようにかかれている。\n\n\n完璧な文章などといったものは存在しない。完璧な絶望が存在しないようにね。\n\n\n初めてこの小説の冒頭部分を読んだ時に、たいして感慨を持ったおぼえはない。しかし、パッケージソフトウェアの開発に関わることになって数年が立った時、この文章がリアリティを伴って感じられるようになり、しだいに開発者がパッケージソフトウェアに関わるときの苦悩が延々と書かれている...",
     "isbn": [
@@ -3705,17 +3705,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc668"
+      "oid": "55268c89ab00d6ca0f3cc668"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/514043747672154112/R73IjuMs_normal.jpeg",
       "name": "kou"
     },
     "datePublished": {
-      "$date": "2014-02-10T02:37:07.000Z"
+      "date": "2014-02-10T02:37:07.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.437Z"
+      "date": "2015-04-09T14:28:25.437Z"
     },
     "description": "\n        \n        これ読んどけって本\n      これ以外でおすすめ本あったらコメントで教えて下さいー。\n\n        \n        [24時間365日] サーバ/インフラを支える技術 ~スケーラビリティ、ハイパフォーマンス、省力運用\n      \n\n\n一度スタートしたサービスは止めたくない、というのはWebに携わる開発者や担当者に共通する意識ではないでしょうか。しかし、サービスの成長にともない、サーバの増強、ハードウェア/ネットワークの障害対...",
     "isbn": [
@@ -3731,17 +3731,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc669"
+      "oid": "55268c89ab00d6ca0f3cc669"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/884be098693425b409d25aaec5091de8?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "ka_"
     },
     "datePublished": {
-      "$date": "2013-03-12T06:53:15.000Z"
+      "date": "2013-03-12T06:53:15.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.571Z"
+      "date": "2015-04-09T14:28:25.571Z"
     },
     "description": "お互いに鍵が掛かりあった状況で，CI 出来るようになるには一体どうすれば…　ネットの海にはそれに対する回答がわんさかありました．\n\n手順\n\nJenkins は Ubuntu 12.04 で動いているものとします．インストール方法は click here．\n\nバージョンは 1.504 でした．少々違っても大丈夫なのかな？この辺 Jenkins にまだそれほど詳しくないんでよく分からないです．\n\nJenkins には http://my.domain:8080 でアクセス出...",
     "isbn": [
@@ -3753,17 +3753,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc66a"
+      "oid": "55268c89ab00d6ca0f3cc66a"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2014-04-16T08:53:03.000Z"
+      "date": "2014-04-16T08:53:03.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.673Z"
+      "date": "2015-04-09T14:28:25.673Z"
     },
     "description": "『AnimatedTransitionGallery』は、iOS 7 で追加されたプロトコル、\n\n\nUIViewControllerAnimatedTransitioning\nUIViewControllerTransitioningDelegate\n\n\nを利用したカスタム画面遷移（トランジションエフェクト）を53種類を試せるギャラリーアプリです。\n\n\n\nGitHubで公開しています。\n\nhttps://github.com/shu223/AnimatedTransit...",
     "isbn": [
@@ -3776,17 +3776,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc66b"
+      "oid": "55268c89ab00d6ca0f3cc66b"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1713626524/_____normal.jpg",
       "name": "redamoon"
     },
     "datePublished": {
-      "$date": "2014-04-14T12:00:38.000Z"
+      "date": "2014-04-14T12:00:38.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.821Z"
+      "date": "2015-04-09T14:28:25.821Z"
     },
     "description": "\n        \n        SourceTree 設定手順 覚書【Windows】\n      SSH認証キーをGitLabに登録・設定手順 覚書 をアップしたので、今回は、SourceTreeの設定手順をまとめたいと思います。\n色々と情報が多かったので、自分用のメモになります。\nこちらの記事で、随時更新していきたいと思います。\n\n        \n        設定条件\n      \n\nGitサーバが既に用意している（ホスティングサービスではなく自分で構築し...",
     "isbn": [
@@ -3798,17 +3798,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc66c"
+      "oid": "55268c89ab00d6ca0f3cc66c"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2014-02-04T12:04:17.000Z"
+      "date": "2014-02-04T12:04:17.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.825Z"
+      "date": "2015-04-09T14:28:25.825Z"
     },
     "description": "Bluetooth Low Energy（Bluetooth4.0,  以下BLE）の通信速度 について調査、 実測 してみたメモ。\n\n（2015.3追記）この記事は古く、書いた当時はBLEについての知識も乏しかったので内容には多分に誤りが混じっている可能性があります。\n\n\n調査\n\nまず &amp;quot;BLE 通信速度&amp;quot; でググってみました。\n\n\nBLE(Bluetooth Low Energy)とは？について真面目に書く\n\n\n\nBLEでは「無接続状態」から→「...",
     "isbn": [
@@ -3820,17 +3820,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc66d"
+      "oid": "55268c89ab00d6ca0f3cc66d"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/433156968576843776/f8PDnsa-_normal.png",
       "name": "kozayupapa"
     },
     "datePublished": {
-      "$date": "2014-05-01T13:04:33.000Z"
+      "date": "2014-05-01T13:04:33.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.934Z"
+      "date": "2015-04-09T14:28:25.934Z"
     },
     "description": "QCon Tokyo 2014\nQCon2014 My Report Top\nDetail Report#8/8 \n\n        \n        リーン開発の現場 ～塹壕よりアジャイルなプロジェクト運営～\n      市谷 聡啓:ギルドワークス株式会社\n当日のスライドはまだあがっていませんが、かなり似た内容がかきにあります。\nhttp://www.slideshare.net/papanda/ss-31975018\n\n        \n        今まで\n  ...",
     "isbn": [
@@ -3842,17 +3842,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c89ab00d6ca0f3cc66e"
+      "oid": "55268c89ab00d6ca0f3cc66e"
     },
     "author": {
       "imageUrl": "https://2.gravatar.com/avatar/18a4380ebd7df444c0236651447d3a05?d=https%3A%2F%2Fidenticons.github.com%2Fac53c3eaf3fdf29c9884fed90eac44d3.png",
       "name": "Koki-Shimizu"
     },
     "datePublished": {
-      "$date": "2014-10-04T23:52:03.000Z"
+      "date": "2014-10-04T23:52:03.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:25.979Z"
+      "date": "2015-04-09T14:28:25.979Z"
     },
     "description": "\n        \n        Naming -名前付け-\n      プログラミングで最も重要な技術の一つが、名前付けです。最も重要で且つ、センスが問われるものなので、上達は難しいものでもあります。この記事では、様々な文献から抽出した名前付けに関する情報を雑多にまとめました。\n\n\n-名前重要-\nソフトウェアの設計のアプローチとして、『まず名前から入る』というのは、あまり語られていない秘訣としてもっと広く知られても良いように思います。\n- まつもとゆきひろ 『プログ...",
     "isbn": [
@@ -3868,17 +3868,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8aab00d6ca0f3cc66f"
+      "oid": "55268c8aab00d6ca0f3cc66f"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/9711e1f5a9fcf6004b10542e5a0a7a49?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "tenntenn"
     },
     "datePublished": {
-      "$date": "2013-05-11T02:54:21.000Z"
+      "date": "2013-05-11T02:54:21.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:26.028Z"
+      "date": "2015-04-09T14:28:26.028Z"
     },
     "description": "\n本家サイトと日本語訳サイト\n\n\n本家サイト\n\n\n標準ライブラリの使い方はここを見ればよい。\nAPIドキュメントからソースが簡単に見れるので、勉強になる。\n\n\ngolang.jp\n\n\n本家サイトを日本語に翻訳しているサイト。若干情報が古いので、本家サイトと見比べながら補足程度に使うとよい。\n\n\ngolang-jp.org\n\n\n本家サイトを日本語に翻訳しているサイト．情報は新しいが，一部未翻訳の箇所あり．翻訳プロジェクトはgithubで管理されているので，翻訳に協力もでき...",
     "isbn": [
@@ -3894,17 +3894,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8aab00d6ca0f3cc670"
+      "oid": "55268c8aab00d6ca0f3cc670"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/507653318353498112/xYp4oz4d_normal.jpeg",
       "name": "fukuiretu"
     },
     "datePublished": {
-      "$date": "2014-12-22T15:07:59.000Z"
+      "date": "2014-12-22T15:07:59.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:26.139Z"
+      "date": "2015-04-09T14:28:26.139Z"
     },
     "description": "AdventCalendarにエントリーするつもりはなかったのですが、空きがあったのでエントリーしてみました。ちょうどRubyの勉強がてらに2つgem(プラグイン)をリリースしたので、リリースしたgemについて紹介させて頂きます。\n\n\nホッテントリを表示するプラグインについて(ruboty-hatena_hotentry)\n\n\n概要\n\n\nみんなが大好きなはてブのホッテントリを表示するプラグイン\n内部的には、はてなから提供されているRSSフィードを取得し、Nokogiri...",
     "isbn": [
@@ -3916,17 +3916,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8aab00d6ca0f3cc671"
+      "oid": "55268c8aab00d6ca0f3cc671"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/7801214?",
       "name": "quno"
     },
     "datePublished": {
-      "$date": "2014-07-22T14:48:28.000Z"
+      "date": "2014-07-22T14:48:28.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:26.891Z"
+      "date": "2015-04-09T14:28:26.891Z"
     },
     "description": "駆け出しフロントエンジニアの実に個人的なメモ。\n※順次更新予定\n\n        \n        Gruntを使って自動化しよう\n      Grunt: The JavaScript Task Runner\nGruntとは自動化することと見つけたり。\n\n        \n        やりたいこと\n      \n\nHTML書くからHTML Validator\nCSS書くからCompass、Autoprefixer\nJavaScript書くからJSHint、テストす...",
     "isbn": [
@@ -3938,17 +3938,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8bab00d6ca0f3cc672"
+      "oid": "55268c8bab00d6ca0f3cc672"
     },
     "author": {
       "imageUrl": "https://1.gravatar.com/avatar/eefaf7df68e80d8943c47faa525c044e?d=https%3A%2F%2Fidenticons.github.com%2F757ff23bebc32c5031c081023028e50d.png&amp;r=x",
       "name": "quanon86"
     },
     "datePublished": {
-      "$date": "2015-03-12T15:07:29.000Z"
+      "date": "2015-03-12T15:07:29.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:27.040Z"
+      "date": "2015-04-09T14:28:27.040Z"
     },
     "description": "\n問題\n\n以下のような初期化済みのハッシュがあります。\n\nhash\n#=&amp;gt; {:madoka=&amp;gt;&amp;quot;鹿目 まどか&amp;quot;}\n\nhash.class\n#=&amp;gt; Hash\n\n\nこの時、以下のコードを実行するとどうなるでしょうか？\n(hash に :sayaka というキーは存在していません。)\n\nif hash[:sayaka]\n  raise(&#39;あたしって、ほんとバカ&#39;)\nend\n\n\nほとんどの場合、\n\nif hash[:sayaka]\n  r...",
     "isbn": [
@@ -3960,17 +3960,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8bab00d6ca0f3cc673"
+      "oid": "55268c8bab00d6ca0f3cc673"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/78121?",
       "name": "garbagetown"
     },
     "datePublished": {
-      "$date": "2014-04-30T09:01:27.000Z"
+      "date": "2014-04-30T09:01:27.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:27.227Z"
+      "date": "2015-04-09T14:28:27.227Z"
     },
     "description": "\n        \n        はじめに\n      先日「GitHub実践入門 ~Pull Requestによる開発の変革」という書籍が発売されました。この書籍の副題にある通り、Pull Request による開発は従来のものとは一線を画す、非常に画期的なものです。\nこの Pull Request による開発フローを、ソースコードを開示できない業務システムの開発に適用したい場合、いくつかの選択肢があります。\n\n\nGitHub private リポジトリ（有料）を利...",
     "isbn": [
@@ -3982,17 +3982,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8bab00d6ca0f3cc674"
+      "oid": "55268c8bab00d6ca0f3cc674"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/6157540?",
       "name": "hkusu"
     },
     "datePublished": {
-      "$date": "2014-10-01T07:47:21.000Z"
+      "date": "2014-10-01T07:47:21.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:27.600Z"
+      "date": "2015-04-09T14:28:27.600Z"
     },
     "description": "\n        \n        はじめに\n      ITエンジニア勉強会~ Engineer’s Learning Vesper という勉強会で 『AngularJSでのモバイルフロントエンド開発』 というタイトルの発表をしてきました。\n\nスライドはこちら⇒http://www.slideshare.net/hiroyukikusu/elvangularjs\n要約をこちらにも投稿します。スマホ用のWEBサイトに AngularJS の導入を検討されている方の参考に...",
     "isbn": [
@@ -4007,17 +4007,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8bab00d6ca0f3cc675"
+      "oid": "55268c8bab00d6ca0f3cc675"
     },
     "author": {
       "imageUrl": "https://2.gravatar.com/avatar/40961ce2e3a7035867843b520000e5b3?d=https%3A%2F%2Fidenticons.github.com%2F76b9fdeba790feeaa47531117ff0ab60.png",
       "name": "ppworks"
     },
     "datePublished": {
-      "$date": "2012-08-12T13:14:48.000Z"
+      "date": "2012-08-12T13:14:48.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:27.604Z"
+      "date": "2015-04-09T14:28:27.604Z"
     },
     "description": "ヒヨッコがピヨピヨと開発するときのtipsです。\n\n@fakestarbabyさんの記事iOS/Objective-C★Note | スタディノート随時更新！もどうぞ。\n\n\n\napple coding sample\n\nspaceのとり方とか参考にしたい。appleのsample codeを参考にすれば良いはず。\n\n詳しくは、Learning Objective-C a primerを参照のこと。\n\nproperty\n\n\n基本的に各リテラル間にspace入れる\n後述のme...",
     "isbn": [
@@ -4036,17 +4036,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8bab00d6ca0f3cc676"
+      "oid": "55268c8bab00d6ca0f3cc676"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/2549266955/nqyz5ridz40fexly8gk5_normal.jpeg",
       "name": "hiroponius"
     },
     "datePublished": {
-      "$date": "2014-12-08T16:10:31.000Z"
+      "date": "2014-12-08T16:10:31.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:27.871Z"
+      "date": "2015-04-09T14:28:27.871Z"
     },
     "description": "こんにちわ、昨日今日のデータエンジニア ひろぽん(hiroponius)です。\n\nデータ分析の部署でお仕事するようになって１年、\nそれまでのWeb（しかもフロント）系とはぜんぜん異なるノウハウが要求される中、\n「このままでは円滑な業務遂行に差し支えが、統計の勉強せんと！」\n「Rとかちゃんと使えるように！」\n「ていうか、データともっと深い感じになりたい！」\nということで、まさに今年2014年がんばった軌跡、主に参考にした本について。\n\nたぶん、以下のような状況でなおかつ統...",
     "isbn": [
@@ -4062,17 +4062,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8cab00d6ca0f3cc677"
+      "oid": "55268c8cab00d6ca0f3cc677"
     },
     "author": {
       "imageUrl": "https://1.gravatar.com/avatar/a8df61f7319d2c1b4359657b3204ca85?d=https%3A%2F%2Fidenticons.github.com%2F639ce56057b6a3f2ed16a94c665dc9f9.png",
       "name": "zoetro"
     },
     "datePublished": {
-      "$date": "2013-12-03T15:37:24.000Z"
+      "date": "2013-12-03T15:37:24.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:28.119Z"
+      "date": "2015-04-09T14:28:28.119Z"
     },
     "description": "AngularJSは公式で分かりやすいチュートリアルが用意されているし、日本語の記事も増えてきたし、けっこう簡単に使い始めることができるんじゃないかと思います。\nでも、チュートリアルやサンプルはクライアントサイドオンリーなことが多くて、サーバーサイドも含めたWebアプリを作ろうと思うと、どういう構成にすればいいのか迷うのではないでしょうか？（僕がそうでした）\n最初は試行錯誤していたのですが、書籍やネットの記事を読んだりGitHubで見つけたアプリを真似たりしているうちに...",
     "isbn": [
@@ -4085,17 +4085,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8cab00d6ca0f3cc678"
+      "oid": "55268c8cab00d6ca0f3cc678"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2012-12-07T00:46:56.000Z"
+      "date": "2012-12-07T00:46:56.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:28.158Z"
+      "date": "2015-04-09T14:28:28.158Z"
     },
     "description": "Method Swizzlingは、既存のメソッドの実装を、自前の実装に差し替えるための手法です。\n\n・・・ということを知ってはいても、どういうときに使うと便利なのかイマイチわかってなかったので、Method Swizzlingをうまく使った実用例を2つほど探してきました。\n\n実用例その1：既存ソースコードに手を入れずに機能追加\n\nxib ファイルのローカライズを IB 上でできるようにする AutoNibL10n\n\n通常、xibで作成したUIをローカライズする場合、\n...",
     "isbn": [
@@ -4107,17 +4107,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8cab00d6ca0f3cc679"
+      "oid": "55268c8cab00d6ca0f3cc679"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/cd914c87641dc8de0ab524666b80b16b?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "oskimura"
     },
     "datePublished": {
-      "$date": "2013-07-24T07:52:36.000Z"
+      "date": "2013-07-24T07:52:36.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:28.314Z"
+      "date": "2015-04-09T14:28:28.314Z"
     },
     "description": "元ネタ\n今すぐ辞めて欲しい、「Ruby on Rails勉強してます」「CakePHP勉強してます」\nhttp://blog.sumyapp.com/2013/07/no-recommend-rails/\n\nなぜかみんな「シーってイケてる技術だよね」「シーっだったらこんなこともいとも簡単にできちゃうんだよね」みたいな印象を持っている。もちろん、それは間違いではない。フォートランは早い。ライブラリもたくさんある。弾道計算なんて昔は数人月かけて作ったものだが、いまはmath...",
     "isbn": [
@@ -4129,17 +4129,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8cab00d6ca0f3cc67a"
+      "oid": "55268c8cab00d6ca0f3cc67a"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/2577120213/74t8gdwg96vj93vg46a4_normal.png",
       "name": "furandon_pig"
     },
     "datePublished": {
-      "$date": "2015-03-15T12:17:14.000Z"
+      "date": "2015-03-15T12:17:14.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:28.369Z"
+      "date": "2015-04-09T14:28:28.369Z"
     },
     "description": "\nBSD本の1st/2nd Editionに対応するFreeBSDカーネルソースを取得する\n\nFreeBSDカーネル内部を解説するBSDカーネルの設計と実装-FreeBSD詳解-という本があり、その本を皆で読み合わせるBSDカーネルの設計と実装 読書会が定期的に開催されています(次回は4/5(日)に開催されます)。\n\nこの本（通称「BSD本」）なのですが、昨年に改訂版(2nd Edition)が出版されており、先の読書会と同じ4月(4/9;木)に開催される第36回 Fr...",
     "isbn": [
@@ -4152,17 +4152,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8cab00d6ca0f3cc67b"
+      "oid": "55268c8cab00d6ca0f3cc67b"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/2127542?v=3",
       "name": "smile-0yen"
     },
     "datePublished": {
-      "$date": "2015-01-22T03:00:13.000Z"
+      "date": "2015-01-22T03:00:13.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:28.372Z"
+      "date": "2015-04-09T14:28:28.372Z"
     },
     "description": "先日CentOS Atomic HostをVirtual Boxにインストールするというエントリを書きました。\nVirtual Box上での作業はやはり少しやりにくいのでより気軽に、慣れたターミナルで\nAtomic Hostを使いたいと思いvagrant box化しました。\n\n\n環境\n\nMacOS X: 10.9.5\nvagrant: 1.6.3\n\n\n前提\n\n\n\nVirtual Boxでの環境構築は済んでいる。\n\n\n\nvagrantユーザー追加\n\n\nユーザーの追加\n\nユ...",
     "isbn": [
@@ -4174,17 +4174,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8cab00d6ca0f3cc67c"
+      "oid": "55268c8cab00d6ca0f3cc67c"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/378800000174015203/dce3efc39157fd4f24ea200ca6236146_normal.jpeg",
       "name": "wakaba260"
     },
     "datePublished": {
-      "$date": "2014-05-17T15:29:10.000Z"
+      "date": "2014-05-17T15:29:10.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:28.673Z"
+      "date": "2015-04-09T14:28:28.673Z"
     },
     "description": "\n        \n        アジャイル開発\n      アジャイル開発について簡単にまとめてみた。\nツッコミ、補足、なんでも歓迎です。\n\n        \n        1）はじめに\n      \n        \n        アジャイルソフトウェア開発宣言\n      アジャイルの本質はすべてここに書かれている。\n\n\n私たちは、ソフトウェア開発の実践\nあるいは実践を手助けをする活動を通じて、\nよりよい開発方法を見つけだそうとしている。\nこの活動を通して、...",
     "isbn": [
@@ -4196,17 +4196,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8cab00d6ca0f3cc67d"
+      "oid": "55268c8cab00d6ca0f3cc67d"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/1148320?v=2",
       "name": "jnchito"
     },
     "datePublished": {
-      "$date": "2015-01-31T03:56:25.000Z"
+      "date": "2015-01-31T03:56:25.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:28.830Z"
+      "date": "2015-04-09T14:28:28.830Z"
     },
     "description": "\nはじめに\n\n最近、書籍「Effective Ruby」を購入しました。\nまだ全部読み終わっていませんが、トリビア的な（？）知識がいろいろ載っていてRuby使いとしてはなかなか面白いです。\n\nその中に catchとthrowを使ったサンプルコードが載っていたんですが、僕の場合catchとthrowって今まで使ったことがありません。\nだいたいcatch/throwを使わなくても書けるんですよね～。\n\nEffetive Rubyに載っていたコードもそんなパターンだったので、...",
     "isbn": [
@@ -4218,17 +4218,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8cab00d6ca0f3cc67e"
+      "oid": "55268c8cab00d6ca0f3cc67e"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/4186381?",
       "name": "KENJU"
     },
     "datePublished": {
-      "$date": "2014-09-09T07:47:42.000Z"
+      "date": "2014-09-09T07:47:42.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:28.965Z"
+      "date": "2015-04-09T14:28:28.965Z"
     },
     "description": "\n        \n        SQL文法一覧\n      \n        \n        合わせて読みたい\n      \n        \n        はじめに\n      自分が勉強するときにつかった図書は\nスッキリわかる SQL 入門 ドリル215問付き!\nです。\nとてもわかり易い。これを用いながら\nメモしてあった文法一覧。\nこれからSQLを勉強される方は\nぜひご一読ください。とても\nわかりやすいです。\n実行結果や詳しい説明などは\nぜひ書籍で御覧くださ...",
     "isbn": [
@@ -4241,17 +4241,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8dab00d6ca0f3cc67f"
+      "oid": "55268c8dab00d6ca0f3cc67f"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/ad37f739bffa0e38c8461e452cb3a489?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "yamacraft"
     },
     "datePublished": {
-      "$date": "2013-12-18T01:24:31.000Z"
+      "date": "2013-12-18T01:24:31.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:29.213Z"
+      "date": "2015-04-09T14:28:29.213Z"
     },
     "description": "\n        \n        はじめに\n      @yamacraftです。普段はプライベートでMSI U100という3年以上前のネットブックにxUbuntu（Ubuntuだと重くて辛い）を入れて、無理矢理Androidアプリ開発をしています。\nhttp://yamacraft2.exblog.jp/\nblogもやってます！自己紹介は以上です！本題です！\n一般的にスマホゲーム開発といえば、cocos2d-xやUnityといったクロスプラットフォームを利用した開発...",
     "isbn": [
@@ -4263,17 +4263,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8dab00d6ca0f3cc680"
+      "oid": "55268c8dab00d6ca0f3cc680"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3233700643/aad5db70bb3cd6731ad7bff663ba0805_normal.jpeg",
       "name": "shima_x"
     },
     "datePublished": {
-      "$date": "2014-12-29T14:13:28.000Z"
+      "date": "2014-12-29T14:13:28.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:29.360Z"
+      "date": "2015-04-09T14:28:29.360Z"
     },
     "description": "マーケティング指標として面白そうなものがあったので書籍を読んで内容をまとめてみました。独断と偏見でまとめていますので、詳しくは下に記載した書籍やHPを御覧ください。\n\n\n参考資料\n\nネット・プロモーター経営  〈顧客ロイヤルティ指標 NPS〉 で「利益ある成長」を実現する\nNet Promoter System\n\n\nNPSについて\n\nNPSはたった一つの質問への回答に基づいて顧客を分類するという、単純明快で実用的な手法。\nその質問とは基本的に以下の様なもの。\n\n\n0〜1...",
     "isbn": [
@@ -4285,17 +4285,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8dab00d6ca0f3cc681"
+      "oid": "55268c8dab00d6ca0f3cc681"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/13de5edc305a54530ba5b3b9ac85ccb9?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "satzz@github"
     },
     "datePublished": {
-      "$date": "2014-07-20T03:24:00.000Z"
+      "date": "2014-07-20T03:24:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:29.427Z"
+      "date": "2015-04-09T14:28:29.427Z"
     },
     "description": "\nXBee Wi-Fiを買ってWiFi経由でHTTPリクエストを投げてみたのでメモ。\n\n        \n        準備\n      \n        \n        ハードウェア\n      \n        \n        XBee Wi-Fi\n      スイッチサイエンスなどで買える。4000円程度。\n\n        \n        XBee USBアダプター\n      なんでもよいがSparkFun Electronics XBee Explo...",
     "isbn": [
@@ -4307,17 +4307,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8dab00d6ca0f3cc682"
+      "oid": "55268c8dab00d6ca0f3cc682"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2013-12-02T01:59:59.000Z"
+      "date": "2013-12-02T01:59:59.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:29.480Z"
+      "date": "2015-04-09T14:28:29.480Z"
     },
     "description": "iOS SDK では Core Image の CIDetector クラスで簡単に顔認識をおこなうことができますし、iOS7からは、笑顔やまばたきの検出も可能に なりました。\nが、CIDetector は detectorOfType:context:options: というメソッドの第1引数で Detector Type を指定できる設計になっているものの、\nNSString* const CIDetectorTypeFace\nDetector Types - CI...",
     "isbn": [
@@ -4329,17 +4329,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8dab00d6ca0f3cc683"
+      "oid": "55268c8dab00d6ca0f3cc683"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1744754295/Icon_2x_bigger_normal.png",
       "name": "hkato193"
     },
     "datePublished": {
-      "$date": "2013-12-01T15:49:15.000Z"
+      "date": "2013-12-01T15:49:15.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:29.590Z"
+      "date": "2015-04-09T14:28:29.590Z"
     },
     "description": "iOS Advent Calender 2013 iOS second stage ４日目担当の@hkato193です。書籍「iPhoneアプリ開発エキスパートガイド」や「OS XとiOSのためのOpenCV環境構築ガイド」などのiPhoneアプリ開発関係の本を書いたりしています。アプリだと、プロアスリートが練習に使うスキップバックレコーダーを実現した「PastVid」や、弾むボールでリズムを表現する「Metronome Bounce」などを公開しています。\nさて、iO...",
     "isbn": [
@@ -4353,17 +4353,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8dab00d6ca0f3cc684"
+      "oid": "55268c8dab00d6ca0f3cc684"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/fb1edbddf6ff2315cbc1b800dee8ab38?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
       "name": "st44100"
     },
     "datePublished": {
-      "$date": "2014-12-14T17:31:44.000Z"
+      "date": "2014-12-14T17:31:44.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:29.739Z"
+      "date": "2015-04-09T14:28:29.739Z"
     },
     "description": "Frontrend Advent Calendar 2014の15日目の記事です。  \n\n近年NYLONを始めとするファッション雑誌でit girlと呼ばれるキーワードを目にします。NYLON JAPANではit girlを募集していたりします。しかし実際のところ何をもってit girlと呼ぶのか定義は難しいです。ここではitをもう少し具体的にJavaScriptのデキる女 JavaScript Girlとして、it girlになるための第一歩紹介します。JavaScr...",
     "isbn": [
@@ -4375,17 +4375,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8eab00d6ca0f3cc685"
+      "oid": "55268c8eab00d6ca0f3cc685"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/35f3f6bb399732e7331c24b5bae1e4af?d=https%3A%2F%2Fidenticons.github.com%2F9206981af9457bc452c8d29d7b935a5e.png",
       "name": "disc99"
     },
     "datePublished": {
-      "$date": "2013-09-29T08:35:11.000Z"
+      "date": "2013-09-29T08:35:11.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:30.215Z"
+      "date": "2015-04-09T14:28:30.215Z"
     },
     "description": "\n        \n        テストの必要性\n      以前のシステム開発と言えば、ウォーターフォールのような要件から設計、実装、テストのような徐々に作業を細分化し最後にテストを行う手法が主流、というかSierとかでは基本今でもこの手法が多いはず。\nしかし、現在はアジャイル開発の普及にともない、TDD、BDDに代表されるようなテスト重視の開発スタイルが増加している。\nその中で実際テストコードを書いてみようとすると、Javaではテストフレームワークやツール、ライブ...",
     "isbn": [
@@ -4399,17 +4399,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8eab00d6ca0f3cc686"
+      "oid": "55268c8eab00d6ca0f3cc686"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1458232042/suzume.jpg_groovy_normal.png",
       "name": "uehaj"
     },
     "datePublished": {
-      "$date": "2015-03-21T07:55:52.000Z"
+      "date": "2015-03-21T07:55:52.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:30.672Z"
+      "date": "2015-04-09T14:28:30.672Z"
     },
     "description": "TAPL本(Types And Programming Language、型システム入門)の各章にある「ML実装」の例をRustにポーティングしてみます。\n\nまずは4章の算術式です。書籍でのtype termが保持するinfoは、ソースからパージングするわけではないので略します。いらなそうなletは省きました(OCamlでの必要性は不明)。\n\n#![feature(box_patterns)]\n#![feature(box_syntax)]\n\n#[derive(Debu...",
     "isbn": [
@@ -4421,17 +4421,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8eab00d6ca0f3cc687"
+      "oid": "55268c8eab00d6ca0f3cc687"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/345e0dae638fa9ad23103fd7ac55a125",
       "name": "vvakame"
     },
     "datePublished": {
-      "$date": "2014-11-13T03:16:26.000Z"
+      "date": "2014-11-13T03:16:26.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:30.979Z"
+      "date": "2015-04-09T14:28:30.979Z"
     },
     "description": "TypeScriptリファレンスお買い上げありがとうございます！ Amazon 達人出版会\n1.0.0の書籍なのですが、基本は変わってないので僕のQiitaの記事をフォローしてもらえればだいたいオッケーです(きり\n\nTypeScript1.1.0-1が出て、それの変更点紹介を書いてから1ヶ月強で1.3.0リリースとなりました。早いものです。\n\n昨日夜、Connect();なるイベントがあり、ニコ生で実況もしてたらしいですが、Google信者の僕は酒かっくらってpull ...",
     "isbn": [
@@ -4443,17 +4443,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8fab00d6ca0f3cc688"
+      "oid": "55268c8fab00d6ca0f3cc688"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/1229469817/______normal.jpeg",
       "name": "edo_m18"
     },
     "datePublished": {
-      "$date": "2013-11-04T15:36:55.000Z"
+      "date": "2013-11-04T15:36:55.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:31.147Z"
+      "date": "2015-04-09T14:28:31.147Z"
     },
     "description": "今度やる勉強会に向けて、剛体シミュレーションの概要をまとめていきます。\nとはいえ、本格的に説明はできないので（理解不足で）、概要と今、自分が理解している範囲をまとめていきます。\n知識としては、書籍を読んで把握した範囲なので若干偏りがあると思います。参考にした書籍は一番下に掲載しています。\n（なので、なにか間違っている点などあればコメントいただけるとうれしいです）\n\n\nこちらの理論などを元に、実際に2Dの物理エンジンを自作してみました。その過程で参考にしたものや躓いた点な...",
     "isbn": [
@@ -4465,17 +4465,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8fab00d6ca0f3cc689"
+      "oid": "55268c8fab00d6ca0f3cc689"
     },
     "author": {
       "imageUrl": "https://avatars.githubusercontent.com/u/5254777?v=2",
       "name": "opengl-8080"
     },
     "datePublished": {
-      "$date": "2014-12-19T15:10:00.000Z"
+      "date": "2014-12-19T15:10:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:31.327Z"
+      "date": "2015-04-09T14:28:31.327Z"
     },
     "description": "\nJava EE とは\n\nJava Platform, Enterprise Edition の略。\nJava SE(Standard Edition) がデスクトップアプリケーション開発向けの仕様がまとめられているのに対して、Enterprise ーすなわち企業向けのアプリケーション（Web アプリとか）を開発するうえで必要になるライブラリやフレームワークの仕様がまとめられたエディション。\n\n\n名称について\n\n2014年12月現在の最新はバージョン７。\nバージョン４ま...",
     "isbn": [
@@ -4491,17 +4491,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8fab00d6ca0f3cc68a"
+      "oid": "55268c8fab00d6ca0f3cc68a"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/365c5067d0c90ef80e3c35d83ed811a3?d=https%3A%2F%2Fidenticons.github.com%2F3475742381ebaf9e90dcf9b3e96ad2eb.png&amp;r=x",
       "name": "tkdn"
     },
     "datePublished": {
-      "$date": "2015-03-08T10:26:46.000Z"
+      "date": "2015-03-08T10:26:46.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:31.425Z"
+      "date": "2015-04-09T14:28:31.425Z"
     },
     "description": "\njQueryを使わないでアニメーションしたくはないでしょうか\n\n別に興味ないですか。私は興味あります。\n\nブレイクスルーJavaScript フロントエンドエンジニアとして越えるべき5つの壁―オブジェクト指向からシングルページアプリケーションまでを注文しました。\n\njQueryその先へ、とかそういう文言が今熱いのか。\n積ん読たまってて読めるかまったくわからないんですけど。\n\n書籍とは離れますが、jQuery を使用しないでどこまでアニメーションに耐えられるのか、ちょっ...",
     "isbn": [
@@ -4513,17 +4513,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c8fab00d6ca0f3cc68b"
+      "oid": "55268c8fab00d6ca0f3cc68b"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3041433011/5810ec2f33ceaf6e989747135e0344a3_normal.png",
       "name": "shinya_131"
     },
     "datePublished": {
-      "$date": "2014-12-06T14:47:56.000Z"
+      "date": "2014-12-06T14:47:56.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:31.795Z"
+      "date": "2015-04-09T14:28:31.795Z"
     },
     "description": "これはドリコムAdventCalendarの6日目です。\n5日目の記事は、ドリコムの開発を支えるGitリポジトリ@gussanです。\n7日目は、般若心経F*ck、コピペで徳を高める話@おーはらさんです。\n\n\n自己紹介\n\nドリコムでアプリケーションエンジニアとしてネイティブゲームの開発を行ったりマネージメントをしたりしています。\n\nその他の事はこちら参照:\nhttps://gist.github.com/Shinya131/5d9e604d963177ee2cdc\n\n\nR...",
     "isbn": [
@@ -4536,17 +4536,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c90ab00d6ca0f3cc68c"
+      "oid": "55268c90ab00d6ca0f3cc68c"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3233700643/aad5db70bb3cd6731ad7bff663ba0805_normal.jpeg",
       "name": "shima_x"
     },
     "datePublished": {
-      "$date": "2015-01-03T14:08:00.000Z"
+      "date": "2015-01-03T14:08:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:32.076Z"
+      "date": "2015-04-09T14:28:32.076Z"
     },
     "description": "前々から興味のあった検索エンジンを冬休みの工作として作ってみました。（といっても、めちゃくちゃちゃちいですが。。）\n\n\n作業環境\n\n標準入力から検索クエリを取得しているので、一応環境も書いておきます。環境は以下のとおりです。\nMac OSX 10.9.5 Core i7(64bit)\nPython 2.7.9\n\n\n参考資料\n\n[Web開発者のための]大規模サービス技術入門\n\n検索アルゴリズムの話だけでなく、メモリやディスクの話含め幅広く記載があります。また、実際の経験を...",
     "isbn": [
@@ -4558,17 +4558,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c90ab00d6ca0f3cc68d"
+      "oid": "55268c90ab00d6ca0f3cc68d"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/551177013126369280/48Tmf-YU_normal.jpeg",
       "name": "amedama"
     },
     "datePublished": {
-      "$date": "2013-01-22T06:14:16.000Z"
+      "date": "2013-01-22T06:14:16.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:32.082Z"
+      "date": "2015-04-09T14:28:32.082Z"
     },
     "description": "\nこのアルゴリズムは、他人に知られてもかまわない情報を2人が交換するだけで、共通の秘密の数を創りだすという方法です。作り出した秘密の数を対象鍵の鍵として使うのです。 (『新版 暗号技術入門』 p280)\n\n\n通信部分は省略します。今回はC言語側が素数Pと生成元Gを作るものとしました。\n\nJavaのみでやる方が楽です。\n\n用語とか\n\n素数P、生成元Gという用語は文献やAPIでも大差がない気がします。今回はJavaの流儀にならって公開しない秘密の値をX (== G^A mo...",
     "isbn": [
@@ -4581,17 +4581,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c90ab00d6ca0f3cc68e"
+      "oid": "55268c90ab00d6ca0f3cc68e"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/160a2bfe859622ee0c854405441019cc",
       "name": "HirofumiYashima"
     },
     "datePublished": {
-      "$date": "2014-07-07T10:06:42.000Z"
+      "date": "2014-07-07T10:06:42.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:32.250Z"
+      "date": "2015-04-09T14:28:32.250Z"
     },
     "description": "\n        \n        【 概要 】\n      \n        \n        行列計算による座標変換の視覚的理解と、 Visual Studio の手習いを目的に、 Open GL に触ってみました\n      \n        \n        （環境）\n      \n\nOS :  Windows 7 (64-bit)\n開発環境 : Visual Studio 2010 Express\n\n\n        \n        【 教材ウェブサイト 】...",
     "isbn": [
@@ -4603,17 +4603,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c90ab00d6ca0f3cc68f"
+      "oid": "55268c90ab00d6ca0f3cc68f"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/3660220729/529aefc16a52c1871f124411a428eafe_normal.jpeg",
       "name": "giginet"
     },
     "datePublished": {
-      "$date": "2014-12-16T13:43:39.000Z"
+      "date": "2014-12-16T13:43:39.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:32.412Z"
+      "date": "2015-04-09T14:28:32.412Z"
     },
     "description": "こんにちは@giginetです。Cocos2d-x Advent Calendar 2014の16日目を担当させて頂きます。よろしくお願いします。\n\n\ncocos2d-xでインタラクティブミュージックに挑戦\n\n前回から間が空いてしまいましたが、今回は、ADX2に搭載されている「ブロック再生」の機能を使って、動的にメロディが変化するゲームを実装してみましょう。\n\nブロック再生機能を使うことで、シームレスな音楽の切り替えを簡単に行うことができます。\n\nこの記事は、cocos...",
     "isbn": [
@@ -4625,17 +4625,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c90ab00d6ca0f3cc690"
+      "oid": "55268c90ab00d6ca0f3cc690"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/94e63e736a80c35e0779c25e5e1bc37c?d=https%3A%2F%2Fidenticons.github.com%2F4ac9cacbe14a9a9ce7d1fe745b02b2d4.png&amp;r=x",
       "name": "ynakayama"
     },
     "datePublished": {
-      "$date": "2015-02-12T12:59:40.000Z"
+      "date": "2015-02-12T12:59:40.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:32.445Z"
+      "date": "2015-04-09T14:28:32.445Z"
     },
     "description": "前回に続いて統計学実践手法のお話です。最初の表を思い出してください。多変量解析についても大詰めです。今日は重回帰分析の話です。\n\n回帰分析は以前も登場しましたが、 1 つあるいは複数の変数の値を用いてある 1 つの変数の値を予測する回帰式を導く多変量解析の一種です。\n\nわかりやすい説明としては統計学が最強の学問である実践編 p216 以降を参照してください。\n\n\nサンプルデータ\n\n統計学が最強の学問である実践編 数学的補足 15 (p61) にあるサンプルデータを利用し...",
     "isbn": [
@@ -4647,17 +4647,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c90ab00d6ca0f3cc691"
+      "oid": "55268c90ab00d6ca0f3cc691"
     },
     "author": {
       "imageUrl": "https://0.gravatar.com/avatar/19d7ae634445d4bd9b10c7961a462260?d=https%3A%2F%2Fidenticons.github.com%2Fc36ed981a104a400e6468918c4427d9f.png&amp;r=x",
       "name": "shu223"
     },
     "datePublished": {
-      "$date": "2014-12-12T09:21:56.000Z"
+      "date": "2014-12-12T09:21:56.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:32.576Z"
+      "date": "2015-04-09T14:28:32.576Z"
     },
     "description": "Core Bluetooth の Swift コード + Objective-C のおまけ付きスニペット集です。Core Bluetooth だから Swift がどうなる、という部分があるわけでもないので、何も目新しいことはありません。。コピペ等に役立つかも。。\n\nちなみに Core Bluetooth の各種メソッドでは実行キューを指定できたりオプションを指定できたりとか色々ありますが、シンプルにするためここでは省けるものはできるだけ省くようにしています。\n\n\n（本...",
     "isbn": [
@@ -4669,17 +4669,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c91ab00d6ca0f3cc692"
+      "oid": "55268c91ab00d6ca0f3cc692"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/26c17d2f70a57a8fd9a70885682fcd74?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png",
       "name": "inokappa"
     },
     "datePublished": {
-      "$date": "2014-10-03T21:59:33.000Z"
+      "date": "2014-10-03T21:59:33.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:33.017Z"
+      "date": "2015-04-09T14:28:33.017Z"
     },
     "description": "どうも、かっぱです。\n\n\nはじめに\n\n最近、sensu 周りでやったことを書きます。\n\nsensu-server で管理するクライアントの数が増えてくると純粋な sensu-server のログは目 grep では追いつかないくらいの量に増えてしまいます。このログを Elasticsearch に放り込んでみたりエラーレベルなログは Slack に通知する仕組みを fluentd を利用して作りました。\n\n以下のようなイメージ。\n\n\n\n尚、今回は監視対象で発生する wa...",
     "isbn": [
@@ -4691,17 +4691,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c91ab00d6ca0f3cc693"
+      "oid": "55268c91ab00d6ca0f3cc693"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/520729384949264384/5Sh30FsB_normal.jpeg",
       "name": "nobkz"
     },
     "datePublished": {
-      "$date": "2014-12-25T08:27:31.000Z"
+      "date": "2014-12-25T08:27:31.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:33.268Z"
+      "date": "2015-04-09T14:28:33.268Z"
     },
     "description": "\nFRPとVirtual DOM、状態について。\n\n今回は、Elmを通して、FRPに対する個人的な理解、そしてVirtual DOMがFRPに合っているということを述べていきます。\n\n\nFRP\n\n\n関数プログラミングはどのように「状態」を扱うのか?\n\n「Functional Reactive Programming」とあるように、FRPは関数プログラミングのパラダイムの技法だと思います。なので、関数プログラミングについてまず、「状態」について考えてみたいと思います。\n\n...",
     "isbn": [
@@ -4713,17 +4713,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c91ab00d6ca0f3cc694"
+      "oid": "55268c91ab00d6ca0f3cc694"
     },
     "author": {
       "imageUrl": "https://gravatar.com/avatar/94e63e736a80c35e0779c25e5e1bc37c?d=https%3A%2F%2Fidenticons.github.com%2F4ac9cacbe14a9a9ce7d1fe745b02b2d4.png&amp;r=x",
       "name": "ynakayama"
     },
     "datePublished": {
-      "$date": "2014-03-14T08:09:16.000Z"
+      "date": "2014-03-14T08:09:16.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:33.274Z"
+      "date": "2015-04-09T14:28:33.274Z"
     },
     "description": "\n        \n        統計学とは\n      昨日は先物取引を例に金融データをモデル化・シミュレーションする例を説明しました。\n統計学はそもそも様々な応用分野で成熟してきたものです。その源流は主に次の 3 つに大別されます。\n\n\n国の実態をとらえるための「統計」\n大量の事象をとらえるための「統計」\n確率的事象をとらえるための「統計」 \n\n19 世紀の半ばにアドルフ・ケトレーによって社会現象・自然現象いずれも数量的にとらえる「統計」として成立しました。「近代...",
     "isbn": [
@@ -4735,17 +4735,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c91ab00d6ca0f3cc695"
+      "oid": "55268c91ab00d6ca0f3cc695"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/521815870041894913/7h6DMSUS_normal.jpeg",
       "name": "hiroo0529"
     },
     "datePublished": {
-      "$date": "2014-12-01T04:06:17.000Z"
+      "date": "2014-12-01T04:06:17.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:33.426Z"
+      "date": "2015-04-09T14:28:33.426Z"
     },
     "description": "新米エンジニアの筆者が、エンジニア界では有名な著書「リーダブルコード」を読み終えて学んだことを記録しておこうと思います。\n\nリーダブルコードを一言で言うならば、「自分のコードを他人が読んだ時、理解するまでの時間が最短になる為のコーディング手段」を提示してくれる書籍でした。\n\n筆者自身の理解が浅いこともあり、コードの「あるべき姿」がわからない状態での出会いだったので、本書を読み終えた後のリファクタリングにも大いに役立ちました。\n\n本ブログでは、「その後のコーディングで役立...",
     "isbn": [
@@ -4757,17 +4757,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c92ab00d6ca0f3cc696"
+      "oid": "55268c92ab00d6ca0f3cc696"
     },
     "author": {
       "imageUrl": "https://1.gravatar.com/avatar/fff4122c8c331e7e2751d1404636b727?d=https%3A%2F%2Fidenticons.github.com%2F9db74020097557d0c8321b3e1db57821.png",
       "name": "kawanabe"
     },
     "datePublished": {
-      "$date": "2014-04-24T08:20:27.000Z"
+      "date": "2014-04-24T08:20:27.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:34.057Z"
+      "date": "2015-04-09T14:28:34.057Z"
     },
     "description": "heathrowエンジニアブログからの転載です。\n元々は社内Wikiにあったものを持ってきたので古い部分があります。\n\nheathrowでは好きなファッションブランドをまとめ読みFavricaというiOSアプリを開発しています。本日1.0.4がリリースされています！\n\n        \n        View系\n      \n\nストーリーボードはマージできない\n\n\n開発の単位で分ける（同時に編集できないので）\n\n.xib .storyboard の読み込みに時間がかか...",
     "isbn": [
@@ -4783,17 +4783,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c92ab00d6ca0f3cc697"
+      "oid": "55268c92ab00d6ca0f3cc697"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/525916071937589248/_PdkESUn_normal.png",
       "name": "Imamotty"
     },
     "datePublished": {
-      "$date": "2014-05-17T15:36:48.000Z"
+      "date": "2014-05-17T15:36:48.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:34.447Z"
+      "date": "2015-04-09T14:28:34.447Z"
     },
     "description": "\n        \n        JavaScriptの関数の基本事項\n      備忘＆復習も兼ねて、JavaScriptの関数の基本的な使い方や特徴をまとめてみたいと思います。\n(途中で確認のためのコードを挟んでいますが、出力結果は省略してあります)\n\n        \n        1.リテラルを介して作成される\n      \n        \n        リテラルの4つの構成要素\n      JavaScriptの関数は以下の4つの要素で構成されたリテラ...",
     "isbn": [
@@ -4805,17 +4805,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c92ab00d6ca0f3cc698"
+      "oid": "55268c92ab00d6ca0f3cc698"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/0e3e4d3a8e69ccae1e9b9dcc219f3f1f",
       "name": "fakestarbaby"
     },
     "datePublished": {
-      "$date": "2012-08-07T08:55:56.000Z"
+      "date": "2012-08-07T08:55:56.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:34.504Z"
+      "date": "2015-04-09T14:28:34.504Z"
     },
     "description": "勉強した事をつらつらと書き殴ります。\n\n\nphoto by MattsMacintosh\n\nワイヤーフレーム\n\n\nMobile sketch sheets for Web Designers | Sneakpeekit\n\n\nビューコントローラ\n\nライフサイクル\n\n通常\n\n\ninitWithNibName / initWithCoder / init\nawakeFromNib\nloadView\nviewDidLoad\nviewWillAppear\nviewWillDisa...",
     "isbn": [
@@ -4830,17 +4830,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c92ab00d6ca0f3cc699"
+      "oid": "55268c92ab00d6ca0f3cc699"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/703388479/____0____normal.png",
       "name": "vespid"
     },
     "datePublished": {
-      "$date": "2015-02-22T11:39:00.000Z"
+      "date": "2015-02-22T11:39:00.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:34.871Z"
+      "date": "2015-04-09T14:28:34.871Z"
     },
     "description": "\n読み物\n\nわかった気になるJS開発手法\n\n【推理アドベンチャー】スペイン語版ＦＦ７攻略の軌跡 - Togetterまとめ\n\n\n本\n\n宮田 珠己「ときどき意味もなくずんずん歩く」\nときどき意味もなくずんずん歩く\n",
     "isbn": [
@@ -4852,17 +4852,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c93ab00d6ca0f3cc69a"
+      "oid": "55268c93ab00d6ca0f3cc69a"
     },
     "author": {
       "imageUrl": "https://secure.gravatar.com/avatar/73adee9b5d4a49fed60c6e1b6611e423",
       "name": "tmyymmt"
     },
     "datePublished": {
-      "$date": "2014-12-14T05:09:57.000Z"
+      "date": "2014-12-14T05:09:57.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:35.165Z"
+      "date": "2015-04-09T14:28:35.165Z"
     },
     "description": "\n本書について\n\n\nAmazonで本を購入する\n著者twitter\n\n\n\n本書のまとめ\n\n\n第2章 ボトルネックを解消せよ！\n\n\n問い合わせ数\n\n\n問い合わせ数＝集客数ｘ成約率（コンバージョン率）\n問い合わせ数＝新規集客数ｘ新規成約率＋リピーター集客数ｘリピーター成約率\n\n\n\nAIDMA\n\n\nAttention（注意を引かれて）\nInterest（興味を持ち）\nDesire（欲望をかきたて）\nMemory（記憶して）\nAction（購買する）\n\n\n\nRi-Turban&#39;...",
     "isbn": [
@@ -4874,17 +4874,17 @@
   {
     "version": 0,
     "id": {
-      "$oid": "55268c95ab00d6ca0f3cc69b"
+      "oid": "55268c95ab00d6ca0f3cc69b"
     },
     "author": {
       "imageUrl": "https://pbs.twimg.com/profile_images/474947903073431553/TDMYCgVE_normal.png",
       "name": "katapad"
     },
     "datePublished": {
-      "$date": "2014-12-26T08:19:43.000Z"
+      "date": "2014-12-26T08:19:43.000Z"
     },
     "dateRegister": {
-      "$date": "2015-04-09T14:28:37.387Z"
+      "date": "2015-04-09T14:28:37.387Z"
     },
     "description": "WebGL Advent Calendar 2014の13日目の記事です。\n\n3Dのスキルなんてものは1mmもないわたくしが、お勉強したログをまとめてみます。\n\nThree.jsのバージョンは68時点のものです。\n\n\n参考にしたもの\n\n\nthree.jsのドキュメント\nthree.jsのサンプル\n\n\n\n\nthree.jsによるHTML5 3Dグラフィックス〈上〉―ブラウザで実現するOpenGL(WebGL)の世界 \n\nドキュメントとサンプルがしっかりしてるので、それだけ...",
     "isbn": [

@@ -7,38 +7,25 @@ import java.util.List;
  * Created by shunhosaka on 2015/03/07.
  */
 public class Article {
-    //List
-    public String id;
-    public String date;
+
+    public Oid id;
     public String title;
-    public String icon;
-    public String color;
-    public String source;
-    //Detail
-    public String source_url;
-    public String bodyText;
-    public List<Book> books = new ArrayList<>();
-    public List<Category> categories = new ArrayList<>();
+    public String description;
+    public String url;
+    public Author author;
+    public Date datePublished;
+    public Date dateRegister;
+    public List<String> isbn = new ArrayList<>();
+    public int version;
 
-    public Article(String id, String date, String title, String icon, String color, String source) {
-        this.id = id;
-        this.date = date;
-        this.title = title;
-        this.icon = icon;
-        this.color = color;
-        this.source = source;
+
+    public class Date {
+        public String date;
     }
 
-    public Article(String id, String date, String title, String icon, String color, String source, String source_url, String bodyText, List<Book> books, List<Category> categories) {
-        this.id = id;
-        this.date = date;
-        this.title = title;
-        this.icon = icon;
-        this.color = color;
-        this.source = source;
-        this.source_url = source_url;
-        this.bodyText = bodyText;
-        this.books = books;
-        this.categories = categories;
+    public class Oid {
+        public String oid;
     }
+
+
 }

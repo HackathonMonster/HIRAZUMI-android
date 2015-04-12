@@ -32,6 +32,8 @@
     <dimen name="radius_book">8dp</dimen>
 
     <!-- ArticleList -->
+    <dimen name="item_article_icon_size">48dp</dimen>
+    <dimen name="item_article_icon_padding">8dp</dimen>
     <dimen name="item_article_height">120dp</dimen>
 
     <!-- Login -->

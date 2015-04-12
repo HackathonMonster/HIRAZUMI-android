@@ -58,27 +58,6 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
     private List<PageHeader> mPageHeaders = new ArrayList<>();
     BasicPagerAdapter mBasicPagerAdapter;
 
-    /*
-    private Target mGetPhotoTarget = new Target() {
-        @Override
-        public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
-            mHeaderPhotoImageView.setImageBitmap(bitmap);
-            mHasPhoto = true;
-            //画像の高さを入力しての再計算
-            recomputePhotoAndScrollingMetrics();
-        }
-        @Override
-        public void onBitmapFailed(Drawable errorDrawable) {
-            mHasPhoto = false;
-            //画像の高さを入力しての再計算
-            recomputePhotoAndScrollingMetrics();
-        }
-
-        @Override
-        public void onPrepareLoad(Drawable placeHolderDrawable) {
-        }
-    };*/
-
     @AfterViews
     void onAfterViews() {
         RadioButton[] radioButtons = new RadioButton[4];
@@ -100,17 +79,16 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
     private View.OnClickListener mTabClicked = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            if (v.getTag() instanceof Integer) {
-                Integer position = (Integer) v.getTag();
-                changeTabState(position.intValue(), true);
-            }
+        if (v.getTag() instanceof Integer) {
+            Integer position = (Integer) v.getTag();
+            mViewPager.setCurrentItem(position, true);
+        }
         }
     };
 
     private void loadHeader() {
         //HeaderのJSON読み込
-        String headerJson = AssetUtil.jsonAssetReader("json/header.json", getApplicationContext());
-        Log.d("header.json", headerJson);
+        String headerJson = AssetUtil.jsonAssetReader("jsons/header.json", getApplicationContext());
         try {
             if (headerJson != null) {
                 JSONArray headerArray = new JSONArray(headerJson);
@@ -135,9 +113,11 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
             }
+
             @Override
             public void onPageSelected(int position) {
                 changeTabState(position, true);
+                ((PageFragment_) mBasicPagerAdapter.getItem(mViewPager.getCurrentItem())).setScrollReset();
             }
 
             @Override

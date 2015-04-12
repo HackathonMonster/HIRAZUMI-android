@@ -17,11 +17,13 @@ import android.widget.LinearLayout;
 
 import com.android.volley.Request;
 import com.google.gson.Gson;
+import com.google.gson.JsonArray;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 import com.zeroone_creative.basicapplication.R;
 import com.zeroone_creative.basicapplication.controller.provider.NetworkTaskCallback;
 import com.zeroone_creative.basicapplication.controller.provider.VolleyHelper;
+import com.zeroone_creative.basicapplication.controller.util.AssetUtil;
 import com.zeroone_creative.basicapplication.controller.util.JSONArrayRequestUtil;
 import com.zeroone_creative.basicapplication.controller.util.UriUtil;
 import com.zeroone_creative.basicapplication.model.enumerate.NetworkTasks;
@@ -94,8 +96,9 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
                 mAdapter = new BookAdapter(getActivity());
                 break;
             case Topic:
-                mLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, true);
+                mLayoutManager = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
                 mAdapter = new ArticleAdapter(getActivity());
+                getArticles();
                 break;
             case Category:
                 mLayoutManager = new GridLayoutManager(getActivity(), 2);
@@ -126,7 +129,6 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
                     super.onScrolled(recyclerView, dx, dy);
                     //Calc scroll Y position
                     mTotalScrollY += dy;
-
                     int visibleItemCount = recyclerView.getChildCount();
                     int totalItemCount = mLayoutManager.getItemCount();
                     int firstVisibleItem = 0;
@@ -151,10 +153,14 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
                     if (mScrollListener != null) {
                         mScrollListener.onScrollChanged(mPageType, mTotalScrollY);
                     }
-
                 }
             });
         }
+    }
+
+    public void setScrollReset() {
+        mTotalScrollY = 0;
+        mRecyclerView.scrollToPosition(0);
     }
 
     @Override
@@ -183,35 +189,6 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
         }
     }
 
-    private void getCategories() {
-        if (!mPageType.equals(PageType.Category)) return;
-        JSONArrayRequestUtil categoryRequestUtil = new JSONArrayRequestUtil(new NetworkTaskCallback() {
-            @Override
-            public void onSuccessNetworkTask(int taskId, Object object) {
-                List<Object> content = new ArrayList<>();
-                if (object instanceof JSONArray) {
-                    JSONArray data = (JSONArray) object;
-                    for (int i = 0; i < data.length(); i++) {
-                        try {
-                            content.add(new Gson().fromJson(data.getJSONObject(i).toString(), Category.class));
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-                mAdapter.setItems(content);
-            }
-
-            @Override
-            public void onFailedNetworkTask(int taskId, Object object) {
-
-            }
-        },
-                this.getClass().getSimpleName(),
-                null);
-        categoryRequestUtil.onRequest(VolleyHelper.getRequestQueue(getActivity()), Request.Priority.HIGH, UriUtil.getCategoryUri(new ArrayList<NameValuePair>()), NetworkTasks.GetCategory);
-    }
-
     private void getBooks() {
         if (!mPageType.equals(PageType.New) && !(mPageType.equals(PageType.Search))) return;
         JSONArrayRequestUtil bookRequestUtil = new JSONArrayRequestUtil(new NetworkTaskCallback() {
@@ -220,9 +197,10 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
                 List<Object> content = new ArrayList<>();
                 if (object instanceof JSONArray) {
                     JSONArray data = (JSONArray) object;
+                    Gson gson = new Gson();
                     for (int i = 0; i < data.length(); i++) {
                         try {
-                            content.add(new Gson().fromJson(data.getJSONObject(i).toString(), Book.class));
+                            content.add(gson.fromJson(data.getJSONObject(i).toString(), Book.class));
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -231,7 +209,6 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
                 mIsLoading = false;
                 mAdapter.addItems(content);
             }
-
             @Override
             public void onFailedNetworkTask(int taskId, Object object) {
 
@@ -245,6 +222,51 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
             bookRequestUtil.onRequest(VolleyHelper.getRequestQueue(getActivity()), Request.Priority.HIGH, UriUtil.getBookUriSearch(REQUEST_LIMIT, mStart, mSearchParam), NetworkTasks.GetBooks);
         }
         mStart += REQUEST_LIMIT;
+    }
+
+    private void getArticles() {
+        if (!mPageType.equals(PageType.Topic)) return;
+        List<Object> contents = new ArrayList<>();
+        try {
+            String articleJson = AssetUtil.jsonAssetReader("jsons/qiita.json", getActivity());
+            JSONArray articleArrays = new JSONArray(articleJson);
+            Gson gson = new Gson();
+            for (int i = 0; i < articleArrays.length(); i++) {
+                contents.add(gson.fromJson(articleArrays.get(i).toString(), Article.class));
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        mAdapter.setItems(contents);
+    }
+
+    private void getCategories() {
+        if (!mPageType.equals(PageType.Category)) return;
+        JSONArrayRequestUtil categoryRequestUtil = new JSONArrayRequestUtil(new NetworkTaskCallback() {
+            @Override
+            public void onSuccessNetworkTask(int taskId, Object object) {
+                List<Object> contents = new ArrayList<>();
+                if (object instanceof JSONArray) {
+                    JSONArray data = (JSONArray) object;
+                    Gson gson = new Gson();
+                    for (int i = 0; i < data.length(); i++) {
+                        try {
+                            contents.add(gson.fromJson(data.getJSONObject(i).toString(), Category.class));
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+                mAdapter.setItems(contents);
+            }
+            @Override
+            public void onFailedNetworkTask(int taskId, Object object) {
+
+            }
+        },
+                this.getClass().getSimpleName(),
+                null);
+        categoryRequestUtil.onRequest(VolleyHelper.getRequestQueue(getActivity()), Request.Priority.HIGH, UriUtil.getCategoryUri(new ArrayList<NameValuePair>()), NetworkTasks.GetCategory);
     }
 
     /**

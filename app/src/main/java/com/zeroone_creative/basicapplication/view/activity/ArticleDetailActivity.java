@@ -123,11 +123,8 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
         if (article == null) return;
         mTitleTextView.setText(article.title);
         mAuthorTextView.setText("Pat Shaughnessy");
-        Picasso.with(this).load(article.icon).into(mGetPhotoTarget);
-        mDetailTextView.setText("もっと知りたい、Rubyのしくみ! \n" +
-                "本書では、VMベースのインタプリタ型言語処理系であるRubyがコードをどのように解釈し、どうやって実行するか、そのしくみを解説。Rubyについての基礎知識がなくても、図版と短いコードの実験を多用した構成により、そのしくみについて理解することができます。\n" +
-                "実務でRubyは使えるけれど、基礎知識について自信がない人や、学びたくてもまとまった時間がとれずに悩んでいる人などもっとRubyを活用するためにRubyを知りたい人に最適。Rubyインタプリタを題材にプログラミング言語処理系の仕組みを解説するNo Starch Press社の“Ruby Under a Microscope\" の翻訳発行です。\n" +
-                "日本語版には、Rubyの開発者であるまつもとゆきひろ氏の序文とYARVの開発者である笹田耕一氏の付録が加筆されています。");
+        Picasso.with(this).load(article.author.imageUrl).into(mGetPhotoTarget);
+        mDetailTextView.setText(article.description);
     }
 
     private void recomputePhotoAndScrollingMetrics() {

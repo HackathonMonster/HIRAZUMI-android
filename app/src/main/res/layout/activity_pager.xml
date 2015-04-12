@@ -59,7 +59,8 @@
             android:id="@+id/pager_radiogroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="-8dp">
 
             <RadioButton
                 android:id="@+id/pager_radiobutton0"

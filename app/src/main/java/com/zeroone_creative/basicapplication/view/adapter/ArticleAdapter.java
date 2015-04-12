@@ -26,7 +26,6 @@ public class ArticleAdapter extends BaseRecyclerAdapter {
 
     private LayoutInflater mInflator;
     private Context mContext;
-    private List<Article> mContents = new ArrayList<>();
 
     /**
      * コンストラクタ
@@ -49,22 +48,29 @@ public class ArticleAdapter extends BaseRecyclerAdapter {
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder viewHolder, int position) {
         Article article = (Article) getItem(position);
-        ((ViewHolder) viewHolder).leftLayout.setBackgroundColor(Color.parseColor(article.color));
-        Picasso.with(mContext).load(article.icon).transform(new OvalTransformation()).into(((ViewHolder) viewHolder).iconImageView);
-        ((ViewHolder) viewHolder).dateTextView.setText(article.date);
+        Picasso.with(mContext).load(article.author.imageUrl).transform(new OvalTransformation()).into(((ViewHolder) viewHolder).iconImageView);
+        ((ViewHolder) viewHolder).userNameTextView.setText(article.author.name);
+        //TODO
+        ((ViewHolder) viewHolder).dateTextView.setText(article.datePublished.date);
+        ((ViewHolder) viewHolder).titleTextView.setText(article.title);
+        ((ViewHolder) viewHolder).descriptionTextView.setText(article.description.replaceAll("\\n", ""));
     }
 
     // ViewHolder内部でIDと関連づけ
     private static class ViewHolder extends RecyclerView.ViewHolder {
-        public LinearLayout leftLayout;
         public ImageView iconImageView;
+        public TextView userNameTextView;
         public TextView dateTextView;
+        public TextView titleTextView;
+        public TextView descriptionTextView;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            leftLayout = (LinearLayout) itemView.findViewById(R.id.item_article_layout_left);
             iconImageView = (ImageView) itemView.findViewById(R.id.item_article_imageview_icon);
+            userNameTextView = (TextView) itemView.findViewById(R.id.item_article_textview_user);
             dateTextView = (TextView) itemView.findViewById(R.id.item_article_textview_date);
+            titleTextView = (TextView) itemView.findViewById(R.id.item_article_textview_title);
+            descriptionTextView = (TextView) itemView.findViewById(R.id.item_article_textview_description);
         }
     }
 
