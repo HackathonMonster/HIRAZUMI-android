@@ -26,35 +26,6 @@
         android:orientation="vertical"
         android:background="@drawable/bg_page">
 
-        <LinearLayout
-            android:id="@+id/pager_layout_search"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingBottom="@dimen/activity_vertical_margin"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:visibility="gone">
-
-            <EditText
-                android:id="@+id/pager_edittext_search"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:layout_marginRight="@dimen/element_spacing_normal"
-                android:layout_weight="1" />
-
-            <ImageButton
-                android:id="@+id/pager_imagebutton_search"
-                android:layout_width="@dimen/view_size_normal"
-                android:layout_height="@dimen/view_size_normal"
-                android:background="@drawable/bg_search"
-                android:padding="@dimen/element_spacing_normal"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ic_etc_search" />
-        </LinearLayout>
-
         <RadioGroup
             android:id="@+id/pager_radiogroup"
             android:layout_width="match_parent"
@@ -103,6 +74,35 @@
                 android:textColor="@color/primary_text" />
 
         </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/pager_layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/pager_edittext_search"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/element_spacing_normal"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/pager_imagebutton_search"
+                android:layout_width="@dimen/view_size_normal"
+                android:layout_height="@dimen/view_size_normal"
+                android:background="@drawable/bg_search"
+                android:padding="@dimen/element_spacing_normal"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_etc_search" />
+        </LinearLayout>
 
         <android.support.v4.view.ViewPager
             android:id="@+id/pager_viewpager"

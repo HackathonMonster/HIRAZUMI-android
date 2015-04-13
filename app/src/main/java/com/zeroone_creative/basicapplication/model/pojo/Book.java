@@ -27,7 +27,6 @@ public class Book {
     public Publisher publisher;
     public List<ShopUrl> shopUrls = new ArrayList<>();
 
-
     public Book(String name, String imageUrl) {
         this.name = name;
         this.imageUrl = imageUrl;

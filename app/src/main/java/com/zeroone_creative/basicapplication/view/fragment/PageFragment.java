@@ -192,20 +192,20 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
         JSONArrayRequestUtil bookRequestUtil = new JSONArrayRequestUtil(new NetworkTaskCallback() {
             @Override
             public void onSuccessNetworkTask(int taskId, Object object) {
-                List<Object> content = new ArrayList<>();
+                List<Object> contents = new ArrayList<>();
                 if (object instanceof JSONArray) {
                     JSONArray data = (JSONArray) object;
                     Gson gson = new Gson();
                     for (int i = 0; i < data.length(); i++) {
                         try {
-                            content.add(gson.fromJson(data.getJSONObject(i).toString(), Book.class));
+                            contents.add(gson.fromJson(data.getJSONObject(i).toString(), Book.class));
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
                     }
                 }
                 mIsLoading = false;
-                mAdapter.addItems(content);
+                mAdapter.addItems(contents);
             }
             @Override
             public void onFailedNetworkTask(int taskId, Object object) {

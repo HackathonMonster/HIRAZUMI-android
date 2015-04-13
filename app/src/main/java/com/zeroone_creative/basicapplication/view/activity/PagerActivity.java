@@ -2,10 +2,13 @@ package com.zeroone_creative.basicapplication.view.activity;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.Point;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
+import android.view.Display;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.FrameLayout;
@@ -54,6 +57,7 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
     @ViewById(R.id.pager_edittext_search)
     EditText mSearchEditText;
 
+    private int mMaxPhotoHeightPixels;
     private int mPhotoHeightPixels;
     private List<PageHeader> mPageHeaders = new ArrayList<>();
     BasicPagerAdapter mBasicPagerAdapter;
@@ -73,16 +77,23 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
         }
         loadHeader();
         setPager();
+
+        WindowManager windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
+        // ディスプレイのインスタンス生成
+        Display display = windowManager.getDefaultDisplay();
+        Point size = new Point();
+        display.getSize(size);
+        mMaxPhotoHeightPixels = (int) (size.x / PHOTO_ASPECT_RATIO);
         changeTabState(0, true);
     }
 
     private View.OnClickListener mTabClicked = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-        if (v.getTag() instanceof Integer) {
-            Integer position = (Integer) v.getTag();
-            mViewPager.setCurrentItem(position, true);
-        }
+            if (v.getTag() instanceof Integer) {
+                Integer position = (Integer) v.getTag();
+                mViewPager.setCurrentItem(position, true);
+            }
         }
     };
 
@@ -162,13 +173,12 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
     private void recomputePhotoAndScrollingMetrics() {
         mPhotoHeightPixels = 0;
         if (true) {
-            mPhotoHeightPixels = (int) (mHeaderPhotoImageView.getWidth() / PHOTO_ASPECT_RATIO);
+            mPhotoHeightPixels = mMaxPhotoHeightPixels;
         }
-        ViewGroup.LayoutParams lp;
-        lp = mHeaderPhotoContainerLayout.getLayoutParams();
-        if (lp.height != mPhotoHeightPixels) {
-            lp.height = mPhotoHeightPixels;
-            mHeaderPhotoContainerLayout.setLayoutParams(lp);
+        ViewGroup.LayoutParams layoutParams = mHeaderPhotoContainerLayout.getLayoutParams();
+        if (layoutParams.height != mPhotoHeightPixels) {
+            layoutParams.height = mPhotoHeightPixels;
+            mHeaderPhotoContainerLayout.setLayoutParams(layoutParams);
         }
         //TODO 現在の場所のフラグメントを取得しonScrollChangedに渡す
         onScrollChanged(null, 0); // trigger scroll handling
@@ -177,8 +187,10 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
     @Override
     public void onScrollChanged(PageType pageType, int scrollY) {
         float newTop = Math.max(mPhotoHeightPixels - scrollY, 0);
+        newTop = Math.min(newTop, mMaxPhotoHeightPixels);
         mContentLayout.setTranslationY(newTop);
         // Move background photo (parallax effect)
+        scrollY = Math.max(scrollY, 0);
         mHeaderPhotoContainerLayout.setTranslationY(scrollY * 0.5f * -1);
         Log.d(getClass().getSimpleName(), "ScrollY: " + String.valueOf(scrollY));
     }

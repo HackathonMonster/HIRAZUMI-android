@@ -49,7 +49,7 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
     View mScrollViewChild;
     @ViewById(R.id.icon_photo_container)
     View mPhotoViewContainer;
-    @ViewById(R.id.icon_photo)
+    @ViewById(R.id.detail_imageview_icon_learge)
     ImageView mPhotoView;
     @ViewById(R.id.details_toolbar_actionbar)
     Toolbar mToolbar;
@@ -234,7 +234,7 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
-        getMenuInflater().inflate(R.menu.menu_book_details, menu);
+        getMenuInflater().inflate(R.menu.menu_book_detail, menu);
         return true;
     }
 
@@ -271,7 +271,7 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
         return false;
     }
 
-    @Click(R.id.icon_photo)
+    @Click(R.id.detail_imageview_icon_learge)
     void scaleUpImage() {
         if (mBook != null && getSupportFragmentManager().findFragmentByTag("ScaleUpImageFragment") == null) {
             BookImageFragment.newInstance(mBook.imageUrl).show(getSupportFragmentManager(), "ScaleUpImageFragment");
