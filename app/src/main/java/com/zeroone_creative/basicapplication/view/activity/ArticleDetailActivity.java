@@ -40,9 +40,9 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
     ObservableScrollView mScrollView;
     @ViewById(R.id.scroll_view_child)
     View mScrollViewChild;
-    @ViewById(R.id.session_photo_container)
+    @ViewById(R.id.icon_photo_container)
     View mPhotoViewContainer;
-    @ViewById(R.id.session_photo)
+    @ViewById(R.id.icon_photo)
     ImageView mPhotoView;
     @ViewById(R.id.details_toolbar_actionbar)
     Toolbar mToolbar;
@@ -52,7 +52,7 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
     TextView mAuthorTextView;
     @ViewById(R.id.detail_textview_detail)
     TextView mDetailTextView;
-    @ViewById(R.id.session_tags)
+    @ViewById(R.id.books_container)
     LinearLayout mBooksLayout;
     @ViewById(R.id.header_session)
     View mHeaderBox;
@@ -65,10 +65,6 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
 
     private int mPhotoHeightPixels;
     private int mHeaderHeightPixels;
-    private int mAddScheduleButtonHeightPixels;
-
-    private float mMaxHeaderElevation;
-    private float mFABElevation;
 
     private boolean mHasPhoto = false;
 
@@ -109,14 +105,15 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
             }
         });
 
-        mFABElevation = getResources().getDimensionPixelSize(R.dimen.element_spacing_small);
-        mMaxHeaderElevation = getResources().getDimensionPixelSize(R.dimen.element_spacing_small);
         mScrollView.addCallbacks(this);
         ViewTreeObserver vto = mScrollView.getViewTreeObserver();
         if (vto.isAlive()) {
             vto.addOnGlobalLayoutListener(mGlobalLayoutListener);
         }
         setBookUi(mArticle);
+
+
+
     }
 
     private void setBookUi(Article article) {
@@ -172,8 +169,6 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
             recomputePhotoAndScrollingMetrics();
         }
     };
-
-
 
     @Override
     public void onScrollChanged(int deltaX, int deltaY) {

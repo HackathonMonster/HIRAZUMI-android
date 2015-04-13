@@ -14,12 +14,12 @@
 
         <!-- Background photo -->
         <FrameLayout
-            android:id="@+id/session_photo_container"
+            android:id="@+id/icon_photo_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/session_photo"
+                android:id="@+id/icon_photo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"/>
@@ -90,7 +90,7 @@
                 android:scrollbars="none">
 
                 <LinearLayout
-                    android:id="@+id/session_tags"
+                    android:id="@+id/books_container"
                     android:layout_width="wrap_content"
                     android:layout_height="32dp"
                     android:orientation="horizontal" />

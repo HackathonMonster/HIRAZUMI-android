@@ -134,13 +134,14 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
 
         mSearchLayout.setVisibility((position == PageType.values().length - 1) ? View.VISIBLE : View.GONE);
         InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-        if (position == PageType.values().length - 1) {
-            // ソフトキーボードを表示する
-            inputMethodManager.hideSoftInputFromWindow(mSearchEditText.getWindowToken(), InputMethodManager.SHOW_IMPLICIT);
-        } else {
-            inputMethodManager.hideSoftInputFromWindow(mSearchEditText.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        if (getCurrentFocus() != null) {
+            if (position == PageType.values().length - 1) {
+                // ソフトキーボードを表示する
+                inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.SHOW_IMPLICIT);
+            } else {
+                inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+            }
         }
-
         mHeaderPhotoImageView.setImageResource(PageType.values()[position].image);
         mHeaderPhotoContainerLayout.setBackgroundResource(PageType.values()[position].color);
         recomputePhotoAndScrollingMetrics();
@@ -153,7 +154,9 @@ public class PagerActivity extends Activity implements PageFragment.PageScrollLi
         }
         // ソフトキーボードを非表示にする
         InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-        imm.hideSoftInputFromWindow(mSearchEditText.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        if (getCurrentFocus() != null) {
+            imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        }
     }
 
     private void recomputePhotoAndScrollingMetrics() {

@@ -47,9 +47,9 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
     ObservableScrollView mScrollView;
     @ViewById(R.id.scroll_view_child)
     View mScrollViewChild;
-    @ViewById(R.id.session_photo_container)
+    @ViewById(R.id.icon_photo_container)
     View mPhotoViewContainer;
-    @ViewById(R.id.session_photo)
+    @ViewById(R.id.icon_photo)
     ImageView mPhotoView;
     @ViewById(R.id.details_toolbar_actionbar)
     Toolbar mToolbar;
@@ -61,7 +61,7 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
     TextView mDetailTextView;
     @ViewById(R.id.add_schedule_button)
     CheckableFrameLayout mAddScheduleButton;
-    @ViewById(R.id.session_tags)
+    @ViewById(R.id.books_container)
     LinearLayout mTagsLayout;
     @ViewById(R.id.header_session)
     View mHeaderBox;
@@ -271,7 +271,7 @@ public class BookDetailsActivity extends ActionBarActivity implements Observable
         return false;
     }
 
-    @Click(R.id.session_photo)
+    @Click(R.id.icon_photo)
     void scaleUpImage() {
         if (mBook != null && getSupportFragmentManager().findFragmentByTag("ScaleUpImageFragment") == null) {
             BookImageFragment.newInstance(mBook.imageUrl).show(getSupportFragmentManager(), "ScaleUpImageFragment");

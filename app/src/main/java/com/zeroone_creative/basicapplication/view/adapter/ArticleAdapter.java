@@ -51,7 +51,7 @@ public class ArticleAdapter extends BaseRecyclerAdapter {
         Picasso.with(mContext).load(article.author.imageUrl).transform(new OvalTransformation()).into(((ViewHolder) viewHolder).iconImageView);
         ((ViewHolder) viewHolder).userNameTextView.setText(article.author.name);
         //TODO
-        ((ViewHolder) viewHolder).dateTextView.setText(article.datePublished.date);
+        ((ViewHolder) viewHolder).dateTextView.setText(article.datePublished.date.substring(0, 10));
         ((ViewHolder) viewHolder).titleTextView.setText(article.title);
         ((ViewHolder) viewHolder).descriptionTextView.setText(article.description.replaceAll("\\n", ""));
     }

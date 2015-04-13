@@ -21,8 +21,16 @@ uses-permission#ANDROID.PERMISSION.ACCESS_NETWORK_STATE
 ADDED from AndroidManifest.xml:6:5
 	android:name
 		ADDED from AndroidManifest.xml:6:22
-application
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.READ_LOGS
 ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+application
+ADDED from AndroidManifest.xml:10:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
 MERGED from com.android.support:appcompat-v7:21.0.3:16:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
@@ -33,57 +41,58 @@ MERGED from com.android.support:recyclerview-v7:21.0.3:17:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
 MERGED from com.android.support:support-v13:21.0.3:16:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
-MERGED from com.github.traex.rippleeffect:library:1.2.4:12:5
 MERGED from com.etsy.android.grid:library:1.0.5:6:5
 MERGED from com.android.support:support-v4:21.0.3:16:5
 	android:label
-		ADDED from AndroidManifest.xml:11:9
+		ADDED from AndroidManifest.xml:13:9
 	android:allowBackup
-		ADDED from AndroidManifest.xml:9:9
+		ADDED from AndroidManifest.xml:11:9
 	android:icon
-		ADDED from AndroidManifest.xml:10:9
-	android:theme
 		ADDED from AndroidManifest.xml:12:9
+	android:theme
+		ADDED from AndroidManifest.xml:14:9
+	android:name
+		ADDED from AndroidManifest.xml:15:9
 activity#com.zeroone_creative.basicapplication.view.activity.PagerActivity_
-ADDED from AndroidManifest.xml:13:9
+ADDED from AndroidManifest.xml:16:9
 	android:label
-		ADDED from AndroidManifest.xml:15:13
+		ADDED from AndroidManifest.xml:18:13
 	android:name
-		ADDED from AndroidManifest.xml:14:13
+		ADDED from AndroidManifest.xml:17:13
 activity#com.zeroone_creative.basicapplication.view.activity.BookDetailsActivity_
-ADDED from AndroidManifest.xml:23:9
+ADDED from AndroidManifest.xml:26:9
 	android:label
-		ADDED from AndroidManifest.xml:25:13
-	android:name
-		ADDED from AndroidManifest.xml:24:13
-activity#com.zeroone_creative.basicapplication.view.activity.ArticleDetailActivity_
-ADDED from AndroidManifest.xml:27:9
-	android:label
-		ADDED from AndroidManifest.xml:29:13
-	android:name
 		ADDED from AndroidManifest.xml:28:13
-activity#com.zeroone_creative.basicapplication.view.activity.CategoryResultActivity_
-ADDED from AndroidManifest.xml:31:9
-	android:label
-		ADDED from AndroidManifest.xml:33:13
 	android:name
+		ADDED from AndroidManifest.xml:27:13
+activity#com.zeroone_creative.basicapplication.view.activity.ArticleDetailActivity_
+ADDED from AndroidManifest.xml:30:9
+	android:label
 		ADDED from AndroidManifest.xml:32:13
-activity#com.zeroone_creative.basicapplication.view.activity.LoginActivity_
-ADDED from AndroidManifest.xml:35:9
+	android:name
+		ADDED from AndroidManifest.xml:31:13
+activity#com.zeroone_creative.basicapplication.view.activity.CategoryResultActivity_
+ADDED from AndroidManifest.xml:34:9
 	android:label
-		ADDED from AndroidManifest.xml:37:13
-	android:name
 		ADDED from AndroidManifest.xml:36:13
+	android:name
+		ADDED from AndroidManifest.xml:35:13
+activity#com.zeroone_creative.basicapplication.view.activity.LoginActivity_
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:40:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:38:13
+ADDED from AndroidManifest.xml:41:13
 action#android.intent.action.MAIN
-ADDED from AndroidManifest.xml:39:17
+ADDED from AndroidManifest.xml:42:17
 	android:name
-		ADDED from AndroidManifest.xml:39:25
+		ADDED from AndroidManifest.xml:42:25
 category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:41:17
+ADDED from AndroidManifest.xml:44:17
 	android:name
-		ADDED from AndroidManifest.xml:41:27
+		ADDED from AndroidManifest.xml:44:27
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:support-v4:21.0.3:15:5
@@ -96,12 +105,11 @@ MERGED from com.android.support:recyclerview-v7:21.0.3:15:5
 MERGED from com.android.support:support-v4:21.0.3:15:5
 MERGED from com.android.support:support-v13:21.0.3:15:5
 MERGED from com.android.support:support-v4:21.0.3:15:5
-MERGED from com.github.traex.rippleeffect:library:1.2.4:8:5
 MERGED from com.etsy.android.grid:library:1.0.5:4:5
 MERGED from com.android.support:support-v4:21.0.3:15:5
 MERGED from jp.wasabeef:recyclerview-animators:1.1.0:8:5
 	android:targetSdkVersion
-		ADDED from com.github.traex.rippleeffect:library:1.2.4:10:9
+		ADDED from jp.wasabeef:recyclerview-animators:1.1.0:10:9
 	android:minSdkVersion
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0

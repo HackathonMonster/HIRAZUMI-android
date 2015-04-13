@@ -116,7 +116,6 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
             mRecyclerView.setLayoutManager(mLayoutManager);
             mRecyclerView.addItemDecoration(new SpacesItemDecoration(getResources().getDimensionPixelSize(R.dimen.element_spacing_small)));
             mRecyclerView.setAdapter(mAdapter);
-            //mRecyclerView.setItemAnimator(new FadeInDownAnimator());
 
             mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
                 @Override
@@ -147,7 +146,6 @@ public class PageFragment extends Fragment implements RecyclerOnItemClickListene
                             if (mPageType.equals(PageType.New) || (mPageType.equals(PageType.Search) && mSearchParam != null)) {
                                 getBooks();
                             }
-                            Log.v("...", "Last Item Wow !");
                         }
                     }
                     if (mScrollListener != null) {
