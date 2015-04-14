@@ -54,6 +54,7 @@ public class ArticleAdapter extends BaseRecyclerAdapter {
         ((ViewHolder) viewHolder).dateTextView.setText(article.datePublished.date.substring(0, 10));
         ((ViewHolder) viewHolder).titleTextView.setText(article.title);
         ((ViewHolder) viewHolder).descriptionTextView.setText(article.description.replaceAll("\\n", ""));
+        ((ViewHolder) viewHolder).sourceTextView.setText("Qiita.com");
     }
 
     // ViewHolder内部でIDと関連づけ
@@ -63,6 +64,7 @@ public class ArticleAdapter extends BaseRecyclerAdapter {
         public TextView dateTextView;
         public TextView titleTextView;
         public TextView descriptionTextView;
+        public TextView sourceTextView;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -71,6 +73,7 @@ public class ArticleAdapter extends BaseRecyclerAdapter {
             dateTextView = (TextView) itemView.findViewById(R.id.item_article_textview_date);
             titleTextView = (TextView) itemView.findViewById(R.id.item_article_textview_title);
             descriptionTextView = (TextView) itemView.findViewById(R.id.item_article_textview_description);
+            sourceTextView = (TextView) itemView.findViewById(R.id.item_article_textview_source);
         }
     }
 

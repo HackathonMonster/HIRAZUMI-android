@@ -55,20 +55,24 @@ public class UriUtil {
         return builder.build().toString();
     }
 
-    public static String getBookByISBN(int top, int skip, List<String> isbns) {
+    public static String getBookByISBN(List<String> isbns) {
         Uri.Builder builder = getBaseUri();
         builder.path("/api/books");
-        builder.appendQueryParameter("$top", String.valueOf(top));
-        builder.appendQueryParameter("$skip", String.valueOf(skip));
+        //builder.appendQueryParameter("$top", String.valueOf(top));
+        //builder.appendQueryParameter("$skip", String.valueOf(skip));
         StringBuilder filterBuilder = new StringBuilder();
         if (isbns.size() > 0) {
-            filterBuilder.append("IsbN10 eq ");
+            filterBuilder.append("ISBN10 eq ");
+            filterBuilder.append("'");
             filterBuilder.append(isbns.get(0));
+            filterBuilder.append("'");
             isbns.remove(0);
             for (String isbn : isbns) {
                 filterBuilder.append(" or ");
-                filterBuilder.append("IsbN10 eq ");
+                filterBuilder.append("ISBN10 eq ");
+                filterBuilder.append("'");
                 filterBuilder.append(isbn);
+                filterBuilder.append("'");
             }
         }
         builder.appendQueryParameter("$filter", filterBuilder.toString());

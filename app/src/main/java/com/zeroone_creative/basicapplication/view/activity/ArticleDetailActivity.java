@@ -1,7 +1,9 @@
 package com.zeroone_creative.basicapplication.view.activity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
@@ -125,17 +127,18 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
         if (vto.isAlive()) {
             vto.addOnGlobalLayoutListener(mGlobalLayoutListener);
         }
-        setBookUi(mArticle);
-        getBooks();
+        if (mArticle != null) {
+            setBookUi();
+            getBooks();
+        }
     }
 
-    private void setBookUi(Article article) {
-        if (article == null) return;
-        mTitleTextView.setText(article.title);
-        Picasso.with(getApplicationContext()).load(article.author.imageUrl).transform(new OvalTransformation()).into(mIconImageView);
+    private void setBookUi() {
+        mTitleTextView.setText(mArticle.title);
+        Picasso.with(getApplicationContext()).load(mArticle.author.imageUrl).transform(new OvalTransformation()).into(mIconImageView);
         mAuthorTextView.setText(mArticle.author.name);
-        Picasso.with(this).load(article.author.imageUrl).into(mGetPhotoTarget);
-        mDetailTextView.setText(article.description);
+        Picasso.with(this).load(mArticle.author.imageUrl).into(mGetPhotoTarget);
+        mDetailTextView.setText(mArticle.description);
     }
 
     private void recomputePhotoAndScrollingMetrics() {
@@ -214,8 +217,20 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent;
         switch (item.getItemId()) {
             case R.id.menu_share:
+                StringBuilder shareText = new StringBuilder();
+                shareText.append(mArticle.title);
+                shareText.append("\n");
+                shareText.append(mArticle.description);
+                String url = "http://twitter.com/share?text=" + shareText.toString();
+                intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
+                return true;
+            case R.id.menu_web:
+                intent = new Intent(Intent.ACTION_VIEW, Uri.parse(mArticle.url));
+                startActivity(intent);
                 return true;
         }
         return false;
@@ -231,7 +246,10 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
                     Gson gson = new Gson();
                     for (int i = 0; i < data.length(); i++) {
                         try {
-                            contents.add(gson.fromJson(data.getJSONObject(i).toString(), Book.class));
+                            Book book = gson.fromJson(data.getJSONObject(i).toString(), Book.class);
+                            if(!contents.contains(book)) {
+                                contents.add(book);
+                            }
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -247,7 +265,7 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
         },
                 this.getClass().getSimpleName(),
                 null);
-        bookRequestUtil.onRequest(VolleyHelper.getRequestQueue(getApplicationContext()), Request.Priority.HIGH, UriUtil.getBookUri(10, 0), NetworkTasks.GetBooks);
+        bookRequestUtil.onRequest(VolleyHelper.getRequestQueue(getApplicationContext()), Request.Priority.HIGH, UriUtil.getBookByISBN(mArticle.isbn), NetworkTasks.GetBooks);
     }
 
     private void setBooksView(List<Book> contents) {

@@ -70,6 +70,15 @@
             android:text="TL;DRアプリ開発の入門するには、オブジェクト指向(クラス?メソッド?プロパティ?)を理解してからの方が早い(けどわからないまま進める人もいるので人による)\nいろんな入門書があるけど、何だかんだ、回りに質問できる人がいるかどうかが重要プログラミングなら何でもいいからとにかく1ヶ月くらい継続できるものを見つけてみようはじめに来年 2015年1月からミクシィではアプリ開発未経験エンジニア向けにAndroid/iOSアプリの勉強会を開くのですが、プログ..."
             android:textSize="@dimen/text_size_medium" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Qiita.com"
+            android:id="@+id/item_article_textview_source"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/element_spacing_small" />
+
     </LinearLayout>
 
 </LinearLayout>
