@@ -91,14 +91,12 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
             //画像の高さを入力しての再計算
             recomputePhotoAndScrollingMetrics();
         }
-
         @Override
         public void onBitmapFailed(Drawable errorDrawable) {
             mHasPhoto = false;
             //画像の高さを入力しての再計算
             recomputePhotoAndScrollingMetrics();
         }
-
         @Override
         public void onPrepareLoad(Drawable placeHolderDrawable) {
         }
@@ -121,7 +119,6 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
                 finish();
             }
         });
-
         mScrollView.addCallbacks(this);
         ViewTreeObserver vto = mScrollView.getViewTreeObserver();
         if (vto.isAlive()) {
@@ -190,7 +187,6 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
         int scrollY = mScrollView.getScrollY();
         float newTop = Math.max(mPhotoHeightPixels, scrollY);
         mHeaderBox.setTranslationY(newTop);
-
         float gapFillProgress = 1;
         if (mPhotoHeightPixels != 0) {
             gapFillProgress = Math.min(Math.max(getProgress(scrollY,
@@ -257,7 +253,6 @@ public class ArticleDetailActivity extends ActionBarActivity implements Observab
                 }
                 setBooksView(contents);
             }
-
             @Override
             public void onFailedNetworkTask(int taskId, Object object) {
 
